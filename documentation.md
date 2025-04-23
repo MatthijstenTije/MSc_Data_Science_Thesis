@@ -102,3 +102,11 @@ and words are made up, even though structured outpuuts is on.
 Zwanger will never be with a man noun --> That's why we need maybe to chagne the list of adjectives. some are inpropable
 further, same words are used over and over again, that's why we shift now for the word count the order of the wrods, so ascending, and removing adjetives from the adjectives lists if the target of 15 sentences is reached.
 
+ijdens het genereren van zinnen met het model, met als doel één specifiek adjectief per zin, trad er verwatering op — vooral naarmate de zinnen complexer werden. In eenvoudigere zinnen werd vaak netjes één adjectief uit de opgegeven lijst gebruikt, maar bij complexere structuren verschenen meerdere adjectieven per zin, vaak ook afkomstig uit de rest van de lijst. Hierdoor werd het moeilijker om het gebruikte adjectief eenduidig te herleiden en zinnen correct te tellen per woord.m dit probleem te mitigeren, heb ik gekozen voor een batch-promptstrategie met kleinere subsets van adjectieven (±3 per prompt). Dit is geïmplementeerd via slicing in run_batch(), waarbij elke prompt bewust beperkt wordt tot een kleine groep focuswoorden.
+Hoewel het model nog steeds 15 zinnen per keer genereert, is de kans op menging van adjectieven kleiner, omdat de context van de prompt al veel beperkter is.
+
+Deze aanpak zorgt voor:
+
+meer gerichte zinnen per adjectief,
+minder “cross-contaminatie” van andere woorden uit de lijst,
+efficiëntere dekking van alle adjectieven tot het gewenste aantal (TARGET_COUNT_PER_WORD = 4).

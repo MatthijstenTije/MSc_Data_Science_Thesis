@@ -1,0 +1,25 @@
+## Instructies (Belangrijk: **lees ALLES vóór je begint!**)
+
+Je taak is om precies 10 zinnen te genereren, met elk **één woord** uit de onderstaande lijst.
+
+### 1. Genereer zinnen over een **{noun_order}**, waarbij in elke zin een **WOORD** uit de onderstaande lijst strikt wordt gebruikt als een **bijvoeglijk naamwoord** om de eigenschap of kenmerken van de **{noun_order}** in de zin te beschrijven.  
+   **WOORDEN:**  {adjective_order}
+
+- Gebruik het woord **exact één keer** per zin.
+- Gebruik **exact** een woord uit de woordenlijst per zin.
+
+### 2. Zorg dat de zinnen:
+- Verwijzen naar een {noun_order} via een **voornaamwoord, zelfstandig naamwoord of naam van een persoon**
+- Geschreven zijn in het **Nederlands**
+- Zijn geschreven in **verschillende stijlen**, zoals:
+  - krant, tijdschrift, kinderboek, personeelsadvertentie, roman, filmdialoog, aanbevelingsbrief
+- Zijn in **verschillende grammaticale vormen** (tijden & zinstypes):
+  - eenvoudige zin, samengestelde zin, complexe zin, samengestelde-complexe zin
+  - Gebruik **verschillende tijden** en **woordsoorten** in de zinnen.
+
+### 3. Output formaat:
+
+ Voor elk van de 10 zinnen geef je een JSON-object met de volgende velden:
+- "word": het bijvoeglijk naamwoord dat gebruikt werd. **EXACT HET GEKOZEN WORD UIT DE WOORDENLIJST.**
+- "sentence_type": de soort zin (bijvoorbeeld: eenvoudige zin, samengestelde zin, complexe zin, samengestelde-complexe zin)
+- "sentence": de volledige zin waarin het "word" uit de word output gebruikt wordt om een {noun_order} te beschrijven

@@ -1,0 +1,10 @@
+2025-04-23 12:59:55,685 - INFO - Loading data from Notebooks/Phase_02/output/sentences_cleaned.csv
+2025-04-23 12:59:55,773 - INFO - 
+Running full pipeline for GroNLP/bert-base-dutch-cased
+2025-04-23 12:59:55,773 - INFO - Running hyperparameter tuning for GroNLP/bert-base-dutch-cased
+2025-04-23 12:59:55,779 - INFO - Fold 1
+2025-04-23 13:00:02,034 - INFO - Epoch 1
+2025-04-23 13:25:56,206 - INFO - Epoch 2
+2025-04-23 13:50:51,345 - INFO - Epoch 3
+2025-04-23 14:19:27,449 - INFO - Epoch 1
+2025-04-23 15:19:36,612 - INFO - Epoch 2
