@@ -1,0 +1,16 @@
+# Core libraries
+numpy
+pandas
+matplotlib
+seaborn
+
+# NLP and word embeddings
+spacy
+gensim
+
+# WEFE (Word Embeddings Fairness Evaluation)
+wefe
+
+# SpaCy Dutch language model (this is not pip-installable, see note below)
+# You'll need to run this manually:
+# python -m spacy download nl_core_news_lg
