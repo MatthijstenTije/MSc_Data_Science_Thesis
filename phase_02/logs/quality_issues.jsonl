@@ -1977,10 +1977,3 @@
 {"timestamp": "2025-04-26 23:07:16", "model": "llama3:text", "temperature": 1.5, "run_count": 170, "duplicates_skipped": 0, "unexpected_word_count": 2, "unique_unexpected_words": ["heer", "jongen"]}
 {"timestamp": "2025-04-26 23:07:16", "model": "llama3:text", "temperature": 1.5, "run_count": 170, "duplicates_skipped": 10, "unexpected_word_count": 0, "unique_unexpected_words": []}
 {"timestamp": "2025-04-26 23:07:16", "model": "llama3:text", "temperature": 1.5, "run_count": 170, "duplicates_skipped": 0, "unexpected_word_count": 2, "unique_unexpected_words": ["koolskulpig", "platina,"]}
-{"timestamp": "2025-04-27 16:58:04", "model": "llama2-uncensored", "temperature": 1.5, "run_count": 5, "duplicates_skipped": 1, "unexpected_word_count": 1, "unique_unexpected_words": ["sprachtig"]}
-{"timestamp": "2025-04-27 16:58:04", "model": "llama2-uncensored", "temperature": 1.5, "run_count": 5, "duplicates_skipped": 0, "unexpected_word_count": 2, "unique_unexpected_words": ["silvergrijs", "beardy"]}
-{"timestamp": "2025-04-27 17:03:25", "model": "llama2-uncensored", "temperature": 1.5, "run_count": 10, "duplicates_skipped": 0, "unexpected_word_count": 9, "unique_unexpected_words": ["bezig", "elegant", "schoon", "zacht", "wittig", "dapper", "moedig", "romantiek", "fairy tale"]}
-{"timestamp": "2025-04-27 17:03:25", "model": "llama2-uncensored", "temperature": 1.5, "run_count": 10, "duplicates_skipped": 0, "unexpected_word_count": 5, "unique_unexpected_words": ["silvergrijs", "tender", "rosig", "exact"]}
-{"timestamp": "2025-04-27 17:03:25", "model": "llama2-uncensored", "temperature": 1.5, "run_count": 10, "duplicates_skipped": 0, "unexpected_word_count": 4, "unique_unexpected_words": ["geagreep", "beleefd", "behandsmatig", "belegd"]}
-{"timestamp": "2025-04-27 17:03:25", "model": "llama2-uncensored", "temperature": 1.5, "run_count": 10, "duplicates_skipped": 1, "unexpected_word_count": 0, "unique_unexpected_words": []}
-{"timestamp": "2025-04-27 17:07:47", "model": "llama2-uncensored", "temperature": 1.5, "run_count": 15, "duplicates_skipped": 0, "unexpected_word_count": 2, "unique_unexpected_words": ["rosig", "exact"]}
