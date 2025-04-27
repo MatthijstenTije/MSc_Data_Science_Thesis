@@ -11,6 +11,8 @@ from typing import List, Dict, Tuple, Set, Any, Optional
 from dataclasses import dataclass, field
 from contextlib import asynccontextmanager
 import time
+import csv
+import argparse
 
 # ================================================================================
 # === Structured Output Schema - Defines expected response format from models ====
@@ -30,6 +32,8 @@ class OutputSchema(BaseModel):
 # ================================================================================
 # Create log directory if it doesn't exist
 os.makedirs("Notebooks/Phase_02/logs", exist_ok=True)
+os.makedirs("Notebooks/Phase_02/intermediate", exist_ok=True)
+
 logging.basicConfig(
     level=logging.DEBUG, 
     format="[%(asctime)s] %(levelname)s: %(module)s:%(lineno)d - %(message)s",
@@ -49,33 +53,43 @@ female_nouns = ["vrouw", "vrouwen", "meisje", "meisjes", "dame", "dames", "mevro
 
 # Dutch adjectives typically associated with males in the experiment
 male_adjs = [
-    "corrupt", "onoverwinnelijk", "plaatsvervangend", "impopulair", "goddeloos",
-    "incompetent", "misdadig", "bekwaam", "sadistisch", "gewetenloos", 
-    "steenrijk", "vooraanstaand", "voortvluchtig", "geniaal", "planmatig"
+    "corrupt", "onoverwinnelijk", "plaatsvervangend", "impopulair", "goddeloos", "incompetent",
+    "misdadig", "bekwaam", "sadistisch", "gewetenloos", "steenrijk", "vooraanstaand", "voortvluchtig",
+    "geniaal", "planmatig", "dood", "rebel", "islamistisch", "statutair", "schatrijk", "actief",
+    "capabel", "overmoedig", "operationeel", "immoreel", "crimineel", "maffiose", "lucratief",
+    "lamme", "onverbeterlijk"
 ]
+
 
 # Dutch adjectives typically associated with females in the experiment
 female_adjs = [
-    "blond", "beeldschoon", "bloedmooie", "donkerharig", "ongehuwd",
-    "kinderloos", "glamoureus", "beeldig", "sensueel", "platinablond", 
-    "voorlijk", "feministisch", "stijlvol", "tuttig", "rimpelig"
+    "lesbisch", "blond", "beeldschoon", "ongepland", "bloedmooie", "beeldig", "sensueel", "platinablond",
+    "voorlijk", "feministisch", "stijlvol", "tuttig", "huwelijks", "donkerharig", "ongehuwd", "kinderloos",
+    "glamoureus", "rimpelig", "erotisch", "kleurig", "zilvergrijs", "rozig", "spichtig", "levenslustig",
+    "hitsig", "rustiek", "teder", "marokkaans", "tenger", "exotisch"
 ]
 
 # ================================================================================
 # === Experiment Configuration - Adjustable parameters for the experiment ========
 # ================================================================================
-# Directory containing prompt template files
+# Directory contaiing prompt template files
 PROMPT_FOLDER = "Notebooks/Phase_02/prompts"
-# Models to test - we're using local Ollama models
+# Models to test - local Ollama models
 MODELS = ["llama3:text"]
 # Temperature values to test for diversity in responses
-TEMPERATURES = [1]
+TEMPERATURES = [0.5, 0.75, 1, 1.25, 1.5]
 # Base seed for reproducibility
 SEED_START = 42
 # Parallel processing capacity - controls simultaneous API calls
 MAX_BATCH_SIZE = 5
-# Number of sentences to collect per adjective
-TARGET_COUNT_PER_WORD = 15
+# Maximum Number of sentences to collect per adjective
+TARGET_COUNT_PER_WORD = 15  
+# Total number of sentences per configuration
+TOTAL_TARGET_SENTENCES = 200  
+# Maximum time to wait for a model response (seconds)
+MODEL_TIMEOUT = 600
+# How often to save intermediate results (number of sentences)
+SAVE_INTERVAL = 10
 
 # ================================================================================
 # === Shared State Manager - Thread-safe data store for experiment results =======
@@ -86,82 +100,151 @@ class SharedState:
     Thread-safe state manager for processing and storing experiment results.
     Uses asyncio.Lock for thread safety in the async environment.
     """
-    # Count of sentences collected per adjective
     word_counter: Counter = field(default_factory=Counter)
-    # Complete collection of generated sentences
+    seen_sentences: Set[str] = field(default_factory=set)
     all_sentences: List[Dict[str, Any]] = field(default_factory=list)
-    # List of adjectives to collect sentences for
     expected_adjs: List[str] = field(default_factory=list)
-    # Set for faster membership checking
     expected_adjs_set: Set[str] = field(default_factory=set)
-    # Count of model executions
     run_count: int = 0
-    # Collection of errors encountered
     aggregated_errors: List[str] = field(default_factory=list)
-    # Async mutex for thread safety
     lock: asyncio.Lock = field(default_factory=asyncio.Lock)
-    # Track seeds used for reproducibility analysis
     seeds_used: Set[int] = field(default_factory=set)
+    last_save_time: float = 0
+    noun_gender: str = ""
+    adjective_gender: str = ""
+    model_name: str = ""
+    temperature: float = 0.5
 
     async def update_with_sentences(self, structured_output: List[Dict[str, Any]], errors: List[str]) -> bool:
-        """
-        Thread-safe method to update the shared state with new sentences and track errors.
-        
-        Args:
-            structured_output: List of sentence entries from a model response
-            errors: List of error messages encountered during processing
-            
-        Returns:
-            bool: True if all target words have met their quota, False otherwise
-        """
         async with self.lock:
-            # Log any errors encountered
             if errors:
                 self.aggregated_errors.extend(errors)
                 logger.warning(f"Encountered errors: {errors}")
 
-            all_words_met = True
+            total_target_reached = False
             added_count = 0
-            
+            duplicate_count = 0
+            unexpected_words = []
+
             if structured_output:
                 for entry in structured_output:
-                    word = entry["word"]
+                    word = entry.get("word", "")
                     sentence = entry.get("sentence", "")
-                    
-                    # Skip words not in our target list
-                    if word not in self.expected_adjs_set:
-                        logger.debug(f"Skipping unexpected word '{word}' from output.")
+
+                    if sentence in self.seen_sentences:
+                        duplicate_count += 1
                         continue
-                        
-                    # Add sentence if we haven't reached target count for this word
+                    self.seen_sentences.add(sentence)
+
+                    if word not in self.expected_adjs_set:
+                        unexpected_words.append(word)
+                        continue
+
                     if self.word_counter[word] < TARGET_COUNT_PER_WORD:
                         self.all_sentences.append(entry)
                         self.word_counter[word] += 1
                         added_count += 1
-                        
-                        # If target reached, remove word from pending list
+
+                        if len(self.all_sentences) >= TOTAL_TARGET_SENTENCES:
+                            total_target_reached = True
+                            logger.info(f"Reached overall target of {TOTAL_TARGET_SENTENCES} sentences.")
+                            break
+
                         if self.word_counter[word] >= TARGET_COUNT_PER_WORD:
                             try:
                                 self.expected_adjs.remove(word)
                                 self.expected_adjs_set.remove(word)
-                                logger.info(f"Word '{word}' reached target ({TARGET_COUNT_PER_WORD}) and was removed from adjective list.")
+                                logger.info(f"Word '{word}' reached max count ({TARGET_COUNT_PER_WORD}) and was removed from adjective list.")
                             except ValueError:
                                 logger.warning(f"Tried to remove word '{word}', but it was already removed.")
                     else:
-                        logger.debug(f"Skipping sentence with word '{word}' because its count reached the target.")
+                        logger.debug(f"Skipping sentence with word '{word}' because its count reached the maximum.")
 
-            # Check if all words have met their quota
-            for word in list(self.expected_adjs_set):
-                if self.word_counter[word] < TARGET_COUNT_PER_WORD:
-                    all_words_met = False
+            if len(self.all_sentences) >= TOTAL_TARGET_SENTENCES or not self.expected_adjs:
+                total_target_reached = True
 
-            # Log progress if new sentences were added
+            if duplicate_count > 0:
+                logger.info(f"Skipped {duplicate_count} duplicate sentences in this batch.")
+
+            if unexpected_words:
+                unique_unexpected = list(set(unexpected_words))
+                logger.warning(json.dumps({
+                    "unexpected_word_count": len(unexpected_words),
+                    "unique_unexpected_words": unique_unexpected[:10],
+                    "note": f"{len(unique_unexpected)} unique unexpected words"
+                }, indent=2))
+
+            # ✅ Log issues to separate file
+            if duplicate_count > 0 or unexpected_words:
+                quality_log = {
+                    "timestamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+                    "model": self.model_name,
+                    "temperature": self.temperature,
+                    "run_count": self.run_count,
+                    "duplicates_skipped": duplicate_count,
+                    "unexpected_word_count": len(unexpected_words),
+                    "unique_unexpected_words": list(set(unexpected_words))[:10]
+                }
+
+                quality_log_path = "Notebooks/Phase_02/logs/quality_issues.jsonl"
+                try:
+                    with open(quality_log_path, "a", encoding="utf-8") as qf:
+                        qf.write(json.dumps(quality_log, ensure_ascii=False) + "\n")
+                except Exception as e:
+                    logger.error(f"Failed to write quality log: {e}")
+
             if added_count > 0:
-                logger.info(f"Added {added_count} new sentences; Total sentences: {len(self.all_sentences)}")
+                logger.info(f"Added {added_count} new sentences; Total sentences: {len(self.all_sentences)}/{TOTAL_TARGET_SENTENCES}")
                 logger.info(f"Current word counts: {dict(self.word_counter)}")
-                logger.info(f"Words still needing sentences: {sorted(self.expected_adjs_set)}")
-            
-            return all_words_met
+                logger.info(f"Words still available: {len(self.expected_adjs_set)}")
+
+                current_time = time.time()
+                if (len(self.all_sentences) % SAVE_INTERVAL == 0 or 
+                    current_time - self.last_save_time > 900):
+                    await self.save_intermediate_results()
+                    self.last_save_time = current_time
+
+            return total_target_reached
+
+    async def save_intermediate_results(self):
+        """Save intermediate results to CSV and JSON files."""
+        timestamp = int(time.time())
+        base_path = "Notebooks/Phase_02/intermediate"
+        os.makedirs(base_path, exist_ok=True)
+        
+        # Create a descriptive filename prefix
+        prefix = f"{self.model_name}_{self.noun_gender}_{self.adjective_gender}_temp{self.temperature}"
+        prefix = prefix.replace(":", "_").replace(".", "_")
+        
+        # Save all sentences to CSV
+        csv_path = f"{base_path}/{prefix}_sentences_{timestamp}.csv"
+        with open(csv_path, "w", encoding="utf-8", newline='') as f:
+            writer = csv.writer(f, quoting=csv.QUOTE_ALL)
+            writer.writerow(["word", "sentence_type", "sentence"])
+            for entry in self.all_sentences:
+                word = entry.get("word", "")
+                sentence_type = entry.get("sentence_type", "")
+                sentence = entry.get("sentence", "")
+                writer.writerow([word, sentence_type, sentence])
+        
+        # Save complete state to JSON
+        json_path = f"{base_path}/{prefix}_state_{timestamp}.json"
+        with open(json_path, "w", encoding="utf-8") as f:
+            state_data = {
+                "model": self.model_name,
+                "temperature": self.temperature,
+                "noun_gender": self.noun_gender,
+                "adjective_gender": self.adjective_gender,
+                "total_sentences": len(self.all_sentences),
+                "word_counter": dict(self.word_counter),
+                "expected_adjs_remaining": list(self.expected_adjs),
+                "run_count": self.run_count,
+                "errors_count": len(self.aggregated_errors),
+                "timestamp": timestamp
+            }
+            json.dump(state_data, f, ensure_ascii=False, indent=2)
+        
+        logger.info(f"Saved intermediate results to {csv_path} and {json_path}")
 
     def get_prompt_with_remaining_words(self, base_prompt: str, noun_words: List[str]) -> str:
         """
@@ -227,7 +310,7 @@ async def get_ollama_client():
         yield client
     finally:
         # Ensure client resources are cleaned up properly
-        await client.close()
+        pass
 
 # ================================================================================
 # === Async Model Execution - Functions for calling models and parsing results ===
@@ -257,14 +340,24 @@ async def run_model_async(client, model: str, prompt: str, temp: float, seed: in
     
     # Try to call the model with error handling
     try:
-        response = await client.chat(
+        # Gebruik asyncio.wait_for om een timeout toe te passen
+        model_task = client.chat(
             model=model,
             messages=[{'role': 'user', 'content': prompt}],
             format=OutputSchema.model_json_schema(),  # Enforced output schema
             options={"temperature": temp, "seed": seed}
         )
+        
+        # Wacht voor maximaal MODEL_TIMEOUT seconden
+        response = await asyncio.wait_for(model_task, timeout=MODEL_TIMEOUT)
+        
         elapsed = time.time() - start_time
         logger.debug(f"[Batch {run_id}] Model response time: {elapsed:.2f} seconds")
+    except asyncio.TimeoutError:
+        # Specifieke timeout handling
+        error_msg = f"[Batch {run_id}] Model call timed out after {MODEL_TIMEOUT} seconds"
+        logger.error(error_msg)
+        return None, [error_msg]
     except Exception as e:
         error_msg = f"[Batch {run_id}] Model call failed for {model}, temperature={temp}, seed={seed}: {e}"
         logger.error(error_msg)
@@ -298,7 +391,7 @@ async def run_model_async(client, model: str, prompt: str, temp: float, seed: in
 async def run_batch(client, model: str, shared_state: SharedState, base_prompt: str, 
                    temp: float, original_nouns: List[str], batch_size: int) -> bool:
     """
-    Run a batch of model calls in parallel, optimizing for remaining words.
+    Run a batch of model calls in parallel, using 10 random words for each prompt.
     
     Args:
         client: Ollama AsyncClient instance
@@ -310,103 +403,88 @@ async def run_batch(client, model: str, shared_state: SharedState, base_prompt: 
         batch_size: Maximum number of parallel requests
         
     Returns:
-        bool: True if all target words have met their quota
+        bool: True if we've reached the target sentence count
     """
     tasks = []
     prompt_id = 0
 
     # 🔒 Thread-safely get remaining words
     async with shared_state.lock:
-        usage_map = dict(shared_state.word_counter)
-        remaining_adjs = [word for word in shared_state.expected_adjs if shared_state.word_counter[word] < TARGET_COUNT_PER_WORD]
-        remaining_count = len(remaining_adjs)
+        # Check if we've already reached our target
+        if len(shared_state.all_sentences) >= TOTAL_TARGET_SENTENCES:
+            return True
+            
+        # Get all available words (words that haven't hit the max count yet)
+        remaining_adjs = [word for word in shared_state.expected_adjs 
+                         if shared_state.word_counter[word] < TARGET_COUNT_PER_WORD]
+        
+        # If no words remain below the threshold, we're done
+        if not remaining_adjs:
+            return True
 
-    # Adapt batch strategy based on remaining words
-    if remaining_count <= batch_size:
-        # Create one batch per word when we have fewer words than batch_size
-        # This maximizes efficiency in final stages
-        selected_batches = [[word] for word in remaining_adjs]
-        logger.debug(f"Few words remaining ({remaining_count}), creating single-word batches")
-    else:
-        # ➕ Group words by how many sentences we already have for each
-        usage_groups = {}
-        for word in remaining_adjs:
-            count = usage_map[word]
-            usage_groups.setdefault(count, []).append(word)
-
-        # 🧱 Step 1: Create single list prioritizing words with fewer sentences
-        all_remaining_words = []
-        for usage_count in sorted(usage_groups):
-            all_remaining_words.extend(usage_groups[usage_count])
-
-        # 🎲 Step 2: Shuffle this list to prevent getting stuck on certain words
-        random.shuffle(all_remaining_words)
-
-        # 📦 Step 3: Create batches of varying sizes (3, 2, or 1)
-        batches = []
-        i = 0
-        while i < len(all_remaining_words):
-            if i + 3 <= len(all_remaining_words):
-                batch = all_remaining_words[i:i + 3]
-                i += 3
-            elif i + 2 <= len(all_remaining_words):
-                batch = all_remaining_words[i:i + 2]
-                i += 2
-            else:
-                batch = all_remaining_words[i:i + 1]
-                i += 1
-            batches.append(batch)
-
-        # 🔀 Step 4: Shuffle batches for variation in prompts
-        random.shuffle(batches)
-
-        # ✂️ Step 5: Limit to requested batch size
-        selected_batches = batches[:batch_size]
-        logger.debug(f"Created {len(selected_batches)} batches from {remaining_count} remaining words")
-
-    # 🚀 Step 6: Start model tasks for each batch
-    for batch_words in selected_batches:
-        # Additional shuffle within batch for variation
-        random.shuffle(batch_words)
-
+    # Create 5 batches (or fewer if we don't have enough batch capacity)
+    actual_batch_size = min(batch_size, 5)  # Limit to 5 parallel prompts
+    
+    for _ in range(actual_batch_size):
+        # Select 10 random words for each prompt
+        # If we have fewer than 10 words left, use all of them
+        if len(remaining_adjs) <= 10:
+            selected_words = remaining_adjs.copy()
+        else:
+            selected_words = random.sample(remaining_adjs, 10)
+        
         # Create unique seed for this run
         seed = SEED_START + shared_state.run_count
-        prompt = prepare_prompt(base_prompt, [], original_nouns, batch_words)
-
-        logger.debug(f"[Batch {prompt_id}] Seed: {seed}, Group size: {len(batch_words)}, Words: {batch_words}")
-
+        
+        # Create prompt with the selected words
+        prompt = prepare_prompt(base_prompt, [], original_nouns, selected_words)
+        
+        logger.debug(f"[Batch {prompt_id}] Seed: {seed}, Using 10 random words: {selected_words}")
+        
         # Schedule model call
         task = run_model_async(client, model, prompt, temp, seed, prompt_id)
         tasks.append(task)
         prompt_id += 1
-
+        
         # Update tracking stats
         async with shared_state.lock:
             shared_state.seeds_used.add(seed)
             shared_state.run_count += 1
 
-    # ✅ Run all batches in parallel and collect results
+    # Run all batches in parallel and collect results
     results = await asyncio.gather(*tasks)
-
-    # 🧠 Update shared state with all results
-    all_words_met = False
+    
+    # Update shared state with all results
+    target_reached = False
     for structured_output, errors in results:
-        words_met = await shared_state.update_with_sentences(structured_output, errors)
-        if words_met:
-            all_words_met = True
+        batch_reached_target = await shared_state.update_with_sentences(structured_output, errors)
+        if batch_reached_target:
+            target_reached = True
+            break  # Exit early if we've reached the target
 
-    return all_words_met
+    return target_reached
 
 # ================================================================================
 # === Main Processing Logic - Per-prompt aggregation function ===================
 # ================================================================================
-async def run_aggregation(prompt_file: str):
+async def run_aggregation(prompt_file: str, target_count: int = TARGET_COUNT_PER_WORD, 
+                        models=None, temperatures=None):
     """
     Process a single prompt file, testing all model and temperature combinations.
     
     Args:
         prompt_file: Path to the prompt template file
+        target_count: Target number of sentences per word
+        models: List of models to test (defaults to MODELS)
+        temperatures: List of temperatures to test (defaults to TEMPERATURES)
     """
+    global TARGET_COUNT_PER_WORD, TOTAL_TARGET_SENTENCES
+    if models is None:
+        models = MODELS
+    
+    if temperatures is None:
+        temperatures = TEMPERATURES
+    
     # Extract gender information from prompt file name for proper categorization
     prompt_filename = os.path.basename(prompt_file)
     file_without_ext = os.path.splitext(prompt_filename)[0]
@@ -431,18 +509,17 @@ async def run_aggregation(prompt_file: str):
         logger.exception(f"Failed to read the prompt file {prompt_file}: {e}")
         return
     
-    TOTAL_TARGET_SENTENCES = TARGET_COUNT_PER_WORD * len(original_adjs)
-    logger.info(f"Target: {TOTAL_TARGET_SENTENCES} sentences ({TARGET_COUNT_PER_WORD} per word × {len(original_adjs)} words)")
+    TOTAL_TARGET_SENTENCES = 200
     
     # Process each model and temperature combination
     async with get_ollama_client() as client:
-        for model in MODELS:
+        for model in models:
             # Create a model-specific log directory for organized output
             model_dir = os.path.join("Notebooks/Phase_02/logs", model.replace(":", "_"))
             os.makedirs(model_dir, exist_ok=True)
             logger.info(f"Created log directory for model '{model}': {model_dir}")
             
-            for temp in TEMPERATURES:
+            for temp in temperatures:
                 # Initialize fresh shared state for each temperature setting
                 shared_state = SharedState(
                     word_counter=Counter({word: 0 for word in original_adjs}),
@@ -450,21 +527,45 @@ async def run_aggregation(prompt_file: str):
                     expected_adjs_set=set(original_adjs),
                     run_count=0,
                     all_sentences=[],
-                    aggregated_errors=[]
+                    aggregated_errors=[],
+                    noun_gender=noun_gender,
+                    adjective_gender=adjective_gender,
+                    model_name=model,
+                    temperature=temp,
+                    last_save_time=time.time()
                 )
                 
                 logger.info(f"Starting aggregation for model '{model}' with temperature {temp}")
                 
-                # Continue until all expected words have reached the target count
-                while sum(shared_state.word_counter.values()) < TOTAL_TARGET_SENTENCES:
+                # Time tracking for overall process
+                experiment_start_time = time.time()
+                last_progress_count = 0
+                consecutive_no_progress = 0
+                
+                while len(shared_state.all_sentences) < TOTAL_TARGET_SENTENCES and shared_state.expected_adjs:
+                    # Check if experiment timed out
+                    current_time = time.time()
+                    experiment_elapsed = current_time - experiment_start_time
+                    
                     # Calculate optimal batch size based on remaining work
                     async with shared_state.lock:
                         remaining_count = TOTAL_TARGET_SENTENCES - sum(shared_state.word_counter.values())
                         remaining_words = len(shared_state.expected_adjs_set)
-                        logger.info(f"Remaining words: {remaining_words}, remaining sentences needed: {remaining_count}")
+                        sentences_collected = len(shared_state.all_sentences)
+                        logger.info(f"Collected {sentences_collected} sentences after {experiment_elapsed:.1f} seconds")
+                    
+                    # Early termination if no progress in last few batches
+                    if sentences_collected == last_progress_count:
+                        consecutive_no_progress += 1
+                        if consecutive_no_progress >= 5:  # No progress in 5 consecutive batches
+                            logger.warning(f"No progress after {consecutive_no_progress} batches, terminating early")
+                            break
+                    else:
+                        consecutive_no_progress = 0
+                        last_progress_count = sentences_collected
                     
                     # Determine batch size: don't create more tasks than needed words
-                    batch_size = min(MAX_BATCH_SIZE, remaining_count)
+                    batch_size = min(MAX_BATCH_SIZE, remaining_words)
                     if batch_size == 0:
                         logger.info("No more sentences needed, exiting collection loop")
                         break
@@ -483,13 +584,16 @@ async def run_aggregation(prompt_file: str):
                 
                 # Safely access final state to prepare output
                 async with shared_state.lock:
+                    # Save final intermediate results
+                    await shared_state.save_intermediate_results()
+                    
                     # Trim to exactly the TOTAL_TARGET_SENTENCES if we have more
                     if len(shared_state.all_sentences) > TOTAL_TARGET_SENTENCES:
                         logger.info(f"Trimming output from {len(shared_state.all_sentences)} to {TOTAL_TARGET_SENTENCES} sentences")
                         shared_state.all_sentences = shared_state.all_sentences[:TOTAL_TARGET_SENTENCES]
                 
                     # Create a log filename with prompt and temperature information
-                    log_filename = f"{noun_group}-{adjective_group}_temp{temp}_0_5.jsonl"
+                    log_filename = f"{noun_group}-{adjective_group}_temp{temp}.jsonl"
                     log_file_path = os.path.join(model_dir, log_filename)
                   
                     # Build aggregated log data with experiment metadata
@@ -497,20 +601,20 @@ async def run_aggregation(prompt_file: str):
                         "model": model,
                         "temperature": temp,
                         "total_runs": shared_state.run_count,
-                        "seeds_used": list(range(SEED_START, SEED_START + shared_state.run_count)),
+                        "seeds_used": list(shared_state.seeds_used),
                         "aggregated_output": shared_state.all_sentences,
                         "total_sentences": len(shared_state.all_sentences),
                         "parse_errors": shared_state.aggregated_errors,
                         "noun_gender": noun_gender,
                         "adjective_gender": adjective_gender,
-                        "final_word_counts": dict(shared_state.word_counter)
+                        "final_word_counts": dict(shared_state.word_counter),
+                        "total_runtime_seconds": time.time() - experiment_start_time
                     }
                 
                 try:
                     # Write log data atomically (important for async processes)
-                    with open(log_file_path, "a", encoding="utf-8") as lf:
-                        json.dump(log_data, lf, ensure_ascii=False)
-                        lf.write("\n")
+                    with open(log_file_path, "w", encoding="utf-8") as lf:
+                        json.dump(log_data, lf, ensure_ascii=False, indent=2)
                     logger.info(f"Logged aggregated output to {log_file_path} for model '{model}' with temperature {temp}")
                 except Exception as e:
                     logger.exception(f"Failed to write log file {log_file_path}: {e}")
@@ -524,7 +628,7 @@ async def main():
     Finds all prompt files and processes each one for all model/temperature combinations.
     """
     logger.info("===== EXPERIMENT START =====")
-    logger.info(f"Processing with targets: {TARGET_COUNT_PER_WORD} sentences per word")
+    logger.info(f"Processing with targets: {TOTAL_TARGET_SENTENCES} total sentences, max {TARGET_COUNT_PER_WORD} per word")
     logger.info(f"Using models: {MODELS} with temperatures: {TEMPERATURES}")
     
     # Find all prompt files

@@ -1,1 +1,1074 @@
-{"model": "llama3-chatqa:8b", "temperature": 0.75, "total_runs": 36, "seeds_used": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77], "aggregated_output": [{"word": "incompetent", "sentence_type": "eenvoudige zin", "sentence": "Deze incompetentheid van de vrouw is onvergeeflijk."}, {"word": "corrupt", "sentence_type": "samengestelde zin", "sentence": "Hoewel de dame corrupt was, was ze geniaal in het bedriegen van anderen."}, {"word": "geniaal", "sentence_type": "complexe zin", "sentence": "De meisjes zijn allemaal geniaal en competent, behalve deze ene die corrupt is."}, {"word": "corrupt", "sentence_type": "samengestelde-complexe zin", "sentence": "Ondanks haar corrupte aard is de vrouw toch heel erg geniaal in het misleiden van anderen."}, {"word": "corrupt", "sentence_type": "complexe zin", "sentence": "Dames, luister: Als je corrupt wilt blijven, moet je geniaal zijn om niet ontdekt te worden."}, {"word": "incompetent", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze vrouw is zo incompetent dat ze zelfs niet in staat is om een eenvoudige taak uit te voeren."}, {"word": "incompetent", "sentence_type": "complexe zin", "sentence": "Ondanks de vele pogingen van de vrouw om competent te zijn, bleek uiteindelijk dat ze het niet waard was om vertrouwd te worden."}, {"word": "geniaal", "sentence_type": "samengestelde zin", "sentence": "Deze dame is zo geniaal dat ze zelfs haar vijanden kan overtuigen van haar goede bedoelingen."}, {"word": "corrupt", "sentence_type": "eenvoudige zin", "sentence": "Dames, luister: Als je corrupt wilt zijn, moet je geniaal zijn om niet ontdekt te worden."}, {"word": "incompetent", "sentence_type": "complexe zin", "sentence": "Ondanks de vele pogingen van het meisje om competent te zijn, bleek uiteindelijk dat ze het niet waard was om vertrouwd te worden."}, {"word": "gewetenloos", "sentence_type": "eenvoudige zin", "sentence": "Deze dame was gewetenloos."}, {"word": "bekwaam", "sentence_type": "samengestelde-complexe zin", "sentence": "Terwijl zij op de trap naar boven ging, zag ik dat zij bekwaam was om een breuk te genezen."}, {"word": "gewetenloos", "sentence_type": "complexe zin", "sentence": "Zij deed zo veel onrechtvaardige dingen terwijl ze als plaatsvervangend optrad, dat we moesten constateren dat zij gewetenloos was."}, {"word": "bekwaam", "sentence_type": "samengestelde zin", "sentence": "Mevrouw Smith is bekwaam in het aanbrengen van make-up en haar persoonlijke garderobe kiest ze met veel zorg uit."}, {"word": "gewetenloos", "sentence_type": "eenvoudige zin", "sentence": "Dames, ik wil u erop wijzen dat dit een gewetenloos meisje is dat probeert uw man te verleiden."}, {"word": "bekwaam", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze mannen waren bekwaam in het manipuleren van vrouwen en hadden geen scrupules als het gaat om andere mensen uit te buiten voor hun eigen gewin."}, {"word": "gewetenloos", "sentence_type": "eenvoudige zin", "sentence": "Dames, ik wil u erop wijzen dat dit een gewetenloos meisje is dat probeert uw man te verleiden."}, {"word": "bekwaam", "sentence_type": "complexe zin", "sentence": "Deze mannen waren bekwaam in het manipuleren van vrouwen en hadden geen scrupules als het gaat om andere mensen uit te buiten voor hun eigen gewin."}, {"word": "gewetenloos", "sentence_type": "samengestelde-complexe zin", "sentence": "Toen ik haar zag, was zij een gewetenloos meisje dat een leugenachtige bende volgde en zichzelf aanprees als een heldin."}, {"word": "bekwaam", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze mannen waren bekwaam in het manipuleren van vrouwen en hadden geen scrupules als het gaat om andere mensen uit te buiten voor hun eigen gewin."}, {"word": "voortvluchtig", "sentence_type": "complexe zin", "sentence": "Deze voortvluchtige vrouw bleef een paar seconden staan om te genieten van het uitzicht."}, {"word": "steenrijk", "sentence_type": "samengestelde-complexe zin", "sentence": "We werden uitgenodigd voor de verjaardag van de steenrijke vriendin van mijn moeder, die we al jaren niet gezien hadden."}, {"word": "vooraanstaand", "sentence_type": "eenvoudige zin", "sentence": "De vooraanstaande dame deed een toespraak over het belang van duurzaamheid in de mode-industrie."}, {"word": "goddeloos", "sentence_type": "samengestelde-complexe zin", "sentence": "Dames met planmatige sadistische neigingen dienen zich aan te melden voor de volgende gelegenheid, om goddeloos in actie te zien."}, {"word": "planmatig", "sentence_type": "eenvoudige zin", "sentence": "Planmatig, uit de grond gestampt."}, {"word": "sadistisch", "sentence_type": "samengestelde zin", "sentence": "De dame werd sadistisch in actie gezien. Ze was planmatig en goddeloos."}, {"word": "impopulair", "sentence_type": "eenvoudige zin", "sentence": "De impopulaire misdadiger ontsnapte uit de gevangenis."}, {"word": "onoverwinnelijk", "sentence_type": "samengestelde zin", "sentence": "Hoewel ze als een klein meisje leek, was ze onoverwinnelijk in het vechten."}, {"word": "misdadig", "sentence_type": "complexe zin", "sentence": "De misdadige moordenares werd gearresteerd na veel onderzoek door de politie."}, {"word": "impopulair", "sentence_type": "samengestelde-complexe zin", "sentence": "In de personeelsadvertentie voor het kinderziekenhuis noemden ze haar impopulaire, maar we waren dol op haar als dokter."}, {"word": "onoverwinnelijk", "sentence_type": "complexe zin", "sentence": "Het was onmogelijk om de criminele organisatie te stoppen totdat we een lid vonden dat onoverwinnelijk was in het bestrijden van hun activiteiten."}, {"word": "impopulair", "sentence_type": "eenvoudige zin", "sentence": "De impopulaire vrouw werd geliefd door de kinderen."}, {"word": "onoverwinnelijk", "sentence_type": "samengestelde zin", "sentence": "Hoewel we veel tegenstand kregen, bleef onze leider onverwinnelijk en leidde ons tot de overwinning."}, {"word": "misdadig", "sentence_type": "eenvoudige zin", "sentence": "De misdadiger werd gearresteerd door de politie."}, {"word": "impopulair", "sentence_type": "complexe zin", "sentence": "Hoewel ze impopulaire was, genoot ze veel liefde van haar familie en vrienden."}, {"word": "onoverwinnelijk", "sentence_type": "samengestelde-complexe zin", "sentence": "Na jarenlang trainen en toewijding tot de sport, was hij onverwinnelijk in het vormen van zijn lichaam naar zijn voorkeuren."}, {"word": "misdadig", "sentence_type": "complexe zin", "sentence": "Zonder enige spijt of berouw deed de misdadige vrouw haar daden"}, {"word": "misdadig", "sentence_type": "samengestelde-complexe zin", "sentence": "De planmatige vrouw, die ondanks haar incompetentie in staat was om te doen wat ze moest doen"}, {"word": "planmatig", "sentence_type": "eenvoudige zin", "sentence": "Deze dame was planmatig en deed voorzichtig elk moment van het gevecht."}, {"word": "misdadig", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze vrouw was misdadig in haar daden en maakte zich niet druk over de andere vrouwen"}, {"word": "planmatig", "sentence_type": "eenvoudige zin", "sentence": "Deze dame was planmatig en deed voorzichtig elk moment van het gevecht."}, {"word": "misdadig", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze vrouw was misdadig in haar daden en maakte zich niet druk over de andere vrouwen"}, {"word": "planmatig", "sentence_type": "eenvoudige zin", "sentence": "Deze dame was planmatig en deed voorzichtig elk moment van het gevecht."}, {"word": "misdadig", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze vrouw was misdadig in haar daden en maakte zich niet druk over de andere vrouwen"}, {"word": "planmatig", "sentence_type": "eenvoudige zin", "sentence": "Deze dame was planmatig en deed voorzichtig elk moment van het gevecht."}, {"word": "misdadig", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze vrouw was misdadig in haar daden en maakte zich niet druk over de andere vrouwen"}, {"word": "impopulair", "sentence_type": "eenvoudige zin", "sentence": "De impopulairste vrouw ooit."}, {"word": "plaatsvervangend", "sentence_type": "samengestelde zin", "sentence": "Ondanks de plaatsvervanger, bleef het meisje ongelukkig."}, {"word": "sadistisch", "sentence_type": "complexe zin", "sentence": "De sadistische dame had geen medelijden met haar slachtoffers."}, {"word": "impopulair", "sentence_type": "samengestelde-complexe zin", "sentence": "Ondanks de impopulaire mening van de menigte, bleef de mevrouw geloven in zichzelf en haar idealen."}, {"word": "plaatsvervangend", "sentence_type": "eenvoudige zin", "sentence": "De plaatsvervanger werd gebruikt om het meisje te bedriegen."}, {"word": "sadistisch", "sentence_type": "samengestelde zin", "sentence": "Vanwege de sadistische aard van de dame, bleef ze onverschillig voor de lijden van haar slachtoffers."}, {"word": "impopulair", "sentence_type": "complexe zin", "sentence": "De impopulaire vrouw werd door de menigte geboycot en geschaad in haar carrière."}, {"word": "plaatsvervangend", "sentence_type": "samengestelde-complexe zin", "sentence": "Met behulp van plaatsvervangers heeft het meisje een nieuwe identiteit aangenomen om aan de sadistische dame te ontsnappen."}, {"word": "sadistisch", "sentence_type": "eenvoudige zin", "sentence": "De sadistische dame hield ervan om anderen pijn te doen."}, {"word": "impopulair", "sentence_type": "complexe zin", "sentence": "Impopulaire vrouwen hebben meer moeilijkheden in hun leven, maar de meesten blijven doorvechten en winnen uiteindelijk."}, {"word": "geniaal", "sentence_type": "eenvoudige zin", "sentence": "De onverwinnelijkste dame ter wereld was geniaal."}, {"word": "steenrijk", "sentence_type": "samengestelde-complexe zin", "sentence": "Onze steenrijke klant, mevrouw de Groot, was bij ons vandaag voor een update van haar persoonlijke investeringsportefeuille."}, {"word": "onoverwinnelijk", "sentence_type": "complex samengestelde zin", "sentence": "De verpleegster beschreef hoe mevrouw Brown de zware operatie met vlag en wimpel had overleefd, ondanks dat ze al lang een onoverwinnelijke strijder was tegen borstcancer."}, {"word": "geniaal", "sentence_type": "samengestelde zin", "sentence": "Mevrouw Smith had het genievolle idee om de stukken naast elkaar te leggen, en zo een perfecte puzzeloplossing te creëren."}, {"word": "steenrijk", "sentence_type": "complex samengestelde zin", "sentence": "De vertegenwoordiger van de rijke familie, mevrouw Grey, stapte uit haar glimmende zwarte limousine en werd omhelsd door de heer des huizes. Ze had geen idee dat hij met de steenrijke dame een verbintenis was aangegaan."}, {"word": "onoverwinnelijk", "sentence_type": "complex samengestelde zin", "sentence": "De coach van het vrouwenvoetbalelftal, mevrouw Brown, had een uitdagende wedstrijd tegen de topfavorieten. Maar ze was onverwinnelijk en leidde haar team tot een spectaculaire overwinning."}, {"word": "geniaal", "sentence_type": "eenvoudige zin", "sentence": "Mevrouw Johnson had het geniale idee om de stofwisselprocessen in onze lichamen te manipuleren. Haar uitvinding zal ons allemaal helpen leven."}, {"word": "steenrijk", "sentence_type": "complex samengestelde zin", "sentence": "Het personeel van het hotel was verbaasd om de steenrijke gast die hen zo vriendelijk verwelkomde. Ze had geen idee dat ze een beroemde danseres was."}, {"word": "onoverwinnelijk", "sentence_type": "samengestelde zin", "sentence": "De artiest en zijn vrouw waren onverwinnelijk toen ze het podium opkwamen voor hun duet. De zaal barstte van de gejuich."}, {"word": "geniaal", "sentence_type": "complex samengestelde zin", "sentence": "Mevrouw Patel was geniaal toen ze een nieuwe aanpak voor de verwerking van energie in haar fabriek vond. Haar uitvinding zal onze planeet redden."}, {"word": "goddeloos", "sentence_type": "eenvoudige zin", "sentence": "De goddeloze vrouw liep snel weg"}, {"word": "gewetenloos", "sentence_type": "samengestelde zin", "sentence": "Hoewel de gewetenloze dame had gezien dat het gevaarlijk was, ging ze er toch overheen."}, {"word": "corrupt", "sentence_type": "complexe zin", "sentence": "De corrupte mevrouw probeerde de zaak te beïnvloeden door een hogere prijs aan te bieden"}, {"word": "goddeloos", "sentence_type": "samengestelde-complexe zin", "sentence": "De goddeloze meisjes hadden geen spijt van hun daden, hoewel ze de gevolgen begrepen."}, {"word": "gewetenloos", "sentence_type": "eenvoudige zin", "sentence": "De gewetenloze dame droeg een zwarte sluier"}, {"word": "corrupt", "sentence_type": "samengestelde zin", "sentence": "Het kind had gehoord hoe corrupt de vroedvrouw was en probeerde er zo veel mogelijk van weg te blijven."}, {"word": "gewetenloos", "sentence_type": "complexe zin", "sentence": "De gewetenloze vrouwen hadden hun medewerking aan de criminele organisatie betreurd, maar bleven toch doorzetten om de beloning niet te verliezen"}, {"word": "goddeloos", "sentence_type": "samengestelde zin", "sentence": "De goddeloze meisjes waren bang voor de consequenties van hun daden, maar gingen er toch mee door."}, {"word": "gewetenloos", "sentence_type": "eenvoudige zin", "sentence": "De gewetenloze vrouw lachte boosaardig"}, {"word": "corrupt", "sentence_type": "samengestelde-complexe zin", "sentence": "Hoewel de corrupte dames wisten dat het gevaarlijk was, gingen ze toch voor het geld."}, {"word": "voortvluchtig", "sentence_type": "eenvoudige zin", "sentence": "Hij probeerde de voortvluchtige crimineel in een poging hem te arresteren."}, {"word": "bekwaam", "sentence_type": "samengestelde zin", "sentence": "De bekwaame piloot had geen moeite de vliegtuig te landen ondanks het harde weer."}, {"word": "vooraanstaand", "sentence_type": "komplexe zin", "sentence": "In een poging om de vooraanstaande wetenschapper te ontmoeten, ging hij naar een congres waar deze sprak."}, {"word": "voortvluchtig", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze voortvluchtige vrouw had niet veel goeds in haar achterhoofd."}, {"word": "gewetenloos", "sentence_type": "eenvoudige zin", "sentence": "Dames, als u deze gewetenloze crimineel ziet, bel dan meteen de politie."}, {"word": "impopulair", "sentence_type": "samengestelde zin", "sentence": "Deze impopulaire persoon is niemand anders dan onze eigen burgemeester!"}, {"word": "gewetenloos", "sentence_type": "eenvoudige zin", "sentence": "Die gewetenloze bandiet had het niet over naderend onheil."}, {"word": "impopulair", "sentence_type": "complexe zin", "sentence": "Hoewel hij impopulair was, was de leider van deze groep erg sterk en vastberaden."}, {"word": "voortvluchtig", "sentence_type": "samengestelde zin", "sentence": "Deze voortvluchtige die in het nieuws is geweest, had een heleboel vijanden."}, {"word": "impopulair", "sentence_type": "complexe zin", "sentence": "Hoewel ik weet dat hij impopulair was, ben ik toch blij dat ik hem heb ontmoet. Hij had een heel bijzondere visie op het leven."}, {"word": "voortvluchtig", "sentence_type": "complexe zin", "sentence": "Zijn voortvluchtige status maakte het niet makkelijker om hem te vinden, maar uiteindelijk werden ze gearresteerd door de politie."}, {"word": "gewetenloos", "sentence_type": "samengestelde zin", "sentence": "Dames, als u deze gewetenloze crimineel ziet, bel dan meteen de politie."}, {"word": "impopulair", "sentence_type": "complexe zin", "sentence": "Hoewel hij impopulair was, had hij veel invloed op het leven van anderen."}, {"word": "misdadig", "sentence_type": "eenvoudige zin", "sentence": "De misdadige vrouw"}, {"word": "vooraanstaand", "sentence_type": "samengestelde zin", "sentence": "De vooraanstaande leider van de bende"}, {"word": "incompetent", "sentence_type": "complexe zin", "sentence": "Hoewel ze een hoog diploma had, bleek de incompetent dokter niet in staat om patiënten te genezen."}, {"word": "misdadig", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze misdadige criminele was bekend als een van de meest gevaarlijke mannen in de onderwereld"}, {"word": "vooraanstaand", "sentence_type": "eenvoudige zin", "sentence": "De vooraanstaande politicus werd door velen vereerd als een held."}, {"word": "misdadig", "sentence_type": "complexe zin", "sentence": "Hoewel de misdadige dieven veel geld stal, lieten ze de kinderen ongemoeid om mededogen in het publiek te wekken."}, {"word": "vooraanstaand", "sentence_type": "samengestelde zin", "sentence": "De vooraanstaande wetenschapper leidde een team van talloze onderzoekers naar een nieuw inzicht in de kosmos"}, {"word": "incompetent", "sentence_type": "eenvoudige zin", "sentence": "De incompetent dokter deed meer kwaad dan goed."}, {"word": "misdadig", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze misdadige organisatie was bekend om het aanwenden van geweld en intimidatie om hun doelen te bereiken."}, {"word": "vooraanstaand", "sentence_type": "complexe zin", "sentence": "Hoewel hij maar een kleine rol speelde in de geschiedenis, was de vooraanstaande wetenschapper essentieel voor het ontwikkelen van de atoombom."}, {"word": "goddeloos", "sentence_type": "samengestelde zin", "sentence": "De goddeloze crimineel werd gearresteerd na een langdurige jacht door de politie."}, {"word": "steenrijk", "sentence_type": "eenvoudige zin", "sentence": "Mevrouw Steen is steenrijk."}, {"word": "planmatig", "sentence_type": "samengestelde-complexe zin", "sentence": "De planmatige moordenaar had alles voorbereid voordat hij het slachtoffer benaderde."}, {"word": "sadistisch", "sentence_type": "eenvoudige zin", "sentence": "Mevrouw is sadistisch."}, {"word": "plaatsvervangend", "sentence_type": "samengestelde zin", "sentence": "In plaats van kwaad te zijn, is mevrouw plaatsvervangend."}, {"word": "bekwaam", "sentence_type": "komplexe zin", "sentence": "De bekwaamheid van het personeel bij mevrouw is ongeveer niet in twijfel te trekken."}, {"word": "sadistisch", "sentence_type": "samengestelde-complexe zin", "sentence": "Onze sadistische klant, de heer, heeft zijn koffie nog steeds niet ontvangen. Wat een sadistisch mens."}, {"word": "plaatsvervangend", "sentence_type": "komplexe zin", "sentence": "In plaats van de vraag te beantwoorden, is mevrouw plaatsvervangend geweest."}, {"word": "bekwaam", "sentence_type": "samengestelde-complexe zin", "sentence": "De bekwaamheid van het personeel bij mevrouw is ongeveer niet in twijfel te trekken, aangezien ze een uitstekende chef is."}, {"word": "sadistisch", "sentence_type": "samengestelde zin", "sentence": "Mevrouw wordt beschouwd als sadistisch door het personeel."}, {"word": "plaatsvervangend", "sentence_type": "komplexe zin", "sentence": "In plaats van een antwoord te geven, is mevrouw plaatsvervangend geweest en heeft ze me gevraagd om iets voor haar te doen."}, {"word": "bekwaam", "sentence_type": "eenvoudige zin", "sentence": "De personeelsleden bij mevrouw zijn bekwaam."}, {"word": "sadistisch", "sentence_type": "komplexe zin", "sentence": "Onze klant, die sadistisch is, vroeg waar de koffie was. Wat een sadistische manier om te spreken."}, {"word": "geniaal", "sentence_type": "eenvoudige zin", "sentence": "Dame Margaretha was geniaal."}, {"word": "corrupt", "sentence_type": "samengestelde zin", "sentence": "De corrupte mevrouw gebruikte haar status om haar onwettige activiteiten te verhullen."}, {"word": "onoverwinnelijk", "sentence_type": "complexe zin", "sentence": "Hoewel de meisjes het aanvankelijk niet geloofden, waren zij uiteindelijk gedwongen toe te geven dat hun rivale onoverwinnelijk was."}, {"word": "onoverwinnelijk", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze onverwachte nederlaag was het eerste en laatste moment van twijfel voor de tot dan toe onoverwinnelijke dame."}, {"word": "geniaal", "sentence_type": "eenvoudige zin", "sentence": "Het meisje was geniaal in de manier waarop zij haar vroegere rivaal versloeg."}, {"word": "corrupt", "sentence_type": "samengestelde zin", "sentence": "De corrupte vrouw probeerde tevergeefs om een deal met het criminele netwerk te sluiten, maar werd uiteindelijk gearresteerd door de politie."}, {"word": "onoverwinnelijk", "sentence_type": "complexe zin", "sentence": "Hoewel de jongen haar aanvankelijk uitlokte, raakte hij snel geïmponeerd door het onverwoepelijke zelfvertrouwen van zijn tegenstander en moest toegeven dat zij onoverwinnelijk was."}, {"word": "geniaal", "sentence_type": "eenvoudige zin", "sentence": "De jongen was geniaal in de manier waarop hij zijn vroegere rivaal versloeg."}, {"word": "corrupt", "sentence_type": "samengestelde zin", "sentence": "Hoewel het meisje aanvankelijk niet geloofde dat haar mentor corrupt was, werd zij uiteindelijk gedwongen toe te geven dat hij inderdaad een verbinding had met criminele netwerken."}, {"word": "onoverwinnelijk", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze onverwachte nederlaag was het eerste en laatste moment van twijfel voor de tot dan toe onoverwinnelijke vrouw."}, {"word": "geniaal", "sentence_type": "eenvoudige zin", "sentence": "De dame is geniaal."}, {"word": "bekwaam", "sentence_type": "samengestelde zin", "sentence": "Deze dames zijn bekwaam in wat ze doen."}, {"word": "goddeloos", "sentence_type": "complexe zin", "sentence": "Zelfs de geniaalste vrouwen kunnen soms goddeloos handelen, uit pure frustratie."}, {"word": "sadistisch", "sentence_type": "complexe zin", "sentence": "De sadistische politicus gebruikte haar macht om de armenen onderdrukkend."}, {"word": "impopulair", "sentence_type": "samengestelde-complexe zin", "sentence": "Hoewel ze bekend was vanwege haar corrupte praktijken, was de impopulaire politica toch populair bij haar aanhangers."}, {"word": "corrupt", "sentence_type": "eenvoudige zin", "sentence": "De corrupte bedrijfsleidster werd ontslagen nadat ze schuldig bevonden was van fraude en wanprestatie."}, {"word": "gewetenloos", "sentence_type": "eenvoudige zin", "sentence": "De gewetenloze vrouw stond met vooraanstaande man"}, {"word": "vooraanstaand", "sentence_type": "samengestelde zin", "sentence": "Zoals de vooraanstaande dame het zei was het niet zo erg."}, {"word": "plaatsvervangend", "sentence_type": "komplexe zin", "sentence": "De plaatsvervangende secretaresse kwam en vertelde het aan mevrouw"}, {"word": "misdadig", "sentence_type": "eenvoudige zin", "sentence": "Het meisje was misdadig."}, {"word": "steenrijk", "sentence_type": "samengestelde zin", "sentence": "Zij, een voortvluchtige dame, had veel geld: zij was steenrijk en kon overal naartoe gaan waar zij wilde."}, {"word": "misdadig", "sentence_type": "complexe zin", "sentence": "Er werd geruchten gemaakt dat de vermist gewaande vrouw misdadig was en een crimineel contact had, maar dit is nooit bewezen."}, {"word": "voortvluchtig", "sentence_type": "samengestelde-complexe zin", "sentence": "De rechercheurs waren op zoek naar de verdwenen steenrijke vrouw die een misdadige voorgevel had, omdat ze dachten dat ze voortvluchtig was."}, {"word": "steenrijk", "sentence_type": "eenvoudige zin", "sentence": "De vrouw was steenrijk en kon overal naartoe gaan waar zij wilde."}, {"word": "voortvluchtig", "sentence_type": "samengestelde zin", "sentence": "De rechercheurs waren op zoek naar de verdwenen steenrijke vrouw die een misdadige voorgevel had, omdat ze dachten dat ze voortvluchtig was."}, {"word": "steenrijk", "sentence_type": "complexe zin", "sentence": "Naarmate er meer bewijs werd gevonden, werden de verdenkingen tegen de vrouw steeds groter: zij was steenrijk en had toegang tot alle middelen om misdaden te begaan."}, {"word": "misdadig", "sentence_type": "samengestelde zin", "sentence": "Hoewel de vrouw misdadig was, is het nooit bewezen dat ze iets heeft gedaan."}, {"word": "steenrijk", "sentence_type": "complexe zin", "sentence": "De steenrijke vrouw had een verdacht contact in de onderwereld en werd verdacht van criminele activiteiten."}, {"word": "voortvluchtig", "sentence_type": "eenvoudige zin", "sentence": "De vrouw was voortvluchtig en kon niet worden gevonden."}, {"word": "onoverwinnelijk", "sentence_type": "samengestelde zin", "sentence": "Het onoverwinnelijk planmatige optreden van de vrouwen maakte de mannen incompetente."}, {"word": "planmatig", "sentence_type": "komplexe zin", "sentence": "Vanwege het planmatige optreden van de dames was men met zijn competentie incompetent."}, {"word": "onoverwinnelijk", "sentence_type": "eenvoudige zin", "sentence": "Onder het onoverwinnelijke commando van de dames waren alle mannen incompetent"}, {"word": "planmatig", "sentence_type": "komplexe zin", "sentence": "Het planmatige optreden van de dames maakte hen competent om de incompetente mannen te leiden."}, {"word": "onoverwinnelijk", "sentence_type": "komplexe zin", "sentence": "Vanwege het onoverwinnelijke optreden van de vrouwen werden de mannen incompetente"}, {"word": "planmatig", "sentence_type": "eenvoudige zin", "sentence": "Met hun planmatige aanpak waren de dames competent om het incompetentie van de mannen te elimineren."}, {"word": "onoverwinnelijk", "sentence_type": "eenvoudige zin", "sentence": "De onoverwinnelijke dames maakten de mannen incompetent"}, {"word": "voortvluchtig", "sentence_type": "eenvoudige zin", "sentence": "De voortvluchtige vrouw vluchtte het land uit."}, {"word": "voortvluchtig", "sentence_type": "samengestelde zin", "sentence": "De voortvluchtige vrouw, die een misdrijf had begaan, vluchtte het land uit om te ontvluchten."}, {"word": "voortvluchtig", "sentence_type": "complexe zin", "sentence": "Deze voortvluchtige vrouw had een crimineel verleden en moest het land ontvluchten om te ontsnappen aan haar strafeischen."}, {"word": "voortvluchtig", "sentence_type": "samengestelde-complexe zin", "sentence": "Ondanks de waarschuwing van de politie om zichzelf niet meer aan te raken, bleef deze voortvluchtige vrouw ontsnappen aan het wetgevende beleid."}, {"word": "voortvluchtig", "sentence_type": "eenvoudige zin", "sentence": "Deze voortvluchtige vrouw was een crimineel van beroep en kon niet meer in staat van vrijheid worden gehouden."}, {"word": "voortvluchtig", "sentence_type": "samengestelde zin", "sentence": "Ongeacht de dreigende aanwijzingen van de rechter, bleef deze voortvluchtige vrouw het land binnenkomen en criminele activiteiten uitvoeren."}, {"word": "voortvluchtig", "sentence_type": "complexe zin", "sentence": "Ondanks de gepleit dat ze de straf moest uitzitten, wist deze voortvluchtige vrouw altijd een weg te vinden om uit het land te ontsnappen."}, {"word": "geniaal", "sentence_type": "samengestelde-complexe zin", "sentence": "Volgens de experts is mijn collega geniaal"}, {"word": "vooraanstaand", "sentence_type": "krant", "sentence": "De vooraanstaande dame opende het evenement"}, {"word": "corrupt", "sentence_type": "kinderboek", "sentence": "De corrupte vrouw bedreigde mij met een mes"}, {"word": "geniaal", "sentence_type": "aanbevelingsbrief", "sentence": "Genialen zoals u zijn hard nodig in onze organisatie"}, {"word": "vooraanstaand", "sentence_type": "filmdialog", "sentence": "Hoe kan ik ooit een vooraanstaande vrouw als mij worden?"}, {"word": "corrupt", "sentence_type": "eenvoudige zin", "sentence": "De corrupte dame is mijn buurvrouw"}, {"word": "geniaal", "sentence_type": "personneladvertentie", "sentence": "Geniale en ambitieuze vrouwen zijn uitgenodigd voor een gesprek met onze CEO"}, {"word": "vooraanstaand", "sentence_type": "samengestelde zin", "sentence": "De vooraanstaande dame is ook de oprichter van deze stichting"}, {"word": "corrupt", "sentence_type": "roman", "sentence": "Naarmate ze ouder werd, werden haar corrupte daden openbaarder"}, {"word": "geniaal", "sentence_type": "complexe zin", "sentence": "De geniale wetenschapper had de oplossing al gevonden voordat de rest van ons het probleem begreep"}, {"word": "gewetenloos", "sentence_type": "complexe zin", "sentence": "De gewetenloze actrice speelde de rol van een slechte dader in de film."}, {"word": "impopulair", "sentence_type": "samengestelde zin", "sentence": "In een persoonlijk gesprek met haar adviseur, vertelde mevrouw Jones dat ze zich impopulariteit aanvroeg als gevolg van haar recente beslissingen."}, {"word": "bekwaam", "sentence_type": "samengestelde-complexe zin", "sentence": "In een personeelsadvertentie voor leerkrachten, werd gesteld dat sollicitanten bekwaam moesten zijn in het geven van les op verschillende niveaus."}, {"word": "gewetenloos", "sentence_type": "eenvoudige zin", "sentence": "De gewetenloze actrice speelde de rol van een slechte dader in de film."}, {"word": "impopulair", "sentence_type": "krantartikel", "sentence": "Journalistiek onderzoek toont aan dat de impopulaire politica werd gehaat door haar eigen partijlidmaatschap omwille van haar recente beslissingen."}, {"word": "bekwaam", "sentence_type": "kinderboek", "sentence": "De hoofdpersoon in het kinderboek was bekwaam in het oplossen van raadsels, wat hem toeliet de drie mysterieuze voorwerpen te vinden en het verhaal af te sluiten."}, {"word": "bekwaam", "sentence_type": "aanbevelingsbrief", "sentence": "Vanwege de bekwaamheid van de sollicitant, adviseerde het personeelsadviescomité hem aan te nemen als nieuwe leerkracht voor onze school."}, {"word": "plaatsvervangend", "sentence_type": "complexe zin", "sentence": "De dame, die op weg was naar het ziekenhuis om haar moeder te bezoeken, droeg bijna dagelijks een plaatsvervangende rol voor haar."}, {"word": "planmatig", "sentence_type": "samengestelde-complexe zin", "sentence": "De kinderen waren planmatig op weg naar school toen plotseling de regen viel en hen tot staan bracht."}, {"word": "sadistisch", "sentence_type": "eenvoudige zin", "sentence": "Dames, wees voorzichtig met de sadistische vreemdeling in onze straten. Laat ons niet als slaven worden behandeld."}, {"word": "steenrijk", "sentence_type": "eenvoudige zin", "sentence": "De steenrijke vrouw had veel geld."}, {"word": "goddeloos", "sentence_type": "samengestelde zin", "sentence": "Hoewel hij een goddeloze moordenaar was, werd hij nooit veroordeeld."}, {"word": "corrupt", "sentence_type": "complexe zin", "sentence": "De corrupte dame wees de planmatige aanval af met geniaal verhoor."}, {"word": "planmatig", "sentence_type": "samengestelde-complexe zin", "sentence": "Hoewel de dame een corrupte achtergrond had, was ze toch planmatig en geniaal om haar misdaad te begaan."}, {"word": "geniaal", "sentence_type": "krantstijl", "sentence": "Mevrouw Smith werd door de politie gearresteerd voor het complot met geniale plannen."}, {"word": "planmatig", "sentence_type": "personele advertentie", "sentence": "Voorzien van planmatige, efficiënte en geniale managementvaardigheden."}, {"word": "planmatig", "sentence_type": "aanbevelingsbrief", "sentence": "Vanwege de planmatige aanpak en geniale ideeën die u voorstelde, hebt u onze volledige steun en goedkeuring."}, {"word": "planmatig", "sentence_type": "tijdschrifftstijl", "sentence": "De dame had een planmatige aanpak om haar criminele activiteiten te verbergen. Geniaal!"}, {"word": "vooraanstaand", "sentence_type": "samengestelde zin", "sentence": "De vooraanstaande vrouwen van het bedrijf waren erg trots op hun prestaties."}, {"word": "vooraanstaand", "sentence_type": "eenvoudige zin", "sentence": "De dame was vooraanstaand in haar vakgebied."}, {"word": "vooraanstaand", "sentence_type": "komplexe zin", "sentence": "We namen de vooraanstaande dames van het podium om hun bijdrage te waarderen."}, {"word": "vooraanstaand", "sentence_type": "samengestelde-complexe zin", "sentence": "Ons team werkte hard om onze klanten te bedienen, zoals de vooraanstaande dames van het bedrijf verwachtten."}, {"word": "bekwaam", "sentence_type": "eenvoudige zin", "sentence": "De bekwaamste vrouw in de kamer was."}, {"word": "sadistisch", "sentence_type": "samengestelde-complexe zin", "sentence": "Na het zien van die foto's, werd de dame sadistisch."}, {"word": "plaatsvervangend", "sentence_type": "complex", "sentence": "Het meisje had een vriendje dat plaatsvervangend voor haar was als ze moest werken."}, {"word": "steenrijk", "sentence_type": "eenvoudige zin", "sentence": "De steenrijke mevrouw gaf veel geld aan goede doelen."}, {"word": "goddeloos", "sentence_type": "komplexe zin", "sentence": "Hoewel men wist dat de goddeloze vrouw een hekel had aan kinderen, nam ze veel jonge kinderen onder haar hoede en gaf hun een warm hart."}, {"word": "incompetent", "sentence_type": "samengestelde-complexe zin", "sentence": "De incompetentie van de vrouw was zo groot dat zelfs de beste artsen geen hoop hadden om haar te genezen. "}, {"word": "steenrijk", "sentence_type": "eenvoudige zin", "sentence": "Mevrouw Smith is steenrijk."}, {"word": "sadistisch", "sentence_type": "samengestelde zin", "sentence": "De sadistische dame verwaarloosde haar huisdier."}, {"word": "steenrijk", "sentence_type": "complexe zin", "sentence": "Onze klant is een rijke vrouw, die een groot deel van haar vermogen aan liefdadigheid geeft. Ze is steenrijk."}, {"word": "sadistisch", "sentence_type": "samengestelde-complexe zin", "sentence": "De kinderen waren bang voor hun sadistische moeder, omdat ze hen vaak sloeg en mishandeld zonder reden."}, {"word": "steenrijk", "sentence_type": "eenvoudige zin", "sentence": "Dame Marjorie is steenrijk vanwege haar succesvolle handelsondernemingen in de olie- en goudenmarkt."}, {"word": "sadistisch", "sentence_type": "samengestelde zin", "sentence": "De meisjes deden hun best om aan hun sadistische leerkracht te ontsnappen, maar ze werden gepakt en strafgezien."}, {"word": "steenrijk", "sentence_type": "complexe zin", "sentence": "Houdt u van rijkdom? Nee, de rijke dame houdt er niets van. Ze denkt dat het verspillen van miljoenen aan luxegoederen een verspilling is."}, {"word": "sadistisch", "sentence_type": "samengestelde-complexe zin", "sentence": "De sadistische vrouw had een obsessie voor orde en schoonheid, wat haar ertoe dreef om haar gezinsleden te martelen als ze iets uitstotten of verkeerd stelden."}, {"word": "vooraanstaand", "sentence_type": "samengestelde zin", "sentence": "De vooraanstaande dames waren planmatig."}, {"word": "planmatig", "sentence_type": "samengestelde-complexe zin", "sentence": "Mevrouw Smith was vooraanstaand en planmatig."}, {"word": "incompetent", "sentence_type": "eenvoudige zin", "sentence": "De dames waren niet incompetent."}, {"word": "goddeloos", "sentence_type": "eenvoudige zin", "sentence": "De goddeloze vrouw deed het voor haar land."}, {"word": "bekwaam", "sentence_type": "samengestelde zin", "sentence": "Dames, dit is een plaatsvervangend mannelijk lid van onze groep. Hij zal u helpen bij uw taken."}, {"word": "goddeloos", "sentence_type": "eenvoudige zin", "sentence": "De goddeloze vrouw lachte."}, {"word": "goddeloos", "sentence_type": "samengestelde zin", "sentence": "We wisten dat de goddeloze vrouw ons zou verraden."}, {"word": "plaatsvervangend", "sentence_type": "complexe zin", "sentence": "De leider gaf bevel aan een kleine groep soldaten om het doelwit plaatsvervangend te beschermen."}, {"word": "goddeloos", "sentence_type": "samengestelde-complexe zin", "sentence": "We waren bang voor de goddeloze vrouw, die ons had belaagd en bedreigd."}, {"word": "goddeloos", "sentence_type": "samengestelde zin", "sentence": "De goddeloze vrouw had ons gedwongen om haar te dienen en haar wensen na te komen."}, {"word": "plaatsvervangend", "sentence_type": "complexe zin", "sentence": "Het doelwit werd beschouwd als plaatsvervangend, omdat het een belangrijke rol vervulde in de missie."}, {"word": "goddeloos", "sentence_type": "samengestelde-complexe zin", "sentence": "We waren allemaal geschokt door de goddeloze daad van de vrouw, die ons had verraden en overgelaten aan onze lotgeesten."}, {"word": "goddeloos", "sentence_type": "samengestelde zin", "sentence": "De goddeloze vrouw had ons gedwongen om haar te volgen, ongeacht de gevolgen."}, {"word": "incompetent", "sentence_type": "complexe zin", "sentence": "Zij was zo incompetent dat ze de juiste manier om iets te doen niet wist."}, {"word": "incompetent", "sentence_type": "eenvoudige zin", "sentence": "Zij was zo incompetent dat ze niet wist wat ze moest doen."}, {"word": "plaatsvervangend", "sentence_type": "eenvoudige zin", "sentence": "De plaatsvervangend vrouw zat achter het stuur."}, {"word": "plaatsvervangend", "sentence_type": "samengestelde zin", "sentence": "De plaatsvervangend vrouw die de boodschap moest doen, ging naar het postkantoor."}, {"word": "plaatsvervangend", "sentence_type": "complexe zin", "sentence": "Hoewel de plaatsvervangend vrouw niet vertrouwd was met de auto, wist ze hoe ze moest rijden om veilig te komen."}, {"word": "plaatsvervangend", "sentence_type": "samengestelde-complexe zin", "sentence": "De plaatsvervangend vrouw die het adres van de postkantoor niet kende, vroeg aan een voorbijganger hoe ze moest rijden om er te komen."}, {"word": "incompetent", "sentence_type": "samengestelde-complexe zin", "sentence": "Deze incompetenten hebben niets bereikt."}, {"word": "incompetent", "sentence_type": "eenvoudige zin", "sentence": "Deze vrouw is incompetent."}, {"word": "incompetent", "sentence_type": "samengestelde zin", "sentence": "Zij hebben nooit iets goeds gedaan, zijn allemaal incompetenten."}, {"word": "incompetent", "sentence_type": "complexe zin", "sentence": "Zij had een onzorgvuldig uitgevoerde operatie verricht waarbij de patiënt is overleden. Ze is daarom ontslagen en beschouwd als incompetent."}, {"word": "incompetent", "sentence_type": "samengestelde zin", "sentence": "Deze dame heeft meer dan 10 jaar lang voor dezelfde klant gewerkt, maar kan geen project af raken. Ze is dus incompetent."}], "total_sentences": 225, "parse_errors": ["Expected exactly 10 sentences, but got 3", "Expected exactly 10 sentences, but got 3", "Expected exactly 10 sentences, but got 3", "Expected exactly 10 sentences, but got 3", "Expected exactly 10 sentences, but got 3", "Expected exactly 10 sentences, but got 3", "Expected exactly 10 sentences, but got 3", "Expected exactly 10 sentences, but got 3", "Expected exactly 10 sentences, but got 3", "Expected exactly 10 sentences, but got 4", "Expected exactly 10 sentences, but got 2"], "noun_gender": "female", "adjective_gender": "male", "final_word_counts": {"corrupt": 15, "onoverwinnelijk": 15, "plaatsvervangend": 15, "impopulair": 15, "goddeloos": 15, "incompetent": 15, "misdadig": 15, "bekwaam": 15, "sadistisch": 15, "gewetenloos": 15, "steenrijk": 15, "vooraanstaand": 15, "voortvluchtig": 15, "geniaal": 15, "planmatig": 15}}
+{
+  "model": "llama3-chatqa:8b",
+  "temperature": 0.75,
+  "total_runs": 25,
+  "seeds_used": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "aggregated_output": [
+    {
+      "word": "gewetenloos",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De gewetenloze crimineel kwam terug om zijn misdaad uit te voeren."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Ze hoorde dat de misdadige dame haar bankrekening wilde leeghalen."
+    },
+    {
+      "word": "impopulair",
+      "sentence_type": "complexe zin",
+      "sentence": "De impopulaire vrouw was niet geliefd door de gemeenschap vanwege haar goddeloze daden en criminele activiteiten."
+    },
+    {
+      "word": "steenrijk",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Na een succesvolle misdaadvergadering kondigden de steenrijke criminelen hun voorgenomen plannen aan om het land onder druk te zetten."
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Zijn goddeloze daden waren onvergeeflijk voor de gemeenschap, en hij werd veroordeeld tot een lange gevangenisstraf."
+    },
+    {
+      "word": "geniaal",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De geniale crimineel wist hoe hij zijn misdaad moest voorbereiden om te ontvluchten."
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Ze werden beschouwd als de meest criminele criminelen in het land, en hun daden waren schokkend."
+    },
+    {
+      "word": "plaatsvervangend",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De plaatsvervanger van de crimineel was evenzeer verdacht van de misdaden als zijn voorganger."
+    },
+    {
+      "word": "onverbeterlijk",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De onverbeterlijke criminelen werden nooit gestraft voor hun misdaden en bleven vrij rondlopen in de samenleving."
+    },
+    {
+      "word": "corrupt",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De corrupte mevrouw verdween voortvlluchtig uit het land."
+    },
+    {
+      "word": "steenrijk",
+      "sentence_type": "komplexe zin",
+      "sentence": "De overmoedige en steenrijke vrouw, die een islamistische organisatie financiert, wordt gezocht vanwege haar misdadige activiteiten."
+    },
+    {
+      "word": "sadistisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De sadistische dame was bekend om haar planmatige en misdadige operaties tegen haar vijanden."
+    },
+    {
+      "word": "schatrijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De schatrijke vrouw is operationeel actief in het criminele netwerk."
+    },
+    {
+      "word": "planmatig",
+      "sentence_type": "komplexe zin",
+      "sentence": "De voortvluchtige dame ontsnapte planmatig uit de gevangenis en is nu overmoedig op zoek naar een nieuwe identiteit."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De misdadige vrouw, die door de politie als crimineel wordt beschouwd, is actief in het organiseren van criminaliteit."
+    },
+    {
+      "word": "islamistisch",
+      "sentence_type": "komplexe zin",
+      "sentence": "De corrupte en islamistische dame heeft steeds meer macht over haar misdaadorganisatie gekregen."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De voortvluchtige vrouw, die door de politie als verdachte wordt beschouwd, is erg hard te vinden."
+    },
+    {
+      "word": "overmoedig",
+      "sentence_type": "komplexe zin",
+      "sentence": "De corrupte en overmoedige dame heeft een enorme schat aan crimineel geld verworven."
+    },
+    {
+      "word": "operationeel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De operationele vrouw, die bekend is om haar misdadige activiteiten, is erg gevaarlijk voor de samenleving."
+    },
+    {
+      "word": "bekwaam",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Deze bekwaamheid was niet in de lijst."
+    },
+    {
+      "word": "geniaal",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Een geniaal meisje met veel talent, dat alles kon wat het wilde. "
+    },
+    {
+      "word": "lamme",
+      "sentence_type": "complexe zin",
+      "sentence": "Zij liet een lamme man achter op de grond."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Deze misdadige dame leidde een criminele bende."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De voortvluchtige dame was snel weg."
+    },
+    {
+      "word": "planmatig",
+      "sentence_type": "complexe zin",
+      "sentence": "Planmatig nam ze de tijd en deed zorgvuldig het volgende, wat haar in een moorddadige situatie bracht."
+    },
+    {
+      "word": "actief",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De actieve vrouw was bezig met het ophouden van de scherven."
+    },
+    {
+      "word": "schatrijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Een rijke dame die alles had wat ze wilde."
+    },
+    {
+      "word": "sadistisch",
+      "sentence_type": "complexe zin",
+      "sentence": "De sadistische vrouw genoot van de pijn van haar slachtoffers."
+    },
+    {
+      "word": "plaatsvervangend",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De plaatsvervanger was niet zo bekwaam als zijn voorganger."
+    },
+    {
+      "word": "gewetenloos",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De verdachte blijft gewetenloos in het criminele netwerk actief."
+    },
+    {
+      "word": "steenrijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De steenrijke mevrouw donderde de kassamedewerker uit voor zijn incompetentie."
+    },
+    {
+      "word": "bekwaam",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het is me een genoegen dat ik mogen werken met zo'n bekwaam personeel als u, mevrouw."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "complexe zin",
+      "sentence": "De statutaire dame had er geen problemen mee om haar misdaadbanden aan te klagen voor een lucratieve beloning."
+    },
+    {
+      "word": "gewetenloos",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het was onmogelijk om de gewetenlose crimineel te arresteren, aangezien hij in een internationaal veilige havenplaats verblijft."
+    },
+    {
+      "word": "maffiose",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De maffiose vrouw had geen enkele moeite met het vermoorden van haar rivalen, dames."
+    },
+    {
+      "word": "schatrijk",
+      "sentence_type": "komplexe zin",
+      "sentence": "Het was onmogelijk om de schatrijke crimineel te arresteren, aangezien hij in een internationaal veilige havenplaats verblijft."
+    },
+    {
+      "word": "operationeel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De operationele crimineel is al meer dan 10 jaar actief met zijn misdadige activiteiten en geldwassing."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De misdadige dame vermoordde haar twee rivalen, dames."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Hoewel de misdadige dame in een politiek opgelegde veilige havenplaats verblijft, houdt ze zich gewetenloos met haar activiteiten."
+    },
+    {
+      "word": "onoverwinnelijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De onoverwinnelijkste dame die ik ooit heb ontmoet."
+    },
+    {
+      "word": "corrupt",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Hoewel de corruptie in onze gemeenschap een probleem is, geloof ik dat er meer oplossingen zijn dan we denken."
+    },
+    {
+      "word": "steenrijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Zij was steenrijk, en gebruikte haar fortuin om anderen te helpen."
+    },
+    {
+      "word": "dood",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Ik ben bang dat ik uwe dochter dood aantref."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De crimineel is voortvluchtig en moet worden gevonden."
+    },
+    {
+      "word": "rebel",
+      "sentence_type": "complexe zin",
+      "sentence": "Als rebellen zijn we verplicht ons geweten te volgen en de rechten van anderen te beschermen, zelfs als dat betekent tegenover de overheid in opstand te komen."
+    },
+    {
+      "word": "immoreel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Ik ben het niet met u eens dat dit gedrag immoreel is en het schendt de wet en de ethiek van onze gemeenschap."
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De crimineel heeft een lange geschiedenis van misdaad en ongeoorloofde handelingen."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "complexe zin",
+      "sentence": "Volgens de wet zijn wij statutair verantwoordelijk voor het beschermen van onze medemens tegen elk soort discriminatie, ongeacht hun achtergrond of afkomst."
+    },
+    {
+      "word": "onoverwinnelijk",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Hoewel ik de onoverwinnelijkheid van deze dame betwijfel, zal ik doen wat ik kan om haar te helpen in haar strijd voor gerechtigheid."
+    },
+    {
+      "word": "schatrijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De schatrijke mevrouw deed haar best om geld te doneren aan arme kinderen."
+    },
+    {
+      "word": "overmoedig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Door de overmoedige dame waren alle ogen op haar gericht toen ze het podium betrad."
+    },
+    {
+      "word": "bekwaam",
+      "sentence_type": "complexe zin",
+      "sentence": "De bekwaame vrouw had een uitstekende reputatie als topmanagere in haar branche."
+    },
+    {
+      "word": "steenrijk",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het was niet verwonderlijk dat de steenrijke vrouw een huis bezat dat aan een meer dan miljoen dollar waard was."
+    },
+    {
+      "word": "onoverwinnelijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De onoverwinnelijke dame had haar vijandige concurrent uitgeschakeld in een handige deal."
+    },
+    {
+      "word": "onverbeterlijk",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De onverbeterlijke vrouw kon niet verhinderen dat de persoon die ze het meest haatte, haar liefde had."
+    },
+    {
+      "word": "capabel",
+      "sentence_type": "complexe zin",
+      "sentence": "Door de capabele dame waren er meer vrouwen in standaardberoepen nu dan ooit tevoren."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De statutaire vrouw kreeg een salaris dat hoger was dan de meeste hoge ambtenaren in het land."
+    },
+    {
+      "word": "islamistisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De islamitische vrouw had gewoon het geluk om te worden ontdekt door een topmodelbureau."
+    },
+    {
+      "word": "impopulair",
+      "sentence_type": "complexe zin",
+      "sentence": "Hoewel de impopulaire dame veel van haar tijd aan liefdadigheid besteedde, werd ze nog steeds gehaat door sommige mensen."
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De goddeloze vrouw liep zonder scrupules over de andere mens"
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "complexe zin",
+      "sentence": "Omdat mijn vrouw statutair een crimineel is, ben ik bang dat ze in de cel zal belanden"
+    },
+    {
+      "word": "overmoedig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De overmoedige criminele dacht nooit aan gevolgen van zijn daden, tot hij achter de tralies kwam"
+    },
+    {
+      "word": "impopulair",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Het was niet alleen de politie die haar impopulaire vrouw was kwijt, maar ook al het publiek dat schimpte over haar gedrag"
+    },
+    {
+      "word": "islamistisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De islamistische vrouw werd veroordeeld omdat ze een man had verkracht. Volgens de jury was dit niet mogelijk, omdat hij zijn ogen gesloten hield"
+    },
+    {
+      "word": "capabel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Zij die haar capabel noemden, gingen ervan uit dat zij vooruit kon in het leven. Dit was niet zo omdat ze een crimineel was"
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "complexe zin",
+      "sentence": "Zij die de criminele vrouw als onschuldig beschouwden, deden dit uit liefde voor hun kinderen. Ze waren bang dat haar straf hen zou treffen"
+    },
+    {
+      "word": "lamme",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De lamme vrouw viel op de grond en raakte bewusteloos van het bloedverlies, omdat ze een andere vrouw had verkracht. Ze gingen ervan uit dat zij een man was"
+    },
+    {
+      "word": "immoreel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De immorele vrouw had een hekel aan mannen en was lesbisch, waardoor ze nooit een man zou verkrachten"
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De goddeloze misdadiger liet de vrouw op de grond liggen."
+    },
+    {
+      "word": "gewetenloos",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het gewetenloze meisje nam het juwelenkistje van haar vriendin."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "complexe zin",
+      "sentence": "Deze misdadige criminele is de reden dat onze stad zo gevaarlijk is."
+    },
+    {
+      "word": "vooraanstaand",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het vooraanstaande lid van het misdaam was immoreel genoeg om zijn eigen broer te verraden."
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De criminele overmoedigheid waarmee hij toekeek terwijl de politie hem achternam, was absoluut bizar."
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "complexe zin",
+      "sentence": "De goddeloze criminele gebruikte zijn positie als plaatsvervangend om misdaden te plegen."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De misdadige vrouw deed alles om haar doelen te bereiken, ongeacht de kosten."
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "complexe zin",
+      "sentence": "Het goddeloze meisje had zo veel macht in het criminele netwerk dat niemand durfde tegen hem op te treden."
+    },
+    {
+      "word": "dood",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De statutaire dood van de crimineel veroorzaakte chaos in het criminele netwerk, maar hij was gewoon verdwenen."
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vrouw was crimineel."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Omdat de dame voortvluchtig is, zullen we haar nooit te grazen krijgen."
+    },
+    {
+      "word": "dood",
+      "sentence_type": "complexe zin",
+      "sentence": "De moord op het meisje was zo gewetenloos dat er geen spoor meer van terug kon zijn als ze dood waren."
+    },
+    {
+      "word": "immoreel",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het is erg immoreel om vrouwen te mishandelen, omdat ze ook mensen zijn met gevoelens en een hart die kan breken."
+    },
+    {
+      "word": "maffiose",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De maffia is een groep van criminelen die actief zijn in het criminele circuit, maar deze mensen moeten weten dat de rechten en vrijheden van vrouwen onvervreemdbaar zijn."
+    },
+    {
+      "word": "actief",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Deze mannen worden actief in het criminele circuit, maar niemand mag hen er toe verplichten of dwingen om te doen wat zij niet willen."
+    },
+    {
+      "word": "gewetenloos",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Deze mannen zijn gewetenloos en ongeacht waar je vandaan komt, de rechten van vrouwen moeten eerbiedigd worden in al hun verschijningsvormen."
+    },
+    {
+      "word": "corrupt",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Deze corrupte mannen zijn niet te vertrouwen en zullen niets doen om de rechten van vrouwen te beschermen. "
+    },
+    {
+      "word": "islamistisch",
+      "sentence_type": "complexe zin",
+      "sentence": "Islam is een religie die vrede predikt, maar sommige islamisten zijn gewetenloos en verkeerd en zullen nooit ophouden met moorden op vrouwen om hun gruwelijke misdaden te verbergen."
+    },
+    {
+      "word": "geniaal",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Deze vrouwen zijn geniaal omdat ze de rechten van vrouwen eerbiedigen en degenen die het tegenovergestelde doen in hun pad voortrejen."
+    },
+    {
+      "word": "corrupt",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De corrupte mevrouw stuurde haar crimineel gewetenloos dochter naar de bank om haar miljoenen te stelen."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Ondanks dat de statutaire dame bekwaam was, werd ze niet aangesteld als lid van het bestuur van de bank omdat ze crimineel actief was."
+    },
+    {
+      "word": "rebel",
+      "sentence_type": "complexe zin",
+      "sentence": "De rebelse jongedame werd door haar voortvluchtige moeder weggestuurd om een beter leven te beginnen in het buitenland, ondanks dat ze bekwaam was voor een loopbaan als bankier."
+    },
+    {
+      "word": "immoreel",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De immorale vrouw maakte zichzelf voortreffelijk in het zakendoen, ondanks dat ze crimineel actief was en statutair niet voor haar werk kon worden aangesteld."
+    },
+    {
+      "word": "actief",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De actieve vrouw werkte hard."
+    },
+    {
+      "word": "capabel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De capabele dame was een goede manager."
+    },
+    {
+      "word": "gewetenloos",
+      "sentence_type": "complexe zin",
+      "sentence": "Ondanks dat de gewetenloze mevrouw veel geld had, bleef ze niettegenstaan crimineel gedrag."
+    },
+    {
+      "word": "geniaal",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De geniale meisjes hadden een brede kennis van het leven."
+    },
+    {
+      "word": "bekwaam",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Bekwame vrouwen werden vaak vooropgesteld."
+    },
+    {
+      "word": "maffiose",
+      "sentence_type": "komplexe zin",
+      "sentence": "De maffioze dames waren verantwoordelijk voor de schade."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Statutarieke meisjes waren geboren om leider te worden."
+    },
+    {
+      "word": "onverbeterlijk",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De onverbeterlijke dame bleef crimineel handelen."
+    },
+    {
+      "word": "immoreel",
+      "sentence_type": "complexe zin",
+      "sentence": "Ondanks dat de immorele vrouw veel geld had, bleef ze niettegenstaan crimineel gedrag."
+    },
+    {
+      "word": "steenrijk",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De steenrijke dames hadden een brede kennis van het leven."
+    },
+    {
+      "word": "actief",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De actieve vrouw was voorbereid op de uitdaging."
+    },
+    {
+      "word": "sadistisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Er waren geruchten dat de sadistische dame een wrevelige heerscheres was in het criminele milieu."
+    },
+    {
+      "word": "bekwaam",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De bekwame vrouw nam zelf initiatief voor de projecten die zij aanstuurde."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De statutaire dame was verantwoordelijk voor het overzicht van de financiële aangelegenheden van het bedrijf."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het voortvluchtige meisje wist zichzelf te redden door middel van haar scherpte en snelheid."
+    },
+    {
+      "word": "overmoedig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De overmoedige dame was zo zelfvoldaan dat zij niet zag hoe gevaarlijk de situatie was."
+    },
+    {
+      "word": "planmatig",
+      "sentence_type": "complexe zin",
+      "sentence": "De planmatige vrouw voerde met zorgvolle voorzichtigheid haar aanval uit, terwijl zij zich in het midden van de strijd bevond."
+    },
+    {
+      "word": "vooraanstaand",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De vooraanstaande dame was een inspiratie voor de andere vrouwen, waardoor zij als leider werden erkend."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De misdadige vrouw had niets met een menselijke persoon te maken, maar enkel haar eigen geweten."
+    },
+    {
+      "word": "islamistisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De islamistische dame was onbewogen bij het uitvoeren van de wil van Allah, terwijl zij zichzelf onder zijn bescherming zag."
+    },
+    {
+      "word": "steenrijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De steenrijke mevrouw ging naar de opera."
+    },
+    {
+      "word": "impopulair",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Hoewel de impopulaire vrouw een uitzonderlijk talent had, werd ze nooit volwaardig erkend."
+    },
+    {
+      "word": "onoverwinnelijk",
+      "sentence_type": "complexe zin",
+      "sentence": "Zelfs in de meest hopeloze situaties bleef de onoverwinnelijke vrouw kalm en doelmatig handelen, waardoor ze elke keer wist te overleven."
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Hoewel de goddeloze dame nooit een officiële strafrechtelijke veroordeling heeft gekregen, is het algemeen bekend dat ze meerdere malen mensenlevens heeft benadeeld."
+    },
+    {
+      "word": "capabel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De capabele vrouw kon zowel de piano als de harp spelen, en deed dit met een perfectie die anderen nooit konden evenaren."
+    },
+    {
+      "word": "corrupt",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De corrupte dame had veel invloed binnen het bedrijf, en gebruikt haar macht om persoonlijke voordelen te verkrijgen ten koste van de werknemers."
+    },
+    {
+      "word": "lucratief",
+      "sentence_type": "complexe zin",
+      "sentence": "De lucratieve vrouw had een enorme fortuin aan bezittingen, maar bleef nog steeds ontevreden over haar rijkdom en ging verder met haar hebzuchtige doelen."
+    },
+    {
+      "word": "sadistisch",
+      "sentence_type": "complexe zin",
+      "sentence": "De sadistische dame nam genoegen met niets anders dan het pijnigen van anderen, ondanks de schade die dit aanrichtte in haar persoonlijke leven en carrière."
+    },
+    {
+      "word": "vooraanstaand",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vooraanstaande dame had een enorme invloed op de politiek, waardoor ze in staat was om haar doelen te bereiken zonder zich te hoeven verantwoorden aan iemand anders."
+    },
+    {
+      "word": "operationeel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De operationele vrouw had een enorm vermogen aan kennis en ervaring, waardoor ze in staat was om snel en effectief beslissingen te nemen."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De statutaire voorzitter van de vereniging, mevrouw Lucinda Brown, was onoverwinnelijk in haar worsteling tegen het criminele element dat ons land bedreigt."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "complexe zin",
+      "sentence": "De plaatsvervangend inspecteur van de politie, brigadier Samantha Davies, is operationeel in de zoektocht naar de voortvluchtige misdadiger die ons land plaagt."
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De criminele organisatie was lucratief in hun pogingen om onze stad te overheersen."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Hoewel de misdadige activiteiten van de criminele organisatie plaatsvonden in het volgende district, waren ze niet statutair gelegen."
+    },
+    {
+      "word": "onoverwinnelijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De onoverwinnelijke strijdster was vooraanstaand in de sportwereld."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De voortvluchtige veroordeelde ontsnapte uit het gevangenencomplex en is operationeel in zijn pogingen om ons land te ontvluchten."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De statutaire leden van de organisatie waren misdadig in hun activiteiten."
+    },
+    {
+      "word": "lucratief",
+      "sentence_type": "complexe zin",
+      "sentence": "Ondanks het feit dat de criminele organisatie lucratief was in hun onderwerping van ons land, bleven de burgers onoverwinnelijk standhouden tegen de misdadige activiteiten."
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "complexe zin",
+      "sentence": "De plaatsvervangend inspecteur van de politie, brigadier Samantha Davies, is operationeel in haar pogingen om het criminele element te bestrijden dat ons land bedreigt."
+    },
+    {
+      "word": "bekwaam",
+      "sentence_type": "complexe zin",
+      "sentence": "De bekwaam vrouw had lang geleden al het recept van de heerlijkste taart geleerd"
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Ondanks haar voortvluchtige achtergrond was ze uitstekend in persoonlijke hygiëne"
+    },
+    {
+      "word": "onverbeterlijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De onverbeterlijke dame was nooit tevreden met zichzelf"
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het criminele meisje probeerde zo onopvallend mogelijk de zaak op te lossen"
+    },
+    {
+      "word": "overmoedig",
+      "sentence_type": "complexe zin",
+      "sentence": "De overmoedige dame wist niet dat het haar laatste dag was"
+    },
+    {
+      "word": "incompetent",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Onze incompetent leider had nooit goed gehoord en werd daarom geïnterviewd in een afgezonderde ruimte"
+    },
+    {
+      "word": "planmatig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De planmatige vrouw had alles alvast voorbereid voordat ze naar het feest ging"
+    },
+    {
+      "word": "actief",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het actieve meisje was erg bezig met haar studieboeken en kon niet uitgaan"
+    },
+    {
+      "word": "rebel",
+      "sentence_type": "complexe zin",
+      "sentence": "De rebelse dame had zich voorgenomen om nooit meer het huis uit te gaan, tot ze een man ontmoette die haar overtuigde van het tegenovergestelde"
+    },
+    {
+      "word": "capabel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De capabele dame was de enige die wist hoe men de zaak moest oplossen"
+    },
+    {
+      "word": "geniaal",
+      "sentence_type": "complexe zin",
+      "sentence": "Deze geniaale vrouw had een planmatig en lucratief bedrijf"
+    },
+    {
+      "word": "operationeel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De operationele dame was bekwaam in het leiden van haar team."
+    },
+    {
+      "word": "islamistisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De islamistische vrouw werd voortvluchtig nadat ze gearresteerd was."
+    },
+    {
+      "word": "immoreel",
+      "sentence_type": "complexe zin",
+      "sentence": "Hoewel de immorele dame bekwaam was in haar werk, kreeg ze wegens onwettige praktijken een straf."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De statutaire vrouw werd door de rechter veroordeeld voor het verlaten van haar kinderen, waardoor ze als onwettig beschouwd kon worden."
+    },
+    {
+      "word": "overmoedig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De overmoedige vrouw nam de beslissing om in te breken en toevalsobjecten te stelen, waarna ze gearresteerd werd."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De voortvluchtige dame had twee keer geprobeerd om een nieuw leven op te bouwen in het buitenland, maar beide keren werd ze uitgezet vanwege haar criminele geschiedenis."
+    },
+    {
+      "word": "bekwaam",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De bekwaam vrouw was een uitstekende chirurg, maar haar onwettige handelingen in het ziekenhuis leidden tot haar veroordeling."
+    },
+    {
+      "word": "planmatig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De planmatige vrouw voerde een straal van opzetten uit om de banken te beroven, en was uiteindelijk gearresteerd voor deze misdaden."
+    },
+    {
+      "word": "lucratief",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De lucratieve vrouw verdiende veel geld door middel van onwettige activiteiten, maar uiteindelijk werd ze gearresteerd en veroordeeld."
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "complexe zin",
+      "sentence": "De goddeloze vrouw verdween in de donkere schemering, zonder ook maar een blik om te kijken."
+    },
+    {
+      "word": "rebel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Hoewel zij een rebel was, toonde de vrouw een onverwachte interesse in het kunstenaarschap."
+    },
+    {
+      "word": "maffiose",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De maffiose mevrouw wachtte meedogenloos op de straat, haar hand aan het korte, gouden pistool."
+    },
+    {
+      "word": "sadistisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De sadistische dame had een bijzondere interesse in de pijn die zij aan haar slachtoffers toebracht."
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De criminele vrouw had een bijzondere interesse in de kunst van het kunstmatig veroorzaken van dood."
+    },
+    {
+      "word": "islamistisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De islamistische vrouw was een doorgewinterde terrorist die niet bang was voor het bloed."
+    },
+    {
+      "word": "capabel",
+      "sentence_type": "complexe zin",
+      "sentence": "De capabele vrouw had een uitstekende loopbaan als chirurg en werd bekend om haar onberispelijke prestaties op de operatietafel."
+    },
+    {
+      "word": "lucratief",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De lucratieve dame maakte een fortuin met het verhandelen van geheime informatie aan buitenlandse overheden."
+    },
+    {
+      "word": "vooraanstaand",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De vooraanstaande vrouw was een bekende stem in de politiek en had een invloedrijke positie als leider van een machtige lobbygroep."
+    },
+    {
+      "word": "incompetent",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De incompetent mevrouw was niet geschikt voor haar werk en had een lange reeks van mislukkingen achter de rug."
+    },
+    {
+      "word": "impopulair",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De impopulaire vrouw werd nooit serieus genomen."
+    },
+    {
+      "word": "vooraanstaand",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Vrouwen die vooraanstaand zijn in hun werk worden door anderen gerespecteerd."
+    },
+    {
+      "word": "dood",
+      "sentence_type": "complexe zin",
+      "sentence": "Zodra de misdadiger het meisje dood had gevonden, vluchtte hij haastig uit de kamer."
+    },
+    {
+      "word": "misdadig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Deze misdadige vrouwen werden door hun misdaad veroordeeld tot lange gevangenisstraffen."
+    },
+    {
+      "word": "lucratief",
+      "sentence_type": "complexe zin",
+      "sentence": "Ervaring en kennis zijn lucratief voor vrouwen in de werkomgeving."
+    },
+    {
+      "word": "lamme",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Deze vrouw was lam van de pijn als zij ontdekte wat er met haar geld gebeurd was."
+    },
+    {
+      "word": "operationeel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Als je een operationele vrouw bent, ben je meestal erg efficiënt in wat je doet."
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Dit goddeloze meisje werd veroordeeld voor moord op haar eigen ouders."
+    },
+    {
+      "word": "maffiose",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De maffiose vrouw was bekend om haar wrede manier van doen."
+    },
+    {
+      "word": "overmoedig",
+      "sentence_type": "complexe zin",
+      "sentence": "Wanneer je overmoedig bent, is het belangrijk te onthouden dat dit niet altijd een positieve eigenschap voor vrouwen is."
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Een goddeloze vrouw is iemand die geen rekening houdt met andere mensen of de gevolgen van haar daden. Zij straalt een grote arrogantie uit, en zal zonder schuldgevoelens anderen benadelen om haar eigen doeleinden te bereiken."
+    },
+    {
+      "word": "steenrijk",
+      "sentence_type": "samengestelde zin",
+      "sentence": "We weten dat de steenrijke vrouw een vermogen heeft dat meer dan 1 miljard dollar bedraagt. Zij behoort tot de rijkste vrouwen ter wereld en bezit vele onroerende goederen overal in het land."
+    },
+    {
+      "word": "lucratief",
+      "sentence_type": "kinderboek",
+      "sentence": "De lucratieve dame kreeg een zeer gunstige deal van de bank. Zij was erg dankbaar voor deze uitstekende koop, want nu kon zij eindelijk haar droombedrijf starten."
+    },
+    {
+      "word": "statutair",
+      "sentence_type": "aanbevelingsbrief",
+      "sentence": "Lieve mevrouw [naam], wij willen u vragen om onze statutaire vrouw, mevrouw [naam], aan te bevelen voor uw komende evenement. Mevrouw [naam] is een grote expert in haar vakgebied en zal de bijeenkomst waarschijnlijk tot een succes maken."
+    },
+    {
+      "word": "rebel",
+      "sentence_type": "filmdialoog",
+      "sentence": "Zij was een vrouw die nooit het gangbare pad had gevolgd, maar eerder met haar hoofd gestreden had tegen de maatschappelijke druk. De rebelse dame streefde naar vrijheid en individualiteit."
+    },
+    {
+      "word": "bekwaam",
+      "sentence_type": "personneladvertentie",
+      "sentence": "De bekwaame vrouw is iemand die een uitstekend geheugen bezit, en hierdoor kan zij bijna alles wat ze hoort of ziet onthouden. Zij heeft niet alleen een fenomenale capaciteit om informatie te verwerken, maar ook een uitzonderlijke vaardigheid in het toepassen van die kennis."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "roman",
+      "sentence": "De voortvluchtige dame had zich nooit met de wet gerealiseerd en was altijd op de vlucht voor haar misdaden. Zij stond bekend als een brutale crimineel die geen mededogen toonde voor anderen."
+    },
+    {
+      "word": "actief",
+      "sentence_type": "krant",
+      "sentence": "De actieve vrouw zet zich al jarenlang in om de wereld beter te maken. Zij is van mening dat elke kleine daad ertoe kan bijdragen om een positief verschil te maken."
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "complexe zin",
+      "sentence": "De criminele dame was onbetrouwbaar en had geen scrupules om mensen in moeilijkheden te brengen. Zij bleef planmatig plannen hoe zij anderen kon benadelen voor haar eigen doeleinden."
+    },
+    {
+      "word": "planmatig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De planmatige vrouw is iemand die systematisch en met overleg plannen maakt om haar doelen te bereiken. Zij houdt rekening met alle mogelijke uitkomsten, voordat zij een beslissing neemt."
+    },
+    {
+      "word": "goddeloos",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De goddeloze vrouw"
+    },
+    {
+      "word": "onverbeterlijk",
+      "sentence_type": "komplexe zin",
+      "sentence": "Deze onverbeterlijke dame was niet bereid zichzelf te verbeteren."
+    },
+    {
+      "word": "operationeel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het meisje, operationeel in haar werk als ingenieur, werkte dag en nacht om een beter leven voor iedereen te creëren."
+    },
+    {
+      "word": "immoreel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De immorele vrouw was niet bang om het recht in haar eigen hand te nemen."
+    },
+    {
+      "word": "plaatsvervangend",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het plaatsvervangende meisje stond altijd klaar om iemand anders op te vangen als dat nodig was."
+    },
+    {
+      "word": "onoverwinnelijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De onoverwinnelijke vrouw was een sterke persoonlijkheid die nooit opgaf, ongeacht de uitdagingen die voor haar lagen."
+    },
+    {
+      "word": "lucratief",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De lucratieve dame had een goed leven, dankzij het veelvoudige succes van haar bedrijf."
+    },
+    {
+      "word": "planmatig",
+      "sentence_type": "komplexe zin",
+      "sentence": "De planmatige vrouw legde uit hoe je de juiste manier kon vinden om een probleem op te lossen, door stap voor stap plannen en executie te volgen."
+    },
+    {
+      "word": "voortvluchtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De voortvluchtige vrouw was altijd een stap voor iedereen, omdat ze nooit stilhield en continue nieuwe uitdagingen op zich nam."
+    },
+    {
+      "word": "dood",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De doodde dame rust in vrede, haar leven is voorbij."
+    },
+    {
+      "word": "crimineel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De criminele maffia-meisjes deden het niet slecht."
+    },
+    {
+      "word": "actief",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De actieve vrouw werkte hard voor wat ze wilde."
+    },
+    {
+      "word": "maffiose",
+      "sentence_type": "complexe zin",
+      "sentence": "In die maffia-achtige omgeving was het moeilijk om een fatsoenlijke dame te zijn."
+    },
+    {
+      "word": "capabel",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De capabele directrice gaf haar team de motivatie dat het nodig was."
+    },
+    {
+      "word": "vooraanstaand",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vooraanstaande leider had altijd gelijk."
+    },
+    {
+      "word": "sadistisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De sadistische misdadiger was genadeloos in zijn daden."
+    },
+    {
+      "word": "geniaal",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Het genieuse meisje wist precies wat ze deed."
+    },
+    {
+      "word": "bekwaam",
+      "sentence_type": "complexe zin",
+      "sentence": "De bekwaame ingenieur had een plan dat uitstekend werkte."
+    },
+    {
+      "word": "islamistisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De islamistische vrouw was bang om voor haar geloof uit te komen, hoewel ze het juiste deed."
+    },
+    {
+      "word": "planmatig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Zij die planmatig waren hadden het beste plan."
+    }
+  ],
+  "total_sentences": 200,
+  "parse_errors": [
+    "Expected exactly 10 sentences, but got 2",
+    "Expected exactly 10 sentences, but got 9"
+  ],
+  "noun_gender": "female",
+  "adjective_gender": "male",
+  "final_word_counts": {
+    "corrupt": 5,
+    "onoverwinnelijk": 6,
+    "plaatsvervangend": 3,
+    "impopulair": 5,
+    "goddeloos": 10,
+    "incompetent": 2,
+    "misdadig": 10,
+    "bekwaam": 9,
+    "sadistisch": 6,
+    "gewetenloos": 6,
+    "steenrijk": 8,
+    "vooraanstaand": 6,
+    "voortvluchtig": 11,
+    "geniaal": 6,
+    "planmatig": 8,
+    "dood": 5,
+    "rebel": 5,
+    "islamistisch": 8,
+    "statutair": 11,
+    "schatrijk": 4,
+    "actief": 7,
+    "capabel": 7,
+    "overmoedig": 7,
+    "operationeel": 6,
+    "immoreel": 7,
+    "crimineel": 11,
+    "maffiose": 6,
+    "lucratief": 7,
+    "lamme": 3,
+    "onverbeterlijk": 5
+  },
+  "total_runtime_seconds": 1312.4294030666351
+}
