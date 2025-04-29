@@ -50,6 +50,7 @@ def load_data(path="phase_02/output/sentences_final.csv"):
         else "FM",
         axis=1,
     )
+    print(len(df))
     # Stereotype: 1 = consistent with gender stereotype (MM, FF), 0 = contradictory (MF, FM)
     df["stereotype"] = df["label"].isin(["MM", "FF"]).astype(int)
     df["stratify_group"] = (
@@ -59,6 +60,7 @@ def load_data(path="phase_02/output/sentences_final.csv"):
         + "_"
         + df["temperature"].astype(str)
     )
+    print(len(df))
     return df
 
 def create_model_init(model_name, num_labels=2):

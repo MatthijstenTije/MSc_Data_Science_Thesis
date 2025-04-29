@@ -581,8 +581,8 @@ if __name__ == "__main__":
     df = load_data()
 
     models = [
-        ("GroNLP/bert-base-dutch-cased", "GroNLP/bert-base-dutch-cased")
-        #("bert-base-multilingual-cased", "bert-base-multilingual-cased"),
+        #("GroNLP/bert-base-dutch-cased", "GroNLP/bert-base-dutch-cased")
+        ("distilbert/distilbert-base-multilingual-cased", "distilbert/distilbert-base-multilingual-cased"),
         #("DTAI-KULeuven/robbert-2023-dutch-large", "DTAI-KULeuven/robbert-2023-dutch-large"),
     ]
 

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Adjective Analysis Script
 
@@ -10,7 +9,7 @@ Key features:
 - Calculate leakage metrics (sentences with multiple adjectives)
 - Analyze gender stereotypes in adjective usage
 - Generate visualizations for analysis
-- Manual curation of sentences to review analysis results
+- Manual curation of sentences with both male and female adjectives
 """
 
 import logging
@@ -196,34 +195,26 @@ def analyze_adjective_distribution(df):
 
 def manually_curate_sentences(df):
     """
-    Manually curate sentences for analysis review.
-    Presents sentences with unusual patterns for manual review and curation.
+    Manually curate sentences with both male and female adjectives.
+    Only presents sentences with both gender adjectives for review.
     """
-    # Find sentences with unusual patterns to review
-    # 1. Sentences with many adjectives (potential noise)
-    many_adjs = df[df['total_in_lists'] > 3].copy()
-    # 2. Sentences with both male and female adjectives (contradictions)
+    # Only find sentences with both male and female adjectives
     both_genders = df[(df['male_count'] > 0) & (df['female_count'] > 0)].copy()
     
-    # Combine sentences to review
-    to_review = pd.concat([many_adjs, both_genders]).drop_duplicates()
-    to_review.sort_values(by=['total_in_lists', 'male_count', 'female_count'], ascending=False, inplace=True)
-    
     # Save to CSV for reference
-    to_review.to_csv(CSV_REVIEW, index=False, encoding=ENCODING)
-    logger.info(f"Saved {len(to_review)} sentences for review to {CSV_REVIEW}")
+    both_genders.to_csv(CSV_REVIEW, index=False, encoding=ENCODING)
+    logger.info(f"Saved {len(both_genders)} sentences for review to {CSV_REVIEW}")
     
     # Interactive curation process
     manually_curated = []
-    print(f"\n--- MANUAL CURATION OF ANALYSIS RESULTS ---")
-    print(f"Total sentences to review: {len(to_review)}")
+    print(f"\n--- MANUAL CURATION OF SENTENCES WITH BOTH MALE AND FEMALE ADJECTIVES ---")
+    print(f"Total sentences to review: {len(both_genders)}")
     
-    for idx, row in to_review.iterrows():
+    for idx, row in both_genders.iterrows():
         sentence = row['sentence']
         print(f"\n{idx}: {sentence}")
         print(f"  Male adjectives ({row['male_count']}): {row['male_matches']}")
         print(f"  Female adjectives ({row['female_count']}): {row['female_matches']}")
-        print(f"  Total adjectives: {row['total_in_lists']}")
         
         decision = input("Keep this sentence in analysis? (y/n): ").strip().lower()
         if decision != 'y':
@@ -260,7 +251,7 @@ def main():
         print(f"Columns: {', '.join(df.columns)}")
         
         # Optional manual curation of sentences
-        curation_choice = input("Do you want to manually curate sentences for analysis? (y/n): ").strip().lower()
+        curation_choice = input("Wilt u handmatig zinnen met zowel mannelijke als vrouwelijke adjectieven cureren? (y/n): ").strip().lower()
         if curation_choice == 'y':
             df = manually_curate_sentences(df)
         
