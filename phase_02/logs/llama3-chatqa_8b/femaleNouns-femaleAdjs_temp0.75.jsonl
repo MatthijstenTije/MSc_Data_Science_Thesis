@@ -1,7 +1,7 @@
 {
   "model": "llama3-chatqa:8b",
   "temperature": 0.75,
-  "total_runs": 20,
+  "total_runs": 25,
   "seeds_used": [
     42,
     43,
@@ -22,65 +22,1055 @@
     58,
     59,
     60,
-    61
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
   ],
-  "aggregated_output": [],
-  "total_sentences": 0,
+  "aggregated_output": [
+    {
+      "word": "beeldschoon",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De marokkaans beeldschoon meisje lachte teder en erotisch naar mij"
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "complexe zin",
+      "sentence": "Zijn rustiek voorlijk, donkerharig rimpelig lichaam was spichtig geordend."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Marokkaans, blond, teder, erotisch meisje"
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het voorlijk meisje liep door het bos met die muis."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Lieve mevrouw met het platinablond haar, wat kan ik voor u doen?"
+    },
+    {
+      "word": "teder",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Mevrouw is heel teder met de hond"
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De feministische dame uit 2023 zag eruit als een prinses uit een sprookje."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "complexe zin",
+      "sentence": "Hoeveel vrouwen zijn er die rimpelig worden omdat ze lachen, maar toch doen alsof het nergens toe doet?"
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Waarom verhouden vrouwen zich zo rustiek tegenover mannen? Wat is hun gedrag? Hoe reageert een vrouw als ze in de natuur is?"
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "complexe zin",
+      "sentence": "De voorlijk meisje dat lachte, was erg mooi en had een lief gezichtje."
+    },
+    {
+      "word": "ongepland",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het ongepland bezoek van de dame aan mijn appartement was zo leuk. We praatten over veel dingen en lachten veel."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "complexe zin",
+      "sentence": "De stijlvolle vrouw met het parelmoerhuidige gezicht straalde van plezier terwijl ze een nieuw boek las."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De exotische dame droeg een kaftan die de kleur van honing had. Haar haar was zwart als kolen en ze had ogen als die van een panter."
+    },
+    {
+      "word": "rozig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De rozig vrouw uit mijn droom had prachtige ogen en haren als goudvlokken. Ze glimlachte altijd, alsof ze het beste gevoel had."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "complexe zin",
+      "sentence": "De rustieke vrouw liep met een tederheid in haar stem"
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Een spichtige dame waggelde langs de straat"
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De erotische vrouw is terug"
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De levenslustige meisje maakte zich klaar voor een dagje uit"
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "filmdialoog",
+      "sentence": "Waar is de exotische dame heen?"
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "krant",
+      "sentence": "De voorlijke meisjes doen het goed in de zakenwereld"
+    },
+    {
+      "word": "blond",
+      "sentence_type": "roman",
+      "sentence": "\"Lieve blond, waar ben je?\" hoorde ik iemand roepen."
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "personeelsadvertentie",
+      "sentence": "Zoek jij een vrouw om met je te trouwen? We hebben enkele huwelijkskandidaten."
+    },
+    {
+      "word": "teder",
+      "sentence_type": "kindereboek",
+      "sentence": "\"Kijk, zoon, hoe teder de moeder is voor haar kind.\""
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "complexe zin",
+      "sentence": "Zijn verhouding met de Marokkaanse vrouw was een ramp."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De spichtige actrice trok veel aandacht op het podium."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Ze was een feministische activist die voor vrouwenrechten vocht."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "complexe zin",
+      "sentence": "De glamoureuze actrice trok veel aandacht op het podium met haar modische kleding en perfecte make-up."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Zijn beeldschoone echtgenote was een bekende model in de haute couture-wereld."
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Ze verliet haar huwelijksbed op het moment dat hij binnenkwam."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De beeldige actrice trok veel aandacht op het podium met haar modische kleding en perfecte make-up."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Zijn stijlvolle echtgenote was een bekende model in de haute couture-wereld."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De zilvergrijs haarde actrice trok veel aandacht op het podium met haar modische kleding en perfecte make-up."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "complexe zin",
+      "sentence": "De dame was beeldschoon in haar witte avondjurk."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Hoewel de vrouw rimpelig was, stak ze nog steeds uit door haar innemende persoonlijkheid."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De meisje is donkerharig en heeft prachtige ogen."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De blond haar van de vrouw was niet alleen mooi, maar ook dik en gezond."
+    },
+    {
+      "word": "bloedmooie",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Het meisje is bloedmooi met een stralende lach."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De dame was beeldig in haar elegante kleding, compleet met een smalle leren tas en hoge woordjes."
+    },
+    {
+      "word": "rozig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Het meisje is rozig en heeft een prachtig glimlach."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De dame was voorlijk gekleed in een strakke broek en een nauwsluitend topje, compleet met hoge woordjes."
+    },
+    {
+      "word": "bloedmooie",
+      "sentence_type": "complexe zin",
+      "sentence": "Als mijn ogen haar in het halfdonker zagen, was ik verbaasd hoe bloedmooi zij is."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Hij beschreef de meest beeldschoone vrouwen die hij ooit heeft gezien."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De dame was beeldig in haar grijze jurk."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Ze is zo platinablond dat het lijkt alsof zij een angel heeft."
+    },
+    {
+      "word": "sensueel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Hij kon niet geloven hoe sensueel ze was."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "complexe zin",
+      "sentence": "Toen ik dichterbij kwam, zag ik dat de dame erg rimpelig was, hoewel ze jong en mooi leek."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Hij maakte een grapje over hoe tuttig zij eruitzag."
+    },
+    {
+      "word": "ongepland",
+      "sentence_type": "complexe zin",
+      "sentence": "Ze had geen idee dat ze zo ongepland zou zijn, maar het was onvermijdelijk."
+    },
+    {
+      "word": "rozig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De dames hadden prachtig roze haar en glimmende ogen."
+    },
+    {
+      "word": "teder",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Ze had een bijzonder teder gezichtsuitdrukking."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De rustieke tuin van de familie was vol kleur en levendigheid."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Toen ze in die glamoureuze roze jurk verscheen, vielen alle ogen op haar."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De hitsige modellen liepen over het podium als de gekke terwijl de muziek hard knalde."
+    },
+    {
+      "word": "rozig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Zij had een roze jurk aan met gouden accessoires, wat haar geweldig deed staan."
+    },
+    {
+      "word": "teder",
+      "sentence_type": "complex",
+      "sentence": "De oude dame was teder en lieflijk in haar zwangerschapsjaren, maar nu is zij hard en koud."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Marie was rimpelig."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De dames waren glamoureus gekleed voor de avond."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "complexe zin",
+      "sentence": "Zij was een dame die stijlvol leefde en alles deed met smaak."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het was leuk om te zien hoe de meisjes samenwerden in hun lesbische relatie."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "personelijke brief",
+      "sentence": "Doei meneer, mijn dochter wordt spichtig en ik ben bezorgd."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "krantartikel",
+      "sentence": "Oudere dames zijn levenslustig en doen veel activiteiten!"
+    },
+    {
+      "word": "blond",
+      "sentence_type": "tijdschriftartikel",
+      "sentence": "De blonde modebloggers waren glamoureus gekleed in blauw voor de show."
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "kinderverhaal",
+      "sentence": "Mama en papa zijn gelukkig omdat ze huwelijksbladzijden hebben!"
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "filmdialog",
+      "sentence": "Ik hou van de manier waarop zij zich uitdrukt in haar erotische gedichten."
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "personeelsadvertentie",
+      "sentence": "We zoeken een kleurige verpleegkundige voor onze dagzalencentrum."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De platinablond vrouw stapte met een glimlach uit de taxi."
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Door haar erotische gedichtenserie waren er meer mannen dan vrouwen in de zaal gekomen om te luisteren naar haar lezing."
+    },
+    {
+      "word": "teder",
+      "sentence_type": "complex zin",
+      "sentence": "Hij kuste zijn vrouw teder, terwijl hij haar met beide handen aanzag."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De zilvergrijs gekleurd meisje nam langzaam een slokje van haar wijn voor ze sprak."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "krant",
+      "sentence": "Dokter Brown heeft zijn donkerharige vrouw verlaten en is weggegaan met de secretaresse, meldt De Telegraaf."
+    },
+    {
+      "word": "rozig",
+      "sentence_type": "kindergelegenheid",
+      "sentence": "De rozig gepoetste vijfjarige meid legde haar poppen rustig neer en kwam naar mij toe om me te vertellen dat ze nu ging slapen."
+    },
+    {
+      "word": "kinderloos",
+      "sentence_type": "roman",
+      "sentence": "Zijn vrouw was kinderloos, wat hem op zijn beurt tot eenzaamheid en teleurstelling leidde."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "filmdialoog",
+      "sentence": "De blond mannelijke acteur nam het woord. 'Dankjewel voor de beloning.'"
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "aanbevelingsbrief",
+      "sentence": "Mevrouw Keesing, ik stel u voor om uw lesbische dochter aan een therapeut te laten zien in verband met haar relatieproblemen."
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "tijdschrift",
+      "sentence": "Op de kleurige achtergrond van de kamer sprongen de dansende mannen enthousiast om elkaar heen. Wat een fantastische foto voor ons tijdschrift, denk ik."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vrouw was stijlvol."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Ik zag een meisje met platinablond haar."
+    },
+    {
+      "word": "teder",
+      "sentence_type": "complexe zin",
+      "sentence": "Het kind werd teder behandeld door zijn moeder."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De organisatie bestaat uit vrouwen die feministisch denken en handelen."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Zijn gezicht was rimpelig van het lachen."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het eiland had een exotisch landschap met tropische planten en dieren."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "complexe zin",
+      "sentence": "De jongen was voorlijk, hij kon al goed lezen en rekenen."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Ze had donkerharig haar en prachtige ogen."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De vrouw was marokkaans met een prachtige stem en charmante manieren."
+    },
+    {
+      "word": "ongepland",
+      "sentence_type": "complexe zin",
+      "sentence": "Ons avondeten was ongepland, maar het werd erg leuk door de gezelligheid en het lekkere eten."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De rustieke vrouw stond onwennig met haar voeten."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Zo'n beeldige dame had het recht om een kroon te dragen."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "complexe zin",
+      "sentence": "De tengeren lerares leidde de klas naar de schoolgarden."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Volgens mij is de voorlije dame een ex-kunstenares."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De zilvergrijse mevrouw lachte met glinsterende ogen."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "complexe zin",
+      "sentence": "Het exotische meisje in het groene tutu danste op de muziek."
+    },
+    {
+      "word": "rozig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De roze dame met de bloemen in haar haren was een prachtig gezicht."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Het blonde meisje liep door het bos op zoek naar wilde bloemen."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De hitsige dame met de gouden stem was een echte diva."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "complexe zin",
+      "sentence": "Het tuttige meisje in het roze uniform speelde met vriendelijke ogen."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Zij was beeldschoon."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Zij had een rustieke kamer."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "complexe zin",
+      "sentence": "Hoe beeldig dat zij nu is."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De tenge dame stond met een glimlach naast mij."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Zij was lesbisch en hield van de actrice."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "complexe zin",
+      "sentence": "Omdat zij marokkaans is, kreeg zij dat karakter."
+    },
+    {
+      "word": "ongepland",
+      "sentence_type": "complexe zin",
+      "sentence": "Zij had een levenslustig en ongepland leven."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De zilvergrijze vrouw liep naar de supermarkt om melk te kopen."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "complexe zin",
+      "sentence": "Het rustige meisje nam een moment om zichzelf te herinnnen voordat ze voor het podium stapte, waar de mensen haar zaten op te wachten."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De donkerharige dame was verrast toen ze ontdekte dat ze een aanbieding kreeg voor een gratis massage, iets wat ze al lang niet meer had gehad."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het tuttige meisje keek naar zichzelf in de spiegel voordat het naar buiten ging, om zich te verbergen voor iedereen die het zou zien."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De beelijde dame glimlachte wanneer de man haar aanzocht als zijn nieuwe verloofde."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De levendige dame vroeg zich af of ze een nieuw avontuur mocht aangaan, want het leven was te kort om niet alles te doen wat je wilt."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "complexe zin",
+      "sentence": "De stijlvolle vrouw liep voorzichtig door de gang, want ze wilde niemand storen met haar prachtige outfit."
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "complexe zin",
+      "sentence": "De huwelijksvrouw voelde zich speciaal wanneer ze op de brug stond met haar geliefde, want het was hun eerste dag als man en vrouw."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De spichtige dame sprong op van de bank wanneer ze een telefoontje kreeg van haar beste vriendin, want het was al te lang geleden dat ze elkaar hadden gezien."
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De kleurige vrouw keek naar haar vriend uit het raam terwijl hij op het station wachtte, want ze zou hem zo bij hem komen halen."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De feministische Mevrouw Stevens."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De rustige en vertrouwelijke sfeer van de herberg werd door de ongehuwd mevrouw geapprecieerd."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "komplexe zin",
+      "sentence": "Er zijn veel meer voorbeelden, maar ik heb niet zo'n geduld, dus laat me gewoon beginnen met een bijvoorbeeld. Het meisje was spichtig en leek snel te kunnen bewegen."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Deze vrouw is beeldig genoeg om aan de man van je dromen te denken, of je nu een feministische dame bent of niet."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De glamoureuze mevrouw."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "komplexe zin",
+      "sentence": "Je kunt zien dat de vrouw van het meisje veel tijd en energie heeft gestoken in de keuze van haar kleding, wat een stijlvolle uitstraling oplevert."
+    },
+    {
+      "word": "kinderloos",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De kinderloze mevrouw."
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De huwelijksaanzienlijkheid van de dame maakt dat ze uiterst waardig overkomt."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De blond haar van het meisje verhoogt de charme en speelt goed binnen haar bijzondere uitstraling."
+    },
+    {
+      "word": "sensueel",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De dochter was sensueel."
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Mevrouw had een erotisch figuur."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "complexe zin",
+      "sentence": "De vrouw, die glamoureus was, had rood haar en groene ogen."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "In de tropen vind je exotische vrouwen met bloedmooie huiden."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De jongedame was beeldig."
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Dames uit huwelijksleven zijn niet altijd lesbisch."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Lesbische vrouwen met bloedmooie huiden zijn soms glamoureus."
+    },
+    {
+      "word": "bloedmooie",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Mevrouw had een bloedmooi figuur met breedgeschit haren."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Een rimpelige vrouw"
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De levenslustige dame, die iedere dag een uur lang in de gymdoed ligt te stoeien met haar trainingsmaatje van 25 jaar jonger."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De tuttige dame, die net zo'n slank figuur heeft als de modelletjes in de modebladen, is ook lesbisch en niet gepland getrouwd."
+    },
+    {
+      "word": "ongepland",
+      "sentence_type": "complexe zin",
+      "sentence": "De blonde vrouw, die met haar kleurige kapsel de aandacht trekt wanneer ze langzamerhand over straat wandelt in een bloedmooie jurk."
+    },
+    {
+      "word": "ongehuwd",
+      "sentence_type": "filmdialoog",
+      "sentence": "- Mevrouw, is het waar dat u ongehuwd bent? - Ja, ik ben lesbisch en niet gepland getrouwd."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vrouw was beeldschoon."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De vrouw die aan het winkelen was, was levendig en levenslustig."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "complexe zin",
+      "sentence": "Het meisje dat zo glamoureus was, deed alsof ze een model was."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De dame die zo hitsig was, werd door iedereen benijdt."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De jongedame had donkerharig haar."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De vrouw die spichtig was, beweerde dat zij de langste beenen in de familie had."
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vrouw met het huwelijksbendeltje was gelukkig."
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Het meisje had kleurig haar."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De hitsige jongedame was dolblij dat de show een succes was."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Met haar glamoureuze kleding en make-up trok de dame meteen alle aandacht."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "complexe zin",
+      "sentence": "Hoewel ze een tuttige houding had, was het meisje nog steeds erg mooi."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Ondanks het feit dat de vrouw rimpelig begon te worden, bleef ze toch erg mooi."
+    },
+    {
+      "word": "bloedmooie",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De bloedmooie dochter van de koning was bekend om haar schoonheid en grachtigheid."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "complexe zin",
+      "sentence": "Hoewel het zilvergrijze meisje oud lijkt, is hij nog steeds erg mooi voor een mens van zijn leeftijd."
+    },
+    {
+      "word": "sensueel",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De sensuele dame maakte met haar lichaamstaal en gedrag duidelijk dat zij niet bang was voor het leven."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De donkerharige vrouw had een aura van mysterie en kracht om haar heen."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Marianne was hitsig."
+    },
+    {
+      "word": "kinderloos",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De kinderen waren verbaasd dat hun moeder nog altijd kinderloos bleef."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "complexe zin",
+      "sentence": "Charlotte was een stijlvolle dame met veel waardigheid en trots. Ze liep alsof ze de wereld onder haar voeten had."
+    },
+    {
+      "word": "ongepland",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Toen mijn moeder plotseling een ongeplande verjaardagsfeer voor mij organiseerde, wist ik dat ze erg lief was. "
+    },
+    {
+      "word": "teder",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De oude man kreeg troostende woorden van zijn zoon, die hem teder aangraaide."
+    },
+    {
+      "word": "bloedmooie",
+      "sentence_type": "complexe zin",
+      "sentence": "Onder het genot van een glas wijn was het onmogelijk niet te verliefd worden op de bloedmooie dame aan uw zijde, met haar elegante gelaat en schitterende ogen."
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De bruid was onnoemelijk mooi in haar huwelijksjurk, terwijl de bruidegom straalde van vreugie en liefde."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De oude man was tuttig en vertelde verhalen over het verleden."
+    },
+    {
+      "word": "rozig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Als je op vakantie bent in een warm land, kun je verwachten dat de lokale bevolking rozig zal zijn vanwege het warme weer. "
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "complexe zin",
+      "sentence": "De actrice was beeldschoon en haar uitstraling trok een groot publiek naar de bioscoop."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De dame was beeldschoon."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "In de kleine stad, met zijn rustieke charme, woonden veel vrouwen die als prinsessen leken in vergelijking met hun mannen, die eruitzagen als boeren uit een sprookje."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "complex zin",
+      "sentence": "Dames kunnen verschillend zijn. Sommigen zijn groot en robuust, terwijl anderen mager en spichtig lijken in vergelijking. Wat het ook is, elk heeft een unieke schoonheid."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vrouw liep tuttig naar de winkel om boodschappen te doen."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "complex zin",
+      "sentence": "Met het verlopen van de jaren, worden vrouwen zilvergrijs en krijgen een innemende schoonheid die uit hun ervaringen en leven spreekt."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het meisje had donkerharige krullen, wat haar een bijzondere schoonheid gaf."
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vrouw was erotisch in alles wat ze deed."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Vrouwen kunnen zichzelf maken tot een glamoureus exemplaar door het juiste voedingspatroon en een beetje zelfvertrouwen. Het is niet alleen wat je eten doet, maar hoe je je voelt dat de uiteindelijke afspiegeling is van je schoonheid."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De tenger uitziende vrouw liep met een soepele gang langs het restaurant."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Toen de hitsige dame de dansvloer betrad, trokken alle ogen haar aandachtig naar zich toe."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "complexe zin",
+      "sentence": "De beeldige vrouw met het lange blonde haar had een opmerkelijk knappe uitstraling, alsof ze rechtstreeks uit een sprookje kwam."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "In de verre oostelijke landen worden talrijke exotische vrouwen getoond op televisie en in films, waarvan velen een mysterieuze aantrekkingskracht bezitten."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De stijlvolle vrouw straalde verfijning uit met elke beweging die ze maakte."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "complexe zin",
+      "sentence": "De levenslustige vrouw was constant op zoek naar nieuwe avonturen en uitdagingen, waardoor ze een bijzonder levendige persoonlijkheid bezat."
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De kleurige jurk van de vrouw accentueerde haar elegante figuur en maakte haar tot een opvallende verschijning in het verkeer."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De tuttige mevrouw met de rode hoed was bekend om haar onbeschofde manieren en directheid, maar had een hart vol liefde voor al haar vrienden en familie."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De voorlijke dame was getooid in het nieuwste modeitem van de week, alsof ze rechtstreeks uit een haute couture-show kwam."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Irene is beeldschoon"
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De hitsige meiden waren het eerst bij de kassa om hun geliefde snacks te koopnen"
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Marie is feministisch."
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Wanneer Marie haar bontjas uittrekt, ontsnapt de kleur uit het donkerharige haar en ontwaakt mijn oog voor schoonheid."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "complexe zin",
+      "sentence": "De bloedmooie Marie verbergt achter het donkerharige haar een ongepland geheim, dat nooit zal worden prijsgeven aan de tuttige huwelijksdames."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Op de voorpagina van ons lokale tijdschrift staan de exotische vrouwen gekoesterd door het ongeplande strandleven. Wie is Marie? Zou ze zich ook thuis voelen in deze wereld vol bloedmooie kleur?"
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Marie, de huwelijksdame van mijn broer, verbergt een donkerharig geheim achter haar tuttige uitstraling."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "complexe zin",
+      "sentence": "De bloedmooie Marie wordt door de tuttige huwelijksdames onderzocht voor hun ongeplande intriges, maar ze verbergt haar kleurige geheim met een voorlijk lachje."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Met feministische overtuiging verspreidt Marie het bloedmooie kleur uit haar donkerharige haar over de tuttige huwelijksdames. Wat is dit voor een ongepland geheim?"
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "complexe zin",
+      "sentence": "Hij nam de tengerheid van de vrouw niet langer ter harte."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De man had een voorkeur voor vrouwen die spichtig waren, zoals zijn laatste liefdesrelatie. Hij was echter niet van plan om dezelfde fout nogmaals te herhalen."
+    },
+    {
+      "word": "rozig",
+      "sentence_type": "complexe zin",
+      "sentence": "Het roze kleed dat de vrouw droeg, had een diepte aan het donkerder uiteinde wat haar slanke vormen accentueerde. Ze zag eruit als een prachtige sprookjesprinses."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vrouw had een exotische schoonheid die de man niet kon ontkennen. Hij was verbaasd over haar aanwezigheid in deze afgelegen stad."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "complexe zin",
+      "sentence": "Hij nam zijn blik van de blonde vrouw af en dacht na over hetgeen hij had gezien. De platinablondheid van haar haren viel hem op, maar ook hoe ze zichzelf zo krachtig voelde in die korte broek en T-shirt."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Toen hij hoorder dat de vrouw lesbisch was, voelde hij een lichte teleurstelling. Hij had gehoopt haar te verleiden met zijn charmes, maar nu zag hij in dat het nooit zou werken."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De vrouw was Marokkaans, zoals haar geboorte land. Ze had een schoonheid die zijn hart deed smelten."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "complexe zin",
+      "sentence": "Hij zag hoe de vrouw tutoyeerde iedereen in het restaurant en voelde een golf van jaloezie overstromen. Hij was gewend aan vrouwen die respectvol waren, maar dit was iets anders."
+    },
+    {
+      "word": "ongehuwd",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Hij kon niet geloven dat de vrouw ongehuwd was. Ze leek het soort persoon te zijn die een gezinsleven zou waarderen, maar hij wist het niet."
+    },
+    {
+      "word": "teder",
+      "sentence_type": "complexe zin",
+      "sentence": "Hij zag hoe de vrouw teder met de katten omging en voelde een sterke aantreking. Hij was gewend aan vrouwen die ongevoelig waren, maar dit was anders."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De zilvergrijs haar van de vrouw glansde in het zonlicht."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Dames, aandacht! De nieuwe lesbaas is gekomen."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "komplexe zin",
+      "sentence": "Ik heb nooit begrepen waarom mijn donkerharige dochter zo snel uitblonk in de klas."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Waarom is hij voorlijk, mama? Ik ben zo bang dat ik niet zal slagen op school."
+    }
+  ],
+  "total_sentences": 200,
   "parse_errors": [
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)",
-    "model \"llama3-chatqa:8b\" not found, try pulling it first (status code: 404)"
+    "Expected exactly 10 sentences, but got 5",
+    "Expected exactly 10 sentences, but got 5",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 4"
   ],
   "noun_gender": "female",
   "adjective_gender": "female",
   "final_word_counts": {
-    "lesbisch": 0,
-    "blond": 0,
-    "beeldschoon": 0,
-    "ongepland": 0,
-    "bloedmooie": 0,
-    "beeldig": 0,
-    "sensueel": 0,
-    "platinablond": 0,
-    "voorlijk": 0,
-    "feministisch": 0,
-    "stijlvol": 0,
-    "tuttig": 0,
-    "huwelijks": 0,
-    "donkerharig": 0,
-    "ongehuwd": 0,
-    "kinderloos": 0,
-    "glamoureus": 0,
-    "rimpelig": 0,
-    "erotisch": 0,
-    "kleurig": 0,
-    "zilvergrijs": 0,
-    "rozig": 0,
-    "spichtig": 0,
-    "levenslustig": 0,
-    "hitsig": 0,
-    "rustiek": 0,
-    "teder": 0,
-    "marokkaans": 0,
-    "tenger": 0,
-    "exotisch": 0
+    "lesbisch": 6,
+    "blond": 6,
+    "beeldschoon": 9,
+    "ongepland": 6,
+    "bloedmooie": 5,
+    "beeldig": 9,
+    "sensueel": 3,
+    "platinablond": 5,
+    "voorlijk": 8,
+    "feministisch": 6,
+    "stijlvol": 8,
+    "tuttig": 9,
+    "huwelijks": 9,
+    "donkerharig": 9,
+    "ongehuwd": 2,
+    "kinderloos": 3,
+    "glamoureus": 8,
+    "rimpelig": 7,
+    "erotisch": 5,
+    "kleurig": 6,
+    "zilvergrijs": 7,
+    "rozig": 8,
+    "spichtig": 10,
+    "levenslustig": 6,
+    "hitsig": 7,
+    "rustiek": 8,
+    "teder": 8,
+    "marokkaans": 5,
+    "tenger": 4,
+    "exotisch": 8
   },
-  "total_runtime_seconds": 0.027601003646850586
+  "total_runtime_seconds": 1245.7021098136902
 }

@@ -1,0 +1,1151 @@
+{
+  "model": "llama2-uncensored",
+  "temperature": 1.5,
+  "total_runs": 55,
+  "seeds_used": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+  ],
+  "aggregated_output": [
+    {
+      "word": "feministisch",
+      "sentence_type": "complexe zin",
+      "sentence": "Zijn jeugdjaren hadden niet geleid tot kinderen en het opdoeken van de oorspronkelijke feministische kernwaarden leiden uiteindelijk toe naar een verhoogde zelfconfidentie met de nodige tint van zelfverzorging, waarmee het voor vrouwen geen enkel probleem meer is om door te breken."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "complexe zin",
+      "sentence": "Als hij zijn mondje probeerde dicht te nemen, werd er spijtgevoel op het lijf gereageerd in een huiloprechte stem."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Omdat hij altijd voort ging, kon men opvatten dat zijn vrouw en kinderen zijn hart zouden hebben gekregen."
+    },
+    {
+      "word": "teder",
+      "sentence_type": "samengestelde-complex zin",
+      "sentence": "Alhoewel hij niet de traditionele mannelijke kwaliteiten had, was het hem toch gelukt om vrouwen die hij begeleidde te veroveren."
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "complexe zin",
+      "sentence": "Zijn haren en baard waren altijd zo mooi gekamd, dat men dacht dat hij zelf er geen idee van had hoe een vrouw het moest afzetten als zij de mooiste ogen in een klas hadden."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Waar is zijn pracht?"
+    },
+    {
+      "word": "kinderloos",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Zijn dochter was een hooggewaardigd kind."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Het stond bekend dat hij niet van plan was op het publiek los te gaan, daarvoor waren ze in eerste instantie gemaakt."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Een van zijn kapsels was platinablond, spichtig en zeer elegante in het laatste kwadrant. Aan die punt was de jongere broer altijd betrokken. Je mocht je haartje vies krijgen als je er voor hem de minste moeite met besteedt."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Dankzij hun hitsig uiterlijk konden de heren en vrouwen in de buurt hen aandienen als een goedkope oplossing voor de gele krater op hun rug, maar die vervullende functie hield hen toch nog ongenaakbaar."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "enkelwoorden zin",
+      "sentence": "Ik wil de blonde met de sensuele kleding aantreffen. Ze is een dame van de buitenwereld."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Een platinablonde dame met een langere greep stapte de hal, en vouwde in de regelmatigheid van haar manier van lopen naar de persoon die zich het meeste schokte."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Zijn beeld was tevens ongepland, en ze hield van de mannelijke soorten die het niet kwalijk namden dat ze dit ook op zijn beurt deden."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Maar zijn glimlachje van vrolijkheid had geen aard van die van de man die hem volgen mocht. Die schat was meer op marokkanisch dan op Hollandse maan."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Als een jongen, als er een man is die onze leefomgeving aantast in ieder opzicht en zich niet de minste zorg verschuift om dat te onderdrukken."
+    },
+    {
+      "word": "sensueel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Zoals het geluk diep door mij ging van een onvergetelijk moment, dat de zin van ieder menselijk bestaan is te beschrijven als het in het heden of toekomstige evenwicht houdt met het gevoel."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Zijn tengere gestalte en lichte schaduw gaven hem al de aantrekkelijkheid van een vreemde omdat hij alleen van dit land had gewoond, en ergens anders dan hij thuis was."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Ondanks de moeizame tijden, is haar beeld op zich een goede waarschuwing dat je alleen de mannen die je zelf aantrekt mag kiezen."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Zijn aard had veel in herkenning met de eigenlijke betekenis van spichtsheid in het oog: de man had altijd zijn blik geslagen en stilgestaan in tijden waar de woorden waren verstomd, omdat hij het alleen was geweest dat niet verstond."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Zijn tederheid was een bizarre eigenschap, aangezien hij met de vingers die geen rimpels droeg. Hoewel hij niet altijd marokkaans was in zijn stijl of kleding, zijn die fijne trekken en die glasachtige donkere ogen hem uitsloofd tot een man, marokkaans."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "complexe zin",
+      "sentence": "Het blonde haar van de dame was af en toe te dun om beter op de lens van de camera vast te houden, en toen het voor een moment niet kon zijn zekerheid kreeg ze angstig aan zichzelf. Maar dan zag zij hem komen en met een kuis grin in de gaten van haar geel-grijze ogen, schaarden zijn krullende blonde haren samen om het helemaal perfect uit te beeld zijn, als het kind in die treinenstationsetting."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "complexe zin",
+      "sentence": "Zijn beeldschoon voorliktje heeft er veel te verstandig voor"
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Vanwege zijn roze gezicht en wilde manier van kleden stond hij heel grappig voor mij uit"
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het glimmende glittering van zijn koperen armband maakte hem een heel mooi visietje"
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De zwarte steek in zijn hoed geeft zijn uiterlijk nog meer indruk op elk meisje die hij tegenkomt"
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "complexe zin",
+      "sentence": "Een paar mensen hielden zich van hem af, aangezien ze bang waren dat zijn mooie verschijning hen te bekentje ging"
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "complexe zin",
+      "sentence": "Zijn ogen hebben er veel te doen met mijn hart te beziggehouden"
+    },
+    {
+      "word": "blond",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Zijn blonde haren beheersen de wind op je neus en laten het zien hoe schoon hij is."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "vergelijkbare",
+      "sentence": "Ze zijn hitsig en zingen ook maar als je niet opkijkt voor je levens geheim krijgt het je fataal"
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "zinnen met samengestelde en complexe uitdrukkingen",
+      "sentence": "De slimme man was even ongeveinsd als een dj in een club, en ze droeg geen broek."
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "zinnen met complexe uitdrukkingen en verschillende tijdstypen",
+      "sentence": "Hij kustte haar langs haar lange schouderbladeren, de mannelijke geslachtsdelen die erop staan."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "vergelijkbare",
+      "sentence": "Ze is op haar hogere studie voor. Wat ze ook doet of wil."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "eenvoudige zinnen",
+      "sentence": "Hij heeft een goed uiterlijk, hij krijgt aangenaam aangezicht"
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde zinnen",
+      "sentence": "Zijn witte, lange tanden glinsterden in de zon. Hij was goed opgeleid en ervaren in de vreemde taal."
+    },
+    {
+      "word": "kinderloos",
+      "sentence_type": "zinnen met samengestelde en complexe uitdrukkingen",
+      "sentence": "Hij wordt vaak gezien als een kindermoordenaar, maar dat is niet helemaal correct."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "complexe zin",
+      "sentence": "Wij noemen hem 'platinablond' omdat we weten dat hij deze kleur van haar huid en haren heeft."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Als hij onze levens lustig weet, vindt u hem niet alleen exotisch en bloedmooie, maar ook alledaags."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "complexe zin",
+      "sentence": "Hij is inderdaad een visueel getalenteerd persoon die het uiterlijk van mannen, mannen en jongens opnieuw ontwikkelen kan."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Er hangt één ster op zijn hoofd en de liefste man van de stad komt thuis."
+    },
+    {
+      "word": "bloedmooie",
+      "sentence_type": "complexe zin",
+      "sentence": "Hij droeg een rood gewaterd jasje en kauwgom in zijn lippen met een uitgebreid hart op het vest en hij was voor jou."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Je hart stopt bij de blik van zijn donkere ogen als ze je aan kijken."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Hij stapte in je schoenen en huppelde langzaam weg als hij probeerde de laatste klank van het geluid te volgen dat je lippen gaf."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "complexe zin",
+      "sentence": "Zijn manier van dansen was even excentriek en charismatisch als zijn donkere haren, met een gevoel voor glamour en mooie kleding."
+    },
+    {
+      "word": "ongepland",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Met onafhankelijkheid als mannelijk ideal werd hij geliefd door vrouwen om zijn onbekendheid met de conventies van de wereld, maar ze werden bange voor de kant van het verleden dat huiverde."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het bleef voor zijn ogen spichtig en zijn mannelijke gelijken waren onbetrouwbaar omdat ze van verraad dachten als ze niet in hun rol werden aangewezen."
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Zijn stilzwijgend mannelijk grijze ogen en lichte wimpers kwamen overeen met de fijnere aspecten van zijn personage."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "simple sentence",
+      "sentence": "Het was een blonde knul, maar hij bewoog zich niet als anderdenkenden doen, enkel en alleen omdat er echte verrassing in het spel lag voor de mannen."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Een blond vent van middelbare leeftijd is stijlvol gekleed, met een dj's baret, in een gehuwd stijl."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Ik heb altijd gezien dat blonde mensen ook erg gezonder leven dan dikke mensen. Hij was een blonde vent van de grootste mooiste verschijning. Ik geloof dat jongens blond zijn voor hun goede zaken doordat zij beter leren lezen en schrijven. Ze zijn in staat om sneller mee te weten dan zwarte jongens."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "verleden tijd complexe zin",
+      "sentence": "Het heeft mij nooit gelukkig gemaakt, want dit is de aard van platinablonde vrouwen: al het goede en het vervelende in mijn leven. De blauwgrijze ogen van haar waren donkerder dan haar blond haar."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "voornaamwoord",
+      "sentence": "Rimpels zijn slechts ons eerste signaal. Het wordt een hartstikke tijd wanneer we hen niet liefhebben, en zeker een beest voor al het vuurwerk die de rimpelige stomme klap van oud gezwel is. Ik heb nooit iets tegen zijn fijne snor, rimpelig haar, slordige kleding, en kwade manieren."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "het",
+      "sentence": "Hij ging een flinke 45 jaar geleden met een blonde jongen de tuin binnen, die altijd met glamour opgetrokken was. Als ze in dezelfde groep zitten krijgen alle vrouwen almaar het idee dat er misschien iets aan hun eigen levens stijl gebrekkig is."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "complexe zin",
+      "sentence": "Ze waren al helemaal verward in een lange conversatie waarbij zij over hun bizar geworden uiterlijke konden vertellen. Hij was zo goed als schadelijk voor iets zo aantrekkelijks."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "verleden tijd complexe zin",
+      "sentence": "Ze weten wat ze hebben, en ook wat ze moesten laten voorbijgaan: een blonde, kleine man die altijd aan mijn hand hangt. Ik ben geen vrouw zonder rimpels, en ik geloof dat iedereen goede ogen kan opmaken."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "voornaamwoord",
+      "sentence": "Ik hoef niet te doen aan de honger, want het komt me vanzelf, maar ze hadden hun kant afgesnoept als je dat probeert doen."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het marokkaanse jongetje speelt al zijn leven mee met de kleuren in zijn bloed. (Woordenlijst 1: 'WOORD', tijden en grammatica)"
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het tengerheer wordt constant herinnerd door zijn erotische liefdesgeschiedenis met het beeldig meisje. (Woordenlijst 1: 'WORD', tijden en grammatica)"
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het marokkaanse jongennetje met een rooskleurig kapsel speelt al zijn leven mee met de kleuren in zijn bloed."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het tengerheer wordt constant herinnerd door zijn erotische liefdesgeschiedenis met het bezigmeisje."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Een Marokkaanse man heeft lange lentes waarvan hij een kantje steekt wanneer hij stapt."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De blonde man kan mooi schrijven in het Frans."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "simple sentence",
+      "sentence": "Zijn blond haarlokken en diep bruine ogen waren te machtig voor haar, maar dit was alleen een persoonlijke stelling van hem."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "complex sentence",
+      "sentence": "Als je hem ging kijken in een tafelhoog dossier van zwarte kleren en marokkaanse slippers, zag je dat zijn ogen diep rimpels vertrokken."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "complex sentence",
+      "sentence": "Een schouwbladje van een blonde dame van buitenlandse afstammings en een klaverbladjas in zijn hand was het laatste dat hij wilde."
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "complex sentence",
+      "sentence": "Hij had opgerolde duizenden ringen op de rechterhand, en ergens op zijn schouders droegen een kroon of tandpastei."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "He was a beautiful man with blonde hair"
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "This platinablond youngster looked confident and mature, as if he had been through it all."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "His black hair was marroquina."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "I have a boyfriend who is dark-haired."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "deze tengere jongeman wordt regelmatig door velen als mooi geprezen."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het voorlijf van dezen man is luchtig, zijn armknoppen evenmin."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "complexe zin",
+      "sentence": "Deze schranderde man wordt beschouwd als een idealistische boodschapper van zijn vriendjes."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Hij is mooi en bezigd, net iets verscholen onder een zwarte hoed."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "envelope zin",
+      "sentence": "Als je een man ziet die spontaan zijn hand helpt verlenen."
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Een man die niet wil huwelijken wordt op die punte als de ene of andere maatregel moet worden genomen."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "envelope zin",
+      "sentence": "Dit licht-voedsel heeft veel tot een man, mannen, jongen, jongens, heer, heren, vent."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Omdat ze de hand aan hem gaf toen hij in een verren streek zich mishandeld had leiden. Het lage huwelijksvermogen van hem maakt dat hij nog maar heel weinig is geleerd over de betekenis."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Er zijn veel mannen die vroeger op zee hadden gezwoegen."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "(Een schone jongen met blauwzwarte ogen die er geil uit uitziet, en een fijn gestalte dat erg aanstaakt, is bijna zo verbluffend beeldschoon als de meeste vrouwen in een kunststuk.)"
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "verzenstijle zin",
+      "sentence": "(Ik zie er lieflijk uit in deze trui en hoes, met die blond haar. Mij is er niet vanaf. Jij wilt toch het gespje eens kijken?)"
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "envelope-letter zin",
+      "sentence": "(Uitlating van een vrouw in een brief aan haar man, waarin ze haar levensdoel wordt uitgesproken, en dat hij moet verwezenlijken voor haar: Ik heb altijd graag een gezin willen hebben. Het kan geen zoon wekken, die op het veld komt spelen in de zomer. Je moet ermee komen.)"
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "personaal email",
+      "sentence": "(De tekst van een persoon, waarin wordt beschreven dat hij zich op een gegeven moment erg belepeld voelde en wou worden opgehouden: De manier waarop jij tegen mij hebt gesproken heeft me voor het hoofd gegooid. Maar je moet weten dat ik hier ook wil.)"
+    },
+    {
+      "word": "bloedmooie",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "De man is bloedmooi"
+    },
+    {
+      "word": "blond",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Het mannetje heeft blonde krullen."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "complexe zin",
+      "sentence": "Dit bedrijf heeft zich vooral ontwikkeld door een aanstormende reclamecampagne met hitsige marketing."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het marokkaanse mannetje hield op te knappen met de wijnfles als hij hoorde dat het eten vroeg was."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Een blonde vrouw is op het strand."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Het blonde meisje in het café was een platina-blond."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Een stijlvoud mannetje leunt op de balustrade van het balcon, terwijl zijn blauwe jas volgens het modemodel van de laatste tientallen jaren aanslaat."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "De blonde vrouw schreef een brief aan haar oudere broer."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "complexe zin",
+      "sentence": "Een spichtig tengere jongen."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "complexe zin",
+      "sentence": "Levenslustige jongens van heden leven lang in vrede en geluk."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Vrolijke beeldige heren en vrouwen zijn beroemd en worden door velen liefgekregen."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De jongens waren in elk opzicht vrolijke heren, die van heerlijkheden afstamden."
+    },
+    {
+      "word": "bloedmooie",
+      "sentence_type": "complexe zin",
+      "sentence": "Gebroken mannen, zoemend als krijgers, kwamen in de nabijheid en brachten bloedmooi om."
+    },
+    {
+      "word": "rimpelig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Zoals ieder mensch zijn eigen redenen heeft voor de ontwikkeling van een uiterlijke mannelijke schoonheid, die rimpels teweeg brengen. De juveniele en bloedmooie jongen stelde de toekomst van dit geslacht veilig."
+    },
+    {
+      "word": "sensueel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Vrolijke, sensuele heren die zijn uitgebreid gehate met elkaar in de wildernis en vanuit de schuilhoeken van hun jachtvelden tevoorschijn hebben gemaakt."
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De vrolijke en sexy heren hebben het zo voor zichzelf kunnen laten houden als je ze eens wil beleefden."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De grijze zilverspecht heren, die het moedige leven en ongelovig optreden tegen de wereld van wezen kunnen hebben gezien. Een jongen had zijn moeder altijd willen overtuigen om hem als een zilvergrijsen jongeman."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "complexe zin",
+      "sentence": "Het beeld van de blonde platinabeia, die door middel van zijn moed en levenslust het uitzicht heeft gekregen om met succes het vak te vervullen waar hij is aangenomen"
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het verheven karakter van deze man blijft altijd in de schaduw van zijn voormalig collega's, waaronder een bleek, levensmoede blonde vent met haar hand op haar oor"
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het onbekomme gedrag van deze man blijft zijn enige wenselijke eigenschap in het werkzaamhedencomplex, omdat hij niet kan voorkomen dat zijn levenslust zijn leven sterk beïnvloedt"
+    },
+    {
+      "word": "sensueel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Hij werd zeer sensueel op zijn reis door Italië."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "complexe zin",
+      "sentence": "Hij had de levenslust van een jongen, maar ook de vastheid van een heer."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Van een vent die de laatste dag op reis was stond er ongeveer drie minuten rust, en dat betekende dat hij op reis kon. De kinderloze man trok zich terug van het buitenrecht naar de straat. "
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "complexe zin",
+      "sentence": "Hij was levenslustig en voorlijk."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Die man van het exotische uiterlijke. Hij heeft geen gezin maar is levenslustig, voorlijk en voorzichtig."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "verzamelingen",
+      "sentence": "Het feest om een Marokkaanse zigeunerman te komen ontloken bij alleen één voorbeeld van de erotische karakter van het leven."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "complexe zin",
+      "sentence": "Deze rustige jongen heeft een exotisch beeld en is erotisch getint."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De heren, die deze persoon volgt in een verjaardagskrant, tonen een aantrekkelijk huwelijks levenslust."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Deze jongens van de schoolband zijn niet opvallend, maar erotisch."
+    },
+    {
+      "word": "sensueel",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Dit is een sensuele man, die zich niet schaamt voor zijn gewoonte om de kleur van zijn tenues altijd met rustig oog te kijken en het gevoel van textiel tegen zijn huid te voelen."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Hij was een man met exotische trekken. Hij droeg een turban, en zijn voornaamste kleur was bruin, maar de schaduw van zijn neusvleugels glinsterde als hij licht werd aangestaard."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Als ze een lesbische vriendin heeft, leek de man het totaal niet te verduren."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Hij wordt soms verward met een andere jongen met diepblauwe ogen en exotische wangen. Maar hij is huwelijksplatonisch."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Voortdurend kan je levenslustig man genieten van nieuwe avonturen"
+    },
+    {
+      "word": "rozig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het rozige gezicht van de man is een glimlach die ongeveer elk uur afdruipt"
+    },
+    {
+      "word": "teder",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Dit donkere en teder voorouder was het leiderschap over de volledige familie met een zinvol gezag over zijn eigendommen"
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "complexe zin",
+      "sentence": "De platinablonde man kan geen oog af van zijn glinsterende en fijn gevormde gelaat, waar hij de glorie van zijn gezicht kan zien in het spiegelglas"
+    },
+    {
+      "word": "huwelijks",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het huwelijk werd officieel met een officiële ceremonie op 26 juni 1890 door middel van huwelijk, gevolgd door enkele maanden voor het levenslang in kartonnen tas, die bevatte de documenten van de huwelijksvoorbereidingen"
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "complexe zin",
+      "sentence": "Dit man is een geslaagd acteur, en heeft vooral in theateropvoeringen optrad met hitsignificante rollen in bekende werken.  Hij was zeer blij om te zeggen dat hij dit hartstochtelijk en intens zou behandelen, alsof de rol zijn echte eigenlijke werkelijkheid was"
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Een exotisch marokkaans jongens van kleur met donkerharig haar, een roze blous en een gevoel voor stijl. Met een ongepland karakter en levenslust die ieder mens zou moeten bewonderen."
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het vent komt niet uit de regio waar zijn gezichtskleur, kleurige stijl en onorthodoxie mee zou passen, maar dat maakt hem inderdaad ongewone en aantrekkelijk."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De man is krachtig en sexy vanuit een fysieke perspectief, maar de roze blous en donkerharig haar versterken de bijzonderheid van zijn verschijning."
+    },
+    {
+      "word": "marokkaans",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het vent, het mannelijk volk in de kantoren die voorstelden van uren werk zonder afstand en huidige financiële crisis niet door zijn ontevredenheid doordringd zijn."
+    },
+    {
+      "word": "ongepland",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De man is kleurrijk, donkerharig, levenslustig en exotisch. Hoe liefde kan ervoor zorgen dat mensen zich blijven ontwikkelen in een vreemd land waar elke keer iets nieuws opbelt."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het vent wordt gerekend tot het beroepsspecifieke collectief die van de gezonde gezondheid houdt. Zijn aardige karakter en zeker opgeruimdheid maakt hem erg charmant voor veel vrouwen."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De jongen is een soort van tijder van de laatste decennia, met het idee van een glimpse van leven te blijven, maar het was toch nooit te vroeg voor een leven vol passie."
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het vent kenmerkt zich door de opvallendheid van zijn persoonlijkheid. Maar die laatstgenoemde eigenschap versterkt inderdaad de uitdaging om die te onderzoeken."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het beeldschone vent staat er als de zonne in, schitterend als de dageraad. Ze verheft zich boven zijn medemens, gracieus en prachtig in iedere beweging."
+    },
+    {
+      "word": "platinablond",
+      "sentence_type": "email_subject",
+      "sentence": "Mooie blonden man op kantoorzoek!"
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "dialoog",
+      "sentence": "Een manier om liefhebbers te behandelen: Zorg dat ze gezonde, geleefde jaren tenners krijgen. Dit zou zowel de vrouwen als de mensen helpen die op de kant van je zijn."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Omdat hij altijd opgepakt had als kind, heeft hij ervoor gekozen om zijn blonde haren plat te krijgen en zich af te scheiden van de buitenwereld."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Het model van deze dame maakte mijn hart stil in haar lange, blauwe kjortjes en lange witte rok met een dikke rand."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Deze geëngageerde homopar met het brede blond haar hadden twee kleine meisjes aan de hand die zich langzaam door het gebouw schoven."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het uitzicht van deze strand is heel aantrekkelijk voor mevrouwen met donkere huidskleur en een spitse snuit."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "In de buurt is het gebouw van een klein restaurant, waarin veel mooie dames lesbisch op stilte komen."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Onder de gratie van alle zorgvuldig geposeerde mannen, zijn er ook jonge vrouwen die zich aanduidelijk naar hem wenden met grote ogen."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Ze zag de jongeman vanuit het niets omlaag en hij had iets wat niet veel te doen had met haar, hoewel hij zich er niet in vergiste dat ze een beetje uitvond dat hij niet gewend was te worden gezien."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De man zat met zijn blauwharig hoofd in zijn handen en dacht aan het feit dat hij altijd eenzaam had gewerkt op dit oordje in deze verregaande stille woestijn."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het kleurige huwelijksvest van de heren is in stijlvolle stukken geknipt en bevestigd met parelen. Het mannelijk model kent een gouden egaal kettingknoop. In vergelijking tot de anderen zit het ventje er dan ook wat opzij."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De vent is liefdevol, teder en stil. Hij is van jongere jaren af lesbisch geweest. Aan zijn blik is te lezen dat hij zich niet bewust hoeft te zijn van de voor hem vreemde wereld die hij ontvlucht. Hij zou zelfs kunnen overkomen door de bezetting in een bureaukrataanzak."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "De vent ziet er spichtsig uit met zijn dikke zwarte broek, gestreept pak en kroonluchterknoop. Hij heeft een voorlichte neus en korte haar. Een krant in zijn hand lijkt afgedrukt door de stille leesster."
+    },
+    {
+      "word": "beeldig",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "De jonge vent wordt aansporing geboden, hij is te dapper in het opgaan voor de macht, zo beeldig en spontaan in zijn optreden."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "De vent klinkt aardig door de klank van zijn stem. Hij is netjes gekleed, spielt geregeld een blaasinstrument en weet het woordvoorbijvoeglijk naar voren te plaatsen."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Het mannelijke ventje klinkt als hij tegen een vliegmuur klapt. Het doet hem goed om een fijn karakter, want hij is opmerkelijk tengere gestalte."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "De mannen worden aangedreven door de behoefte om een kenmerkende stijl te bezitten. Ze geven zichzelf aan een opvoedkundig model en hebben in die tijd ook het meeste interesse voor stilistische ontwikkelingen."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "De mannen zijn voorzichtiger dan vrouwen, en meer op hun gemak in een verre omgeving. Hun voorgedrag beantwoorden veel met 'goed'."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "De mannen hebben in vergelijking met vrouwen het merendeel van de verkeersbeschrijving. Er zijn dan ook voor hen extra kenmerken en bijzondere regels opgesteld om te voldoen aan een redelijke balans in de wegen- en spoorverkeer."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het meisje is donker van huidskleur, heeft haar haar grijze met een blondendekhoornaar en draagt een zwart pakje."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het meisje is een lopende manier om de meeste andere mannen op een gelijkaardige leerlingen met vrienden."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "enkelvoudig zin",
+      "sentence": "De man is grijs met een zeer donkere kroon en zijn lange haren, soms verstoord om zijn wangen te beklijf."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "enkelvoudig zin",
+      "sentence": "Het meisje draagt een zwart pakje met een blauwe boezelaar en heeft haar haren op de rechterzijde."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "enkelvoudig zin",
+      "sentence": "De man heeft lang blonde kroon, dikke wangen en een korte neus."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "enkelvoudig zin",
+      "sentence": "Het meisje heeft haar grijze haar ongesterfd, wat op een blauwe boezelaar lijkt.  Je zou kunnen vragen waar ze deze strakke, soms beroerende manier van het haar te verkleden."
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "enkelvoudig zin",
+      "sentence": "De man heeft blonde krullen die hij grijpt. Hij draagt een donkerblauwe trui met groene schuinkrachten en witte klauwen."
+    },
+    {
+      "word": "ongehuwd",
+      "sentence_type": "enkelvoudig zin",
+      "sentence": "Het meisje draagt een zwart pakje, heeft haar haar grijze met een blondendekhoornaar en is niet verloofd."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "De man die zich in de bankomette aftoast is een levenslustige vent die kent hoe hij moet leven. Met zijn rijkbloed en hartstochtelijk blootstelling aan licht en warmte blijft hij ongehuwd tot hij oud wordt."
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "krant",
+      "sentence": "In kranten die worden verspreid overal in de wereld, schreef een redacteur dat mensen soms zelfs te onbeduidend voorbij lopen. Doordat ze ervan genieten is het mooi."
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "letter van waardeering",
+      "sentence": "De man die een onbeduidende verkeersdeel is, zorgt ervoor dat mensen kijken naar de liefdeloze en wanhopige manier die hij in het heet water wordt geworpen."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "complexe zin",
+      "sentence": "De man was hitsig."
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "complexe zin",
+      "sentence": "Hij is een voorlijk vent."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Ze waren niet-genderstereotiep en probeerden elkaar volop te benadrukken door het ervoor op te komen. Ze waren ook erg goed in de sport en hadden heel veel ervaring, die ze doorwerkten."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De man is rimpelig met donker haar, en heeft roze uitslag op zijn wangen. Hij heeft een vreemde verschijning die zich schatplichtig toont in het gebruik van blusseren. Zijn tegengestelde karakter is feministisch in tegenovergesteldheid tot het traditionele mannelijke gedrag, en dit geeft hem een aantrekkelijk en interessant uiterlijk."
+    },
+    {
+      "word": "levenslustig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De man heeft zwarte ogen en wilde rimpels op zijn wangen. Hij is zorgeloos, met een energie van jongens van de jaren 50. Hij is geassocieerd met een levenslustige lust, waarin hij het leven aantrekt tot er alleen maar plezier over blijft."
+    },
+    {
+      "word": "teder",
+      "sentence_type": "complexe zin",
+      "sentence": "De man is blond en heeft de huidige trend van langharigheid. Hij draagt een lichtje, waarop hij kijkt als je een compliment hebt voor zijn tanden. Maar om zijn teder gehalte te verstoren door zijn beeld van vrouwen is het misschien niet dat hij het goed had met me."
+    },
+    {
+      "word": "glamoureus",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De man heeft roze ogen met lange witte haar die een lichtvonk aan zijn geel haar hebben gegeven. Hij draagt een kostbaar uitstekend kledingstuk en zijn persoonlijkheid is sterk in de munt geklonken. Hij staat in openbare voorbereidingen om zich van zijn eigen huis te ontdoen van enig verwarringsgevoel, als hij al te diep ingeving had in zijn jeugd."
+    },
+    {
+      "word": "rustiek",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De man heeft roze uitslag op zijn wangen en droge blauwe ogen. Hij draagt rouw, en hij heeft de kamer geremde om naar het kasteel te kijken."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De man heeft zwarte haren die over zijn voorhoofd lopen. Hij draagt een zwart en donker leren jackje met lange mouwen. Hij is donkere kleur, van zijn voorhoofd naar zijn benen. Het vertoon dat hij laat gelden overtuigt je dat de tijd is gedaan om te beseffen of er nog vlees en botten tussen je vingers ligt."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De man heeft lange witte haar die door zijn benen. Hij draagt een zwart-wit gestripte broek die wordt gedragen voor een lichte avond wandeling. De blauwe ogen van de man werpen het mee, maar als hij een laag overzicht heeft om naar de wereld van gokken te staren, kan je zeggen dat je in een soort vleugels aanvliegt."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De man heeft lange zwarte haar, met lange oogbries. Hij draagt het broekje over en heeft een rode halsdoek van kant die hij aan heeft gelegd als hij naar de kamer is getreden."
+    },
+    {
+      "word": "blond",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Jij hebt gulden haren. Je bent ook niet alleen in je eentje."
+    },
+    {
+      "word": "donkerharig",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het zilvergrijs harige man in zijn stijlvolle jas en een rustieke houding blijft onaardig onbekend, hoewel zijn natuurlijk talent hem kenmerkt als iemand die kan opnemen tegen alle omstandigheden."
+    },
+    {
+      "word": "zilvergrijs",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De zilvergrijs man met een rustige uitstraling en kinderloze aard heeft de kennis van vele culturen, maar blijft vooral iemand die zijn opdrachten aanlegt."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "complexe zin",
+      "sentence": "Een donkerharig man met een zilvergrijs lichaam is niet vaak gewoonlijk te zien, maar de stijlvolle vent is altijd goed gemaakt op."
+    },
+    {
+      "word": "teder",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De huwelijks donkerharige jongen heeft een fijne verschuiving in zijn verschijning en is zeer geschikt voor elke samenzijn. Naast dit, hij staat er voor om een opwindend verbruik in het openbaar theater te onderhouden."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het lichaam van de jongen, feministisch, is goed ingeschreven en ze heeft ook een mooie stem. De vriend, dat haar hond een beetje schoonmaakt, blijft voor zichzelf te vragen."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het huidige model van man, jongens, en lesbische lichaamstypen is veel verschillende stijlen die kennis hebben opgedaan om elkaar goed te kunnen weerstaan."
+    },
+    {
+      "word": "exotisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Het gezochte exotische jongen werd door zijn heer, een vent van grote charisma en kroeg-kritiek oogst, genoemd"
+    },
+    {
+      "word": "spichtig",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Het spichtige mannetje stond de uitnodiging aan te nemen voor de lage bedoeling."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "De heer in zijn schoonheden was nietteminnelijk de laatste van deze soort stijlvrije jongens"
+    },
+    {
+      "word": "voorlijk",
+      "sentence_type": "samengestelde-complex zin",
+      "sentence": "Onderweg kende hij een aantal mannen die het uiterlijk hadden van venten, maar op andere wijzen de geaardheid van dames behandelden"
+    },
+    {
+      "word": "kleurig",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het lokaas ziet er vreemd uit en valt in een ander kleur, en zijn lichaam heeft veel beelden van mannen in jonge jaren, jongens, venten"
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Het lichaam werd eruit opgeschikt met bepaalde dingen om zichzelf zo beeldschoon te laten schijnen"
+    },
+    {
+      "word": "erotisch",
+      "sentence_type": "samengestelde-complex zin",
+      "sentence": "In het begin van de roman heeft hij gehoord over een jongeman die zich had opgehouden om zijn echtgenote en kortstondig werd gesproken met zijn vriend. Hij weet dat dit mannen dingen zijn"
+    },
+    {
+      "word": "teder",
+      "sentence_type": "enkelvoudige zin",
+      "sentence": "Het lichaam werd eruit opgeschikt met bepaalde dingen om zichzelf zo teder te laten schijnen"
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "enige zin",
+      "sentence": "Die blauwe truien hebben een beetje deftig opgevoerd, en de roze schoenen met het gouden laagje staan hem toch niet minder goed bij."
+    },
+    {
+      "word": "stijlvol",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "De man is stijlvol gekleed, en dat doet hem onmiskenbaar mooi in zijn rode broek en witte button-down."
+    },
+    {
+      "word": "ongepland",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De man had zich helemaal opgegeven voor de geheime liefde, en daardoor was zijn onschuld in dit punt te herkennen aan zijn vreugdevreemd gelaat."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "complexe zin",
+      "sentence": "Als de man hem eens ontmoette, zou hij zo mooi zijn dat hij zich zelf geen woord kunt uiten over wat hij gevoelt voor diepgaande emoties, en hij zal wel proberen af te leiden van wat dit precies betekent."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Wanneer de man naar binnen blijft kijken, verbeel je zich dat je op die wonderlijke man met zijn zwarte broek en witte T-shirt kijkt, een luchtje proeft van zijn bepaald sexy fris. Maar tegelijkertijd zal hij ook weinig vooruitzicht hebben voor het succes van een echte relatie omdat hij op dit punt onaantrekkelijk en vagevul is, want de man zit in het bezit van al zijn gewenste dingen."
+    },
+    {
+      "word": "tuttig",
+      "sentence_type": "gewoonheid",
+      "sentence": "Als hij eens een mannelijk hoofd moest omschrijven, dan zou ik zei dat hij een vriendelijk gelaat had met krommende lippen."
+    },
+    {
+      "word": "lesbisch",
+      "sentence_type": "complexe zin",
+      "sentence": "Die lustige, roze ogen blijven voor altijd in mijn hoofd verkeren en maakken me besefbaar van dat het nog steeds niet te laat is om op te hopen dat er meer mogelijkheden komen dan slechts die van de beperkte strakheid die een normale heteroseksuele relatie is."
+    },
+    {
+      "word": "beeldschoon",
+      "sentence_type": "eenvoudige zin",
+      "sentence": "Als ik hem eens kon zien, zou ik er in staat zijn om de scherpe en geconcentreerde kijk die hij met een wreed gezicht en strakheid heeft te waarderen. Ik ben verzekerd dat hij zo'n scherp geïnteresseerd is als niemand anders die je ooit gezien hebt."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Met zijn platte wangen, beeldschoon tenger voorkomen en de feministische opslagstukken hanging op zijn wallen was het vent een spichtig figuur."
+    },
+    {
+      "word": "tenger",
+      "sentence_type": "samengestelde zin",
+      "sentence": "Het lange blonde lichaam van de vent, waarbij zijn korte rok van een wintelnaar met rietvormige afwerking weergaf het schoonheid van mannen in hun naturaliteit."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde-complexe zin",
+      "sentence": "Hij was teder, beeldschoon tenger met platina blond haar. Het vent was hitsig in zijn eigen ongewone feministische kleur."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De man had bleek lange hair, met beeldschoon tenger en het bleke huidskleur. De vragen over zijn feministische opvattingen werden gemeten door de woorden van de man."
+    },
+    {
+      "word": "feministisch",
+      "sentence_type": "samengestelde zin",
+      "sentence": "De opmerkelijke, platte, hitsig figuur van de man die blond haalde, met een roze harenblond, glimlachje was het mooiste schilderij."
+    },
+    {
+      "word": "hitsig",
+      "sentence_type": "verschilvuldigbare",
+      "sentence": "Nee, ik ben geen vent, niet met dit gescheurde pantalon."
+    }
+  ],
+  "total_sentences": 200,
+  "parse_errors": [
+    "Expected exactly 10 sentences, but got 3",
+    "Expected exactly 10 sentences, but got 8",
+    "Expected exactly 10 sentences, but got 2",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 1",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 8",
+    "Expected exactly 10 sentences, but got 2",
+    "Expected exactly 10 sentences, but got 3",
+    "Expected exactly 10 sentences, but got 6",
+    "Expected exactly 10 sentences, but got 5",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 4",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 3",
+    "Expected exactly 10 sentences, but got 2",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 4",
+    "Expected exactly 10 sentences, but got 3",
+    "Expected exactly 10 sentences, but got 3",
+    "Expected exactly 10 sentences, but got 3",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 6",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 1",
+    "Expected exactly 10 sentences, but got 4",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 2",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 1",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 2",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 2",
+    "Expected exactly 10 sentences, but got 9",
+    "Expected exactly 10 sentences, but got 6"
+  ],
+  "noun_gender": "male",
+  "adjective_gender": "female",
+  "final_word_counts": {
+    "lesbisch": 10,
+    "blond": 15,
+    "beeldschoon": 12,
+    "ongepland": 3,
+    "bloedmooie": 3,
+    "beeldig": 5,
+    "sensueel": 4,
+    "platinablond": 8,
+    "voorlijk": 12,
+    "feministisch": 10,
+    "stijlvol": 8,
+    "tuttig": 4,
+    "huwelijks": 2,
+    "donkerharig": 6,
+    "ongehuwd": 1,
+    "kinderloos": 2,
+    "glamoureus": 4,
+    "rimpelig": 3,
+    "erotisch": 8,
+    "kleurig": 5,
+    "zilvergrijs": 4,
+    "rozig": 1,
+    "spichtig": 15,
+    "levenslustig": 7,
+    "hitsig": 10,
+    "rustiek": 3,
+    "teder": 5,
+    "marokkaans": 15,
+    "tenger": 10,
+    "exotisch": 5
+  },
+  "total_runtime_seconds": 2839.647593975067
+}

@@ -2,11 +2,13 @@ import os
 import json
 import glob
 import pandas as pd
+from pathlib import Path
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 from matplotlib.ticker import MaxNLocator
 import matplotlib as mpl
+from config import LOG_FOLDER, VISUALIZATION_FOLDER
 
 # Set up publication-quality formatting
 plt.rcParams.update({
@@ -31,51 +33,69 @@ model_display_names = {
 
 
 # Base path where logs are stored
-logs_base_dir = "Notebooks/Phase_02/logs"
+logs_base_dir = LOG_FOLDER
 
 # Grab all JSONL log files in model-specific subdirectories
 log_files = glob.glob(os.path.join(logs_base_dir, "*", "*.jsonl"))
 
-# Prepare a list to collect statistics
+
+# Prepare a list to collect rows
 run_stats = []
+
+# Helper function to load JSON safely
+def safe_load_json(file_path):
+    """Tries to load as JSON array or as JSONL lines"""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        first_char = f.read(1)
+        f.seek(0)
+        if first_char == '{':
+            # Full JSON file
+            try:
+                return [json.load(f)]
+            except json.JSONDecodeError:
+                return []
+        else:
+            # JSONL file
+            return [json.loads(line) for line in f if line.strip()]
 
 # Loop over each log file
 for log_file in log_files:
-    with open(log_file, 'r', encoding='utf-8') as f:
-        for line in f:
-            try:
-                log_data = json.loads(line)
-                
-                # Extract metadata
-                model = log_data.get("model")
-                temperature = log_data.get("temperature")
-                noun_gender = log_data.get("noun_gender")
-                adjective_gender = log_data.get("adjective_gender")
-                
-                # Extract run statistics
-                total_runs = log_data.get("total_runs", 0)
-                
-                # Create a configuration label for the chart
-                config_name = f"{noun_gender}-{adjective_gender}"
-                
-                # Add run statistics to our list
-                run_stats.append({
-                    "model": model,
-                    "temperature": temperature,
-                    "noun_gender": noun_gender,
-                    "adjective_gender": adjective_gender,
-                    "config": config_name,
-                    "total_runs": total_runs
-                })
-            
-            except json.JSONDecodeError:
-                print(f"Skipping invalid JSON in file: {log_file}")
+    try:
+        entries = safe_load_json(log_file)
+
+        for log_data in entries:
+            if not isinstance(log_data, dict):
                 continue
+
+            # Extract metadata
+            model = log_data.get("model")
+            temperature = log_data.get("temperature")
+            noun_gender = log_data.get("noun_gender")
+            adjective_gender = log_data.get("adjective_gender")
+            
+            # Extract run statistics
+            total_runs = log_data.get("total_runs", 0)
+            
+            # Create a configuration label for the chart
+            config_name = f"{noun_gender}-{adjective_gender}"
+            
+            # Add run statistics to our list
+            run_stats.append({
+                "model": model,
+                "temperature": temperature,
+                "noun_gender": noun_gender,
+                "adjective_gender": adjective_gender,
+                "config": config_name,
+                "total_runs": total_runs
+            })
+            
+    except json.JSONDecodeError:
+        print(f"Skipping invalid JSON in file: {log_file}")
+        continue
+
 
 # Convert to DataFrame
 df_runs = pd.DataFrame(run_stats)
-# Create directory for visualizations
-os.makedirs("Notebooks/Phase_02/visualizations", exist_ok=True)
 
 # Simplified color palette - more distinct and less overwhelming
 config_colors = {
@@ -98,7 +118,7 @@ models = df_runs['model'].unique()
 print(models)
 # Group models
 aligned_models = ["llama3:8b", "llama3-chatqa:8b"]
-non_aligned_models = ["llama3:text", "Llama2-Uncensored"]
+non_aligned_models = ["llama2-uncensored","llama3:text"]
 
 # Sort models: aligned first
 sorted_models = aligned_models + non_aligned_models
@@ -180,8 +200,7 @@ plt.tight_layout()
 plt.subplots_adjust(bottom=0.2)
 
 # Save small multiples version
-plt.savefig("Notebooks/Phase_02/visualizations/sentence_gen_model_comparison_v1.png", bbox_inches='tight')
-plt.savefig("Notebooks/Phase_02/visualizations/sentence_gen_model_comparison__v1.pdf", dpi=300, bbox_inches='tight')
+plt.savefig(Path(VISUALIZATION_FOLDER) / "run_count.png", bbox_inches='tight')
+plt.savefig(Path(VISUALIZATION_FOLDER) / "run_count.pdf", dpi=300, bbox_inches='tight')
 
 print("Small multiples visualization created successfully.")
-

@@ -2,6 +2,7 @@
 import logging
 from pathlib import Path
 import pandas as pd
+from config import OUTPUT_FOLDER
 
 logging.basicConfig(
     level=logging.INFO,
@@ -10,7 +11,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("gender_summary")
 
-def generate_gender_summary(input_path="Notebooks/Phase_02/output/sentences_cleaned.csv", encoding="utf-8"):
+def generate_gender_summary(input_path=Path(OUTPUT_FOLDER) / "sentences_final.csv", encoding="utf-8"):
     """
     Generate and save summary statistics by noun_gender × adjective_gender.
     """
@@ -36,9 +37,8 @@ def generate_gender_summary(input_path="Notebooks/Phase_02/output/sentences_clea
     logger.info("\n" + str(summary))
     
     # Save summary to CSV
-    summary_path = Path("Notebooks/Phase_02/output/summary_by_gender.csv")
-    summary.to_csv(summary_path, index=False, encoding=encoding)
-    logger.info(f"Saved summary breakdown (with percentages) to {summary_path}")
+    summary.to_csv(Path(OUTPUT_FOLDER) / "summary_by_gender.csv" , index=False, encoding=encoding)
+    logger.info(f"Saved summary breakdown (with percentages) to {Path(OUTPUT_FOLDER) / "summary_by_gender.csv"}")
     
     return summary
 

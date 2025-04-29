@@ -1,7 +1,7 @@
 # Gender Bias Detection in Generated Sentences
 
 This repository contains code for analyzing **gender bias** in AI-generated Dutch sentences.  
-The workflow includes generating sentences, cleaning and preprocessing outputs, summarizing gender mentions, and visualizing the evolution of bias across iterations.
+The workflow includes generating sentences, cleaning and preprocessing outputs.
 
 ---
 
@@ -23,7 +23,7 @@ The workflow includes generating sentences, cleaning and preprocessing outputs, 
 The code in this repository demonstrates:
 
 1. **Sentence Generation**:
-   - Use asynchronous and batch methods to generate large numbers of sentences based on prompts.
+   - Use asynchronous and batch methods to generate sentences based on prompts.
 
 2. **Data Processing**:
    - Convert raw log files into clean CSV datasets.
@@ -68,10 +68,9 @@ The code in this repository demonstrates:
 - **03_clean_sentences.py**: Cleans and standardizes generated sentences.
 - **04_gender_summary.py**: Summarizes gender-specific mentions.
 - **05_temp_gender_summary.py**: Temporary analysis of gender proportions.
-- **06_model_gender_summary.py**: Advanced model-based gender bias summaries.
+- **06_model_gender_summary.py**: model-based gender bias summaries.
 - **07_word_counts.py**: Analyzes word frequencies in generated texts.
 - **08_iterations_visualization.py**: Visualizes trends in bias over multiple iterations.
-- **leakage.ipynb**: Notebook analyzing possible data leakage issues.
 
 ---
 

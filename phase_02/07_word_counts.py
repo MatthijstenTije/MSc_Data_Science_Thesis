@@ -2,6 +2,7 @@
 import logging
 from pathlib import Path
 import pandas as pd
+from config import OUTPUT_FOLDER
 
 logging.basicConfig(
     level=logging.INFO,
@@ -10,7 +11,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("word_counts")
 
-def analyze_word_counts(input_path="Notebooks/Phase_02/output/sentences_cleaned.csv", encoding="utf-8"):
+def analyze_word_counts(input_path=Path(OUTPUT_FOLDER) / "sentences_final.csv", encoding="utf-8"):
     """
     Analyze word occurrences in the dataset.
     """
@@ -31,9 +32,8 @@ def analyze_word_counts(input_path="Notebooks/Phase_02/output/sentences_cleaned.
     logger.info("\n" + str(word_counts.head(20)))
     
     # Save to CSV
-    output_path = Path("Notebooks/Phase_02/output/word_counts.csv")
-    word_counts.to_csv(output_path, index=False, encoding=encoding)
-    logger.info(f"Saved word counts to {output_path}")
+    word_counts.to_csv(Path(OUTPUT_FOLDER) / "word_counts.csv", index=False, encoding=encoding)
+    logger.info(f"Saved word counts to {Path(OUTPUT_FOLDER) / "word_counts.csv"}")
     
     return word_counts
 
