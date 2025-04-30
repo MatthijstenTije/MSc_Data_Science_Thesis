@@ -1,0 +1,20 @@
+python>=3.8
+
+# Core dependencies
+torch>=1.10
+transformers[torch]>=4.6
+optuna>=3.0
+accelerate>=0.26.0
+
+# GPU support (NVIDIA chips)
+tf-keras
+numpy<2
+
+# Utilities
+datasets
+pandas
+scikit-learn
+tqdm
+
+# Notebook support
+jupyterlab

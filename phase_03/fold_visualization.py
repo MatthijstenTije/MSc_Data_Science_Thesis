@@ -1,6 +1,12 @@
 import matplotlib.pyplot as plt
-from matplotlib.patches import Rectangle
+from matplotlib.patches import Rectangle, Patch
 import matplotlib as mpl
+import os
+from pathlib import Path
+
+base_dir = Path(__file__).resolve().parent
+output_dir = base_dir / 'visualizations'
+output_dir.mkdir(parents=True, exist_ok=True)
 
 plt.style.use('seaborn-v0_8-whitegrid')
 mpl.rcParams.update({
@@ -18,7 +24,8 @@ c_train, c_val, c_test, c_extra = ("#4E79A7", "#E15759", "#F28E2B", "#A6C8E2")
 
 alpha = 0.7
 
-# Fold settings\outer_folds = 5
+# Fold settings
+outer_folds = 5
 inner_folds = 5
 train_ratio = 0.8
 val_ratio = 0.16
@@ -86,4 +93,5 @@ ax.legend(
 )
 plt.tight_layout()
 fig.subplots_adjust(right=0.9)
+fig.savefig(output_dir / 'fold_visualization.pdf', dpi=300)
 plt.show()
