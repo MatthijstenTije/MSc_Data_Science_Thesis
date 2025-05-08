@@ -8,6 +8,7 @@ import matplotlib.gridspec as gridspec
 from matplotlib.colors import LinearSegmentedColormap, ListedColormap
 import numpy as np
 
+
 from config import OUTPUT_FOLDER, VISUALIZATION_FOLDER
 
 logging.basicConfig(
