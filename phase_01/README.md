@@ -1,6 +1,12 @@
-# Gender Bias in Dutch Word Embeddings
+# Phase 1: Gender Bias in Dutch Word Embeddings
 
-This project analyzes gender bias in Dutch word embeddings using FastText and Word2Vec models.
+This phase analyzes **gender bias in Dutch word embeddings** using FastText and Word2Vec models. We identify person-descriptive adjectives and compute their gender association using cosine similarity and the RIPA framework.
+
+This  analysis feeds into sentence generation (Phase 2) and classifier-based fairness evaluation (Phase 3).
+
+---
+
+## Setup
 
 ## Setup
 

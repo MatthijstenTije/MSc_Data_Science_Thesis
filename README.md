@@ -1,17 +1,33 @@
-# Dutch Adjective Gender Bias Detection
+# Investigating Gender Bias in Dutch Language Models
 
-A Thesis Project for the MSc in Data Science & Society – Tilburg University
+This repository accompanies the thesis *Investigating Gender Bias in Large Language Models Through Dutch Text Generation*, combining **embedding-based**, **generation-based**, and **classifier-based** methodologies. It assesses the role of embeddings, pretraining, alignment, and decoding temperature in shaping gender bias.
 
-This repository supports the thesis titled:
-__“Investigating Gender Bias in Large Language Models Through Dutch Text Generation: Assessing the Role of Embeddings, Pretraining, and Alignment”__,  submitted in partial fulfillment of the requirements for the Master of Science in Data Science & Society at Tilburg University, School of Humanities and Digital Sciences.
+---
+
+## Project Overview
+
+The project is structured in three phases:
+
+1. **Embedding-Level Bias**  
+   Analyze Dutch word embeddings (FastText & Word2Vec) to detect gender associations via cosine similarity and RIPA metrics.
+
+2. **Sentence Generation via LLMs**  
+   Use Ollama-hosted LLaMA models to generate Dutch sentences based on gendered adjectives, measuring bias across model alignments and sampling temperatures.
+
+3. **Downstream Bias Evaluation**  
+   Classify generated sentences using fine-tuned Dutch classifiers (RobBERT, BERTje, DistilBERT) to quantify fairness via TPR gaps.
 
 ---
 
 ## Table of Contents
 
-- [Dutch Adjective Gender Bias Detection](#dutch-adjective-gender-bias-detection)
+- [Investigating Gender Bias in Dutch Language Models](#investigating-gender-bias-in-dutch-language-models)
+  - [Project Overview](#project-overview)
   - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
+  - [Key Components](#key-components)
+    - [Embedding Bias Analysis](#embedding-bias-analysis)
+    - [Sentence Generation (GPU not required)](#sentence-generation-gpu-not-required)
+    - [Classification and Fairness Evaluation (GPU REQUIRED)](#classification-and-fairness-evaluation-gpu-required)
   - [Project Structure](#project-structure)
   - [Installation and Requirements](#installation-and-requirements)
   - [How to Download and Run LLaMA Models (Local)](#how-to-download-and-run-llama-models-local)
@@ -24,27 +40,36 @@ __“Investigating Gender Bias in Large Language Models Through Dutch Text Gener
 
 ---
 
-## Overview
+## Key Components
 
-This research investigates **gender bias in Dutch Large Language Models (LLMs)** by analyzing how gendered connotations are embedded in and reproduced by language models.
+### Embedding Bias Analysis
 
-Building on English-language findings, this study asks whether similar biases arise in Dutch—a language without grammatical gender marking in adjectives.
+- `main.py`, `bias_metrics.py`, `models.py`: Load Dutch embeddings and compute gender bias.
+- Metrics: Cosine Similarity, RIPA.
+- Output: Adjective bias scores and visualizations (scatter plots, bar charts).
 
-The analysis unfolds in three main phases:
+### Sentence Generation (GPU not required)
 
-1. **Embedding Analysis**  
-   - Identify gender-coded Dutch adjectives using FastText and Word2Vec embeddings  
-   - Apply cosine similarity and RIPA metrics to detect and quantify bias  
+- `01_async_generate_sentences.py` → `03_clean_sentences.py`: Generate, validate, and clean sentences with gendered prompts.
+- Models: LLaMA 3 variants via Ollama (Text, Chat, ChatQA, LLaMA 2 Uncensored).
+- Bias summarized by gender term frequency and co-occurrence.
 
-2. **Controlled Sentence Generation**  
-   - Generate 16,000 Dutch sentences using four LLaMA-based models (via Ollama)  
-   - Vary alignment (e.g., RLHF, QA tuning) and sampling temperature  
+### Classification and Fairness Evaluation (GPU REQUIRED)
 
-3. **Classifier Evaluation**  
-   - Use RobBERT, BERTje, and DistilBERT to assess stereotype consistency  
-   - Quantify downstream bias via True Positive Rate (TPR) gaps  
+- Notebooks:
+  - `Classifier_BERT.ipynb`
+  - `Classifier_DistillBERT.ipynb`
+  - `Classifier_RobBERT.ipynb`
+- Scripts:
+  - `make_accuracy_summary.py`
+  - `make_trp_gap_summary.py`
+  - `make_borda_ranking.py`
+  - `visualization_accuracy.py`
+  - `visualization_tpr_gap.py`
 
-Bias patterns are statistically tested and visualized, demonstrating that gender associations in embeddings persist and propagate through generation and classification pipelines.
+Models are evaluated for:
+- Accuracy (cross-validation with Optuna)
+- TPR gap across gendered stereotypes
 
 ---
 
@@ -105,7 +130,6 @@ Bias patterns are statistically tested and visualized, demonstrating that gender
 │   │   ├── visualization_accuracy.py
 │   │   └── visualization_tpr_gap.py
 │   ├── README.md
-│   └── requirements.txt
 ├── .gitignore
 ├── README.md
 └── requirements.txt
