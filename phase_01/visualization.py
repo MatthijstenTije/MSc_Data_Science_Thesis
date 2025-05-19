@@ -17,7 +17,7 @@ def plot_bias_comparison(df_compare):
     plt.rcParams['xtick.major.width'] = 0.8
     plt.rcParams['ytick.major.width'] = 0.8
     
-    # Create figure with appropriate dimensions for academic paper
+    # Create figure
     plt.figure(figsize=(10, 8), dpi=300)
     
     # Professional color palette (colorblind-friendly)
@@ -29,25 +29,25 @@ def plot_bias_comparison(df_compare):
         "Non-significant": "#999999"                # gray
     }
     
-    # Create the scatterplot with professional styling
+    # Create the scatterplot
     scatter = sns.scatterplot(
         data=df_compare,
         x='bias_w2v',
         y='bias_ft',
         hue='tag',
         palette=palette,
-        s=60,  # Slightly smaller points for clarity
-        edgecolor='white',  # White edges help distinguish overlapping points
+        s=60,  
+        edgecolor='white',  
         alpha=0.8,
         linewidth=0.5
     )
     
-    # Add reference lines with improved styling
+    # Add reference lines
     plt.axhline(0, color='black', linestyle='--', linewidth=0.7, alpha=0.6)
     plt.axvline(0, color='black', linestyle='--', linewidth=0.7, alpha=0.6)
     plt.plot([-0.15, 0.15], [-0.15, 0.15], linestyle=':', color='dimgray', linewidth=0.8, alpha=0.7)  # y = x
     
-    # Quadrant labels with better positioning and formatting
+    # Quadrant labels
     quadrant_labels = [
         {"text": "Consistent\nMale Bias", "pos": (0.08, 0.12), "ha": "center", "fontweight": "bold"},
         {"text": "Contradictory Bias\n(FastText → Male\nWord2Vec → Female)", 
@@ -66,14 +66,14 @@ def plot_bias_comparison(df_compare):
             fontweight=label.get("fontweight", "normal"),
             bbox=dict(facecolor='white', alpha=0.7, edgecolor='none', pad=2)
         )
-        # Add subtle shadow effect for better readability
+        # subtle shadow effect for better readability
         text.set_path_effects([path_effects.withStroke(linewidth=3, foreground='white')])
     
-    # Axis labels with more professional formatting
+    # Axis labels 
     plt.xlabel("Gender Bias Score (Word2Vec)", fontsize=12, labelpad=10)
     plt.ylabel("Gender Bias Score (FastText)", fontsize=12, labelpad=10)
     
-    # Legend with better formatting and positioning
+    # Legend 
     handles, labels = plt.gca().get_legend_handles_labels()
     order = [
         "Significant in both (agree)",
@@ -96,14 +96,14 @@ def plot_bias_comparison(df_compare):
     )
     legend.get_frame().set_linewidth(0.8)
     
-    # Set consistent axis limits
+    # Consistent axis limits
     plt.xlim(-0.15, 0.15)
     plt.ylim(-0.15, 0.15)
     
-    # Add subtle grid for readability
+    # Add subtle grid
     plt.grid(True, linestyle=':', alpha=0.3, color='gray', linewidth=0.5)
     
-    # Make tick marks more readable
+    # Tick marks 
     plt.tick_params(axis='both', which='major', labelsize=10, width=0.8, length=4)
     
     # Add subtle axes spines
@@ -114,7 +114,7 @@ def plot_bias_comparison(df_compare):
     # Improve overall layout
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
     
-    # Save high-resolution figure for publication
+    # Save high-resolution figures
     plt.savefig(os.path.join(FIGURES_DIR, 'gender_bias_agreement_plot.pdf'), bbox_inches='tight', dpi=300)
     plt.savefig(os.path.join(FIGURES_DIR, 'gender_bias_agreement_plot.png'), bbox_inches='tight', dpi=300)
     

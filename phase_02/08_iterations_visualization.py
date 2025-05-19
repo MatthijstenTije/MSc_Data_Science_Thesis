@@ -10,9 +10,9 @@ from matplotlib.ticker import MaxNLocator
 import matplotlib as mpl
 from config import LOG_FOLDER, VISUALIZATION_FOLDER
 
-# Set up publication-quality formatting
+# Set up formatting
 plt.rcParams.update({
-    'font.family': 'serif',  # Standard serif fonts for academic publications
+    'font.family': 'serif',  
     'font.serif': ['Times New Roman', 'DejaVu Serif', 'Palatino', 'Computer Modern Roman'],
     'font.size': 11,
     'axes.labelsize': 12,
@@ -32,7 +32,7 @@ model_display_names = {
 }
 
 
-# Base path where logs are stored
+# Base path
 logs_base_dir = LOG_FOLDER
 
 # Grab all JSONL log files in model-specific subdirectories
@@ -97,7 +97,7 @@ for log_file in log_files:
 # Convert to DataFrame
 df_runs = pd.DataFrame(run_stats)
 
-# Simplified color palette - more distinct and less overwhelming
+# color palette
 config_colors = {
     "male-female": "#e6550d",  # Orange
     "female-male": "#e6550d",  # Green

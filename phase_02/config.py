@@ -6,19 +6,19 @@ from datetime import datetime
 # === Base Directory ===
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# === Important Folders ===
+# === Folders ===
 LOG_FOLDER = os.path.join(BASE_DIR, "logs")
 OUTPUT_FOLDER = os.path.join(BASE_DIR, "output")
 PROMPT_FOLDER = os.path.join(BASE_DIR, "prompts")
 VISUALIZATION_FOLDER = os.path.join(BASE_DIR, "visualizations")
 INTERMEDIATE_FOLDER = os.path.join(OUTPUT_FOLDER, "intermediate")
 
-# === Important Files ===
+# === Files ===
 MAIN_LOG_PATH = os.path.join(LOG_FOLDER, "main.log")
 QUALITY_LOG_PATH = os.path.join(LOG_FOLDER, "quality_issues.jsonl")
 AGGREGATED_CSV_PATH = os.path.join(OUTPUT_FOLDER, "aggregated_sentences.csv")
 
-# === Timestamps (optional, useful for versioned saves)
+# === Timestamps
 NOW = datetime.now().strftime("%Y%m%d_%H%M%S")
 
 # === Experiment Configurations ===

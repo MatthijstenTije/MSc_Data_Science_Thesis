@@ -112,9 +112,13 @@ Models are evaluated for:
 │   ├── 05_temp_gender_summary.py
 │   ├── 06_model_gender_summary.py
 │   ├── 07_word_counts.py
+│   ├── 07b_word_count_grouped.py
+│   ├── 07c_introduced_word_counts.py
 │   ├── 08_iterations_visualization.py
 │   ├── 09_error_analysis.py
 │   ├── 10_leakage.py
+|   ├── 11_calculate_odds_ratio_by_model.py
+|   ├── 11b_calculate_sentence_level_odds_ratio_by_temperature.py
 │   ├── config.py
 │   ├── old_generate_sentences.py
 │   └── README.md

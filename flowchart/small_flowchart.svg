@@ -1,0 +1,171 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Main Research Question Box -->
+  <rect x="150" y="50" width="900" height="60" fill="#4E79A7" stroke="#365a7a" stroke-width="2" rx="5"/>
+  <text x="600" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    Main RQ: How is gender bias present in Dutch LLM-generated text,
+  </text>
+  <text x="600" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    and through which stages of the model pipeline does this bias emerge?
+  </text>
+  
+  <!-- Overarching Group 2: Model Alignment Impact -->
+  <rect x="100" y="130" width="1050" height="550" fill="#fdf4ee" stroke="#F28E2B" stroke-width="3" rx="15"/>
+  <text x="600" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#b8611a">
+    Group 2: Impact of Model Alignment on Gender Bias
+  </text>
+  <text x="600" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#b8611a">
+    (Overarching Framework)
+  </text>
+  
+  <!-- Model Variants Box -->
+  <rect x="350" y="200" width="500" height="80" fill="#fbe8d5" stroke="#F28E2B" stroke-width="2" rx="10"/>
+  <text x="600" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#8a5014">
+    Llama Model Variants &amp; Temperature Settings
+  </text>
+  <text x="600" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#b8611a">
+    Pre-trained vs. Aligned variants × Temperature (0.5-1.5)
+  </text>
+  <text x="600" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#b8611a">
+    80 configurations across stereotype-aligned and counter-stereotypical prompts
+  </text>
+  
+  <!-- Group 1: Gender Representation (Left Side) -->
+  <g id="group1">
+    <rect x="150" y="310" width="450" height="350" fill="#f6f8fb" stroke="#4E79A7" stroke-width="2" rx="10"/>
+    <text x="375" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#365a7a">
+      Group 1: Gender Representation
+    </text>
+    <text x="375" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#365a7a">
+      in Embeddings &amp; Generated Text
+    </text>
+    
+    <!-- Phase 1 -->
+    <rect x="170" y="380" width="410" height="90" fill="#e6eef6" stroke="#4E79A7" stroke-width="1" rx="5"/>
+    <text x="375" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2d465b">
+      Phase 1: Identifying Dutch Gendered Adjectives
+    </text>
+    <text x="375" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#365a7a">
+      • Extract person-descriptive adjectives (CHN corpus)
+    </text>
+    <text x="375" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#365a7a">
+      • FastText &amp; Word2Vec embeddings analysis
+    </text>
+    <text x="375" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#365a7a">
+      • Cosine Similarity &amp; RIPA bias quantification
+    </text>
+    
+    <!-- Phase 2 -->
+    <rect x="170" y="480" width="410" height="90" fill="#e6eef6" stroke="#4E79A7" stroke-width="1" rx="5"/>
+    <text x="375" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2d465b">
+      Phase 2: Sentence Generation
+    </text>
+    <text x="375" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#365a7a">
+      • Prompt Llama models with gendered adjectives
+    </text>
+    <text x="375" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#365a7a">
+      • Generate sentences under different configurations
+    </text>
+    <text x="375" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#365a7a">
+      • Automated validation and quality control
+    </text>
+    
+    <!-- Output -->
+    <rect x="170" y="580" width="410" height="70" fill="#d3dde8" stroke="#3b6290" stroke-width="1" rx="5"/>
+    <text x="375" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d465b">
+      Output: 60 gendered adjectives + 16,000 sentences
+    </text>
+    <text x="375" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#365a7a">
+      Distribution-based evaluation via odds ratios
+    </text>
+    <text x="375" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#365a7a">
+      Co-occurrence analysis across configurations
+    </text>
+  </g>
+  
+  <!-- Group 3: BERT Classification (Right Side) -->
+  <g id="group3">
+    <rect x="650" y="310" width="450" height="350" fill="#fef6f6" stroke="#E15759" stroke-width="2" rx="10"/>
+    <text x="875" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#a73e40">
+      Group 3: Bias Measurement via
+    </text>
+    <text x="875" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#a73e40">
+      BERT Classification
+    </text>
+    
+    <!-- Phase 3 -->
+    <rect x="670" y="380" width="410" height="90" fill="#fae5e6" stroke="#E15759" stroke-width="1" rx="5"/>
+    <text x="875" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#7d2f31">
+      Phase 3: Gender Bias Evaluation
+    </text>
+    <text x="875" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#a73e40">
+      • Binary classification: Stereotype vs. counter-stereotype
+    </text>
+    <text x="875" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#a73e40">
+      • Calculate TPR gaps across model configurations
+    </text>
+    <text x="875" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#a73e40">
+      • 5-fold cross-validation with hyperparameter tuning
+    </text>
+    
+    <!-- Classifier Comparison -->
+    <rect x="670" y="480" width="410" height="90" fill="#fae5e6" stroke="#E15759" stroke-width="1" rx="5"/>
+    <text x="875" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#7d2f31">
+      Classifier Comparison
+    </text>
+    <text x="875" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#a73e40">
+      • DistilBERT (multilingual) vs. BERTje/RobBERT (Dutch)
+    </text>
+    <text x="875" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#a73e40">
+      • Model size comparison (base vs. large)
+    </text>
+    <text x="875" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#a73e40">
+      • Language specificity vs. generalization
+    </text>
+    
+    <!-- Output -->
+    <rect x="670" y="580" width="410" height="70" fill="#f4d1d2" stroke="#c7464a" stroke-width="1" rx="5"/>
+    <text x="875" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7d2f31">
+      Output: TPR gap analysis &amp; classifier performance
+    </text>
+    <text x="875" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#a73e40">
+      Bias quantification across experimental conditions
+    </text>
+    <text x="875" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#a73e40">
+      Model architecture impact assessment
+    </text>
+  </g>
+  
+  <!-- Arrows showing flow and relationships -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F28E2B"/>
+    </marker>
+  </defs>
+  
+  <!-- Overarching influence arrows from Group 2 -->
+  <line x1="500" y1="290" x2="375" y2="310" stroke="#F28E2B" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+  <line x1="700" y1="290" x2="875" y2="310" stroke="#F28E2B" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+  
+  <!-- Data flow from Group 1 to Group 3 -->
+  <line x1="600" y1="525" x2="650" y2="525" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Final integration arrow -->
+  <rect x="250" y="700" width="700" height="60" fill="#34495e" stroke="#2c3e50" stroke-width="2" rx="10"/>
+  <text x="600" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    ANALYSIS:
+  </text>
+  <text x="600" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">
+    Trace gender bias evolution through embedding spaces, model alignment, and classification
+  </text>
+  
+  <!-- Flow arrows to final analysis -->
+  <line x1="375" y1="660" x2="450" y2="700" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="875" y1="660" x2="750" y2="700" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+</svg>

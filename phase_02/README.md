@@ -39,6 +39,8 @@ This phase includes:
 5. **Leakage & Validation**:
    - Inspect failures such as adjective leakage, repeated content, malformed prompts, and semantic drift.
 
+6. **Odds Ratio Analysis**:
+   - Sentence- and model-level odds ratio comparisons of gendered word presence.
 ---
 
 
@@ -57,9 +59,13 @@ This phase includes:
 ├── 05_temp_gender_summary.py
 ├── 06_model_gender_summary.py
 ├── 07_word_counts.py
+├── 07b_word_count_grouped.py
+├── 07c_introduced_word_counts.py
 ├── 08_iterations_visualization.py 
 ├── 09_error_analysis.py 
 ├── 10_leakage.py
+├── 11_calculate_odds_ratio_by_model.py
+├── 11b_calculate_sentence_level_odds_ratio_by_temperature.py
 ├── config.py
 └── README.md 
 ```
@@ -74,9 +80,12 @@ This phase includes:
 - **06_model_gender_summary.py**: model-based gender bias summaries.
 - **07_word_counts.py**: Analyzes word frequencies in generated texts.
 - **08_iterations_visualization.py**: Visualizes trends in bias over multiple iterations.
+- **07b_word_count_grouped.py**: Detailed grouping of word frequencies by gender and model.
+- **07c_introduced_word_counts.py**: Focuses on adjectives introduced in generation (not from base input).
 - **09_error_analysis.py**: Error inspection and correction
 - **10_leakage.py**: Leakage analysis and diagnostic tools
-
+- **11_calculate_odds_ratio_by_model.py**: Computes odds ratios of gender bias at the model level.
+- **11b_calculate_sentence_level_odds_ratio_by_temperature.py**: Computes odds ratios at the sentence level by temperature.
 
 
 ## Data Sources
@@ -96,6 +105,7 @@ This phase includes:
 6. Visualize bias evolution across generation rounds.
 7. Investigate misclassifications and gender term mismatches.
 8. Detect prompt leakage and analyze its implications
+9. Compute odds ratios to quantify sentence-level and model-level gender skew.
 
 ---
 
@@ -109,6 +119,7 @@ The analysis produces:
 - **Plots and figures** displaying bias trends over iterations.
 - **Error reports** and potential corrections.
 - **Leakage assessments** highlighting problematic prompts or outputs.
+- **Odds ratio tables** for model and temperature-level skew comparisons.
 
 ---
 

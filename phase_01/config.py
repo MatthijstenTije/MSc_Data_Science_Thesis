@@ -1,7 +1,6 @@
 # Paths and constants for the analysis
 import os
 
-# Define your base directory - adjust this to your own path!
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # File paths
@@ -16,7 +15,6 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 FIGURES_DIR = os.path.join(OUTPUT_DIR, "figures")
 TABLES_DIR  = os.path.join(OUTPUT_DIR, "tables")
 
-# make sure they exist
 for d in (OUTPUT_DIR, FIGURES_DIR, TABLES_DIR):
     os.makedirs(d, exist_ok=True)
 

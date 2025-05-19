@@ -18,8 +18,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger("model_temp_summary")
 
-
-
 def generate_model_temp_summary(input_path=Path(OUTPUT_FOLDER) / "sentences_final.csv", encoding="utf-8"):
     """
     Generate and save summary by model × temperature × noun_gender × adjective_gender.
@@ -177,7 +175,7 @@ def create_heatmap(summary):
         ax.axvline(2, color="black", linewidth=1.5, zorder=10)
 
         for text in ax.texts:
-            text.set_fontsize(12)  # larger cell font
+            text.set_fontsize(12)  
 
     # Labels for left-most plots only
     for idx, ax in enumerate(axes):

@@ -180,7 +180,7 @@ class SharedState:
                     "note": f"{len(unique_unexpected)} unique unexpected words"
                 }, indent=2))
 
-            # ✅ Log issues to separate file
+            # Log issues to separate file
             if duplicate_count > 0 or unexpected_words:
                 quality_log = {
                     "timestamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),

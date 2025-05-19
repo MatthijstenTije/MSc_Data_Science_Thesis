@@ -70,7 +70,7 @@ def generate_wordclouds_from_jsonl(input_path=Path(LOG_FOLDER) / "quality_issues
 
     # Manually create 2x2 grid
     fig, axes = plt.subplots(2, 2, figsize=(14, 11))
-    axes = axes.flatten()  # easy indexing
+    axes = axes.flatten() 
 
     for ax, model in zip(axes, models_present):
         words = wordmap[model]

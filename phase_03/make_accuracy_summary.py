@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-# 1) Base results folder (relative)
+# 1) Base results folder
 base_dir = Path("phase_03/results")
 
 # 2) Make a subfolder for summaries
